@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<H2>
+   <title>Shiloh topographic map</title>
+   	<div style="text-align: center;">
+	Shiloh area topographic map <br>
+</H2>
+<H3>
+   	<div style="text-align: center;">
+	<a href="https://crosssearch.nps.gov/brochures/parks/shiloh">Shiloh visitor brochure</a>
+</H3>
+    </div>
+
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+   <script src="https://unpkg.com/esri-leaflet@2.5.3/dist/esri-leaflet.js"></script>
+   
+
+
+</head>
+
+<H4>
+<div style="text-align: center;">
+Click anywhere on the map to get links to Google, Bing and OpenStreetMap maps <br> showing their markers, pictures  and annotations.
+<br>
+</H4>
+<body>
+   <div id="map" style="height: 650px;"></div>
+   <script>
+       var map = L.map('map').setView([35.151511, -88.322072], 10);
+       L.esri.basemapLayer('Topographic').addTo(map);
+	   
+	   const visitor_icon = L.icon({
+			iconUrl: 'images/logo.png',
+			iconSize: [25, 35],
+			iconAnchor: [20, 25],
+			popupAnchor: [0, 0]
+	    });	
+
+	const popup = L.popup();
+
+	VisitorCentermarker = L.marker([35.151511, -88.322072],{icon: visitor_icon}).addTo(map); 
+		VisitorCentermarker.bindPopup('Visitor Center');
+
+		// NW point 
+		var NW_corner = L.circle([35.166508, -88.368908], {
+			color: 'black',
+			fillColor: 'white',
+			fillOpacity: 0.5,
+			radius:50
+		}).addTo(map);	
+
+		// NE point  
+		var NE_corner = L.circle([35.166508, -88.29828], {
+			color: 'black',
+			fillColor: 'white',
+			fillOpacity: 0.5,
+			radius:50
+		}).addTo(map);	
+		
+		// SE point 
+		var SE_corner = L.circle([35.112716, -88.29828], {
+			color: 'black',
+			fillColor: 'white',
+			fillOpacity: 0.5,
+			radius:50
+		}).addTo(map);	
+		
+		// SW point 
+		var SW_corner = L.circle([35.112716, -88.368908], {
+			color: 'black',
+			fillColor: 'white',
+			fillOpacity: 0.5,
+			radius:50
+		}).addTo(map);	
+		
+
+		var polygon = L.polygon([
+			[35.166508, -88.368908],
+			[35.166508, -88.29828],	
+			[35.112716, -88.29828],
+			[35.112716, -88.368908]
+		]).addTo(map);		
+
+
+	var googlelink = "";
+	var coords = "";
+	var link ="";
+	var url ="";
+	
+	// add OpenStreetMap links, like https://www.openstreetmap.org/search?query=39.818232%2C+-77.280064&zoom=13
+      map.on('click', function(e) {
+	     coords = e.latlng.toString().substring(7,e.latlng.toString().length-1);
+		 url = 'https://www.google.com/maps/place/' + coords;
+		 link = '<a href="' + url + '" >Google maps link</a>';
+		 googlelink = coords + '<br>' + link;
+		 
+		 opencoords = coords.replace(' ','');
+		 openurl = 'https://www.openstreetmap.org/search?query=' + opencoords + '#map=16';
+	     openlink = '<a href="' + openurl + '" >OpenStreetMap link</a>';
+		 
+		 bingcoords = coords.replace(', ','~');
+		 bingurl = 'https://www.bing.com/maps/search?cp=' + bingcoords + '&lvl=15';
+	     binglink = '<a href="' + bingurl + '" >Bing maps link</a>';
+
+		
+      });
+	
+	function onMapClick(e) {
+		popup
+			.setLatLng(e.latlng)
+			.setContent(googlelink + '<br>' + binglink + '<br>' + openlink )
+			.openOn(map)
+	}
+
+	map.on('click', onMapClick);
+		
+   </script>
+</body>
+</html>
