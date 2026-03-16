@@ -135,9 +135,7 @@ var park = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": '<a href="https://www.loc.gov/item/2011590439/">Big Bend visitor brochure on Library of Congress site </a> <br>'
-				// <a href="https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=445224594">catalog record with link to HathiTrust copies </a>'
-				//https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=445224594
+                "popupContent": '<a href="https://www.loc.gov/item/2011590439/">Big Bend visitor brochure on Library of Congress site </a> <br><a href="https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=445224594">Catalog record with link to HathiTrust copies </a>'
             },
             "id": 57
         },
