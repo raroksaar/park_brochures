@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<H2>
+   <title>Topographic map</title>
+   	<div style="text-align: center;">
+	Area topographic map <br>
+</H2>
+<H3>
+   	<div style="text-align: center;">
+	<a href="https://library.nps.gov/gettysburg">Park brochures</a>
+</H3>
+    </div>
+
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+   <script src="https://unpkg.com/esri-leaflet@2.5.3/dist/esri-leaflet.js"></script>
+   
+
+</head>
+
+<H4>
+<div style="text-align: center;">
+Click anywhere on the map to get links to Google, Bing and OpenStreetMap maps <br> showing their markers, pictures  and annotations.
+<br>
+</H4>
+
+<body>
+
+<div id="map" style="height: 700px;"></div>
+<script src="sample-geojson.js" type="text/javascript"></script>
+
+<script>
+	
+	var map = L.map('map').setView([37.032375, -97.121173], 4);  
+	L.esri.basemapLayer('Topographic').addTo(map);
+
+	const visitor_icon = L.icon({
+			iconUrl: 'images/logo.png',
+			iconSize: [15, 20],
+			iconAnchor: [20, 25],
+			popupAnchor: [0, 0]
+	    });
+		
+	function onEachFeature(feature, layer) {
+		let popupContent = `National Park:<br>`;
+
+		if (feature.properties && feature.properties.popupContent) {
+			popupContent += feature.properties.popupContent;
+		}
+
+		layer.bindPopup(popupContent);
+	}
+
+	//const parkLayer = L.geoJSON([park, campus], {
+	const parkLayer = L.geoJSON([park], {
+
+		style(feature) {
+			return feature.properties && feature.properties.style;
+		},
+
+		onEachFeature,
+
+		pointToLayer(feature, latlng) {
+			return L.marker(latlng, {icon: visitor_icon});
+		}
+	}).addTo(map);
+
+	const popup = L.popup();
+	
+	var googlelink = "";
+	var coords = "";
+	var link ="";
+	var url ="";
+	
+	// add OpenStreetMap links, like https://www.openstreetmap.org/search?query=39.818232%2C+-77.280064&zoom=13
+      map.on('click', function(e) {
+	     coords = e.latlng.toString().substring(7,e.latlng.toString().length-1);
+		 url = 'https://www.google.com/maps/place/' + coords;
+		 link = '<a href="' + url + '" >Google maps link</a>';
+		 googlelink = coords + '<br>' + link;
+		 
+		 opencoords = coords.replace(' ','');
+		 openurl = 'https://www.openstreetmap.org/search?query=' + opencoords + '#map=16';
+	     openlink = '<a href="' + openurl + '" >OpenStreetMap link</a>';
+		 
+		 bingcoords = coords.replace(', ','~');
+		 bingurl = 'https://www.bing.com/maps/search?cp=' + bingcoords + '&lvl=15';
+	     binglink = '<a href="' + bingurl + '" >Bing maps link</a>';
+
+		
+      });
+
+	function onMapClick(e) {
+		popup
+			.setLatLng(e.latlng)
+			.setContent(googlelink + '<br>' + binglink + '<br>' + openlink )
+			.openOn(map)
+	}
+
+	map.on('click', onMapClick);
+		
+	//const freeBusLayer = L.geoJSON(freeBus, {
+
+	//	filter(feature, layer) {
+	//		if (feature.properties) {
+	//			// If the property "underConstruction" exists and is true, return false (don't render features under construction)
+	//			return feature.properties.underConstruction !== undefined ? !feature.properties.underConstruction : true;
+	//		}
+	//		return false;
+	//	},
+
+	//	onEachFeature
+	//}).addTo(map);
+
+	//const coorsLayer = L.geoJSON(coorsField, {
+
+	//	pointToLayer(feature, latlng) {
+	//		return L.marker(latlng, {icon: baseballIcon});
+	//	},
+
+	//	onEachFeature
+	//}).addTo(map);
+
+</script>
+
+
+
+</body>
+</html>
