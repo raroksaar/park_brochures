@@ -105,7 +105,7 @@ var park = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-					-87.847979, 36.485720, 
+					-87.847979, 36.485720 
                 ]
             },
             "type": "Feature",
@@ -116,14 +116,13 @@ var park = {
         {
             "geometry": {
                 "type": "Point",
-                "coordinates": [
-                    -104.9960754,
-                    39.7498956
+                "coordinates": [	
+					-105.560417, 40.366502
                 ]
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "This is a B-Cycle Station. Come pick up a bike and pay by the hour. What a deal!"
+                "popupContent": "Rocky Mountains"
             },
             "id": 55
         },
@@ -131,14 +130,14 @@ var park = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-				
 					-103.249574, 29.250897
-
                 ]
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "Big Bend"
+                "popupContent": '<a href="https://www.loc.gov/item/2011590439/">Big Bend visitor brochure on Library of Congress site </a> <br>'
+				// <a href="https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=445224594">catalog record with link to HathiTrust copies </a>'
+				//https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=445224594
             },
             "id": 57
         },
