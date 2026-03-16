@@ -86,7 +86,7 @@ var park = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "Shiloh"},
+				"popupContent": '<a href="https://crosssearch.nps.gov/brochures/parks/shiloh">Shiloh visitor brochure</a>'},
             "id": 51
         },
         {
@@ -98,7 +98,7 @@ var park = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "Gettysburg"},
+                "popupContent": '<a href="https://crosssearch.nps.gov/brochures/parks/gettysburg">Gettysburg visitor brochure</a>'},
             "id": 52
         },
         {
@@ -110,7 +110,7 @@ var park = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "Fort Donelson"},
+				"popupContent": '<a href="https://crosssearch.nps.gov/brochures/parks/ftdonelson">Fort Donelson visitor brochure</a>'},
             "id": 54
         },
         {
