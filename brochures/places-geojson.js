@@ -87,8 +87,7 @@ var park = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": '<a href="https://www.nps.gov/mora/planyourvisit/upload/Mount-Rainier-Brochure-final_Combo_508_v2023.pdf">Mt Rainier visitor brochure</a><br>' 
-				// https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Mount+Rainier&selectUsing=2.0&rows=20
+                "popupContent": '<a href="https://www.nps.gov/mora/planyourvisit/upload/Mount-Rainier-Brochure-final_Combo_508_v2023.pdf">Mt Rainier visitor brochure</a><br><a href="https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Mount+Rainier&selectUsing=2.0&rows=20">Mount Rainier catalog search</a>' 
             },
             "id": 74
         },
