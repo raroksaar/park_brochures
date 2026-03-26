@@ -47,7 +47,8 @@ var park = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "Rocky Mountains"
+				// https://www.nps.gov/romo/planyourvisit/upload/ROMOmap1_small_2022.jpg
+				"popupContent": '<a href="https://www.nps.gov/romo/planyourvisit/upload/ROMOmap1_small_2022.jpg">Rocky Mountain map on park web site</a> '
             },
             "id": 55
         },
@@ -60,26 +61,12 @@ var park = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": '<a href="https://www.nps.gov/bibe/planyourvisit/maps.htm">Big Bend visitor brochure</a> <br><a href="https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=445224594">Catalog record with link to HathiTrust copies </a>'
+				"popupContent": '<a href="https://www.nps.gov/bibe/planyourvisit/maps.htm">Big Bend visitor brochure</a> <br><a href="https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=445224594">Catalog record with link to HathiTrust copies </a>'
 				
-				//"popupContent": '<a href="https://www.loc.gov/item/2011590439/">Big Bend visitor brochure on Library of Congress site </a> <br><a href="https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=445224594">Catalog record with link to HathiTrust copies </a>'
-},
+            },
             "id": 57
         },
-        {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-				 -112.140447, 36.056233
 
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "popupContent": "Grand Canyon"
-            },
-            "id": 58
-        },
         {
             "geometry": {
                 "type": "Point",
@@ -88,7 +75,7 @@ var park = {
                 ]
             },
             "type": "Feature",
-            "properties": {
+			    "properties": {
                 "popupContent": '<a href="https://www.nps.gov/mora/planyourvisit/upload/Mount-Rainier-Brochure-final_Combo_508_v2023.pdf">Mt Rainier visitor brochure</a><br><a href="https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Mount+Rainier&selectUsing=2.0&rows=20">Mount Rainier catalog search</a>' 
             },
             "id": 74
@@ -102,7 +89,9 @@ var park = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "Grand Canyon"
+				//https://www.loc.gov/item/96682413/
+                //"popupContent": "Grand Canyon"
+				"popupContent": '<a href="https://www.loc.gov/item/96682413/">Grand Canyon visitor brochure'
             },
             "id": 58
         },
@@ -115,13 +104,11 @@ var park = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "Yosemite"
+				"popupContent": '<a href="https://www.nps.gov/yose/planyourvisit/maps.htm">Yosemite visitor map'
+
             },
             "id": 74
         },
 
     ]
 };
-
-
-
