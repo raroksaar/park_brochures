@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<H2>
+   <title>Gettysburg topographic map</title>
+   	<div style="text-align: center;">
+	Gettysburg area topographic map <br>
+</H2>
+<H3>
+   	<div style="text-align: center;">
+	<a href="https://crosssearch.nps.gov/gettysburg">Gettysburg visitor brochure</a>
+</H3>
+    </div>
+
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+   <script src="https://unpkg.com/esri-leaflet@2.5.3/dist/esri-leaflet.js"></script>
+   
+
+</head>
+
+<H4>
+<div style="text-align: center;">
+Click anywhere on the map to get links to Google, Bing and OpenStreetMap maps <br> showing their markers, pictures  and annotations.
+<br>
+</H4>
+<body>
+   <div id="map" style="height: 700px;"></div>
+   <script>
+       var map = L.map('map').setView([39.760354, -77.662354], 10);
+       L.esri.basemapLayer('Topographic').addTo(map);
+	   // Imagery
+	   // Terrain
+	   // Topographic
+	   // Streets
+	   // Outdoor
+
+       //NW point 39.854422, -77.264744
+		var NW_corner = L.circle([39.854422, -77.264744], {
+			color: 'black',
+			fillColor: 'white',
+			fillOpacity: 0.5,
+			radius:50
+		}).addTo(map);	 
+
+		// NE point` 39.851877, -77.157304
+		var NE_corner = L.circle([39.854422, -77.157304], {
+			color: 'black',
+			fillColor: 'white',
+			fillOpacity: 0.5,
+			radius:50
+		}).addTo(map);	
+		
+		//SW 39.757233, -77.263527
+		var SW_corner = L.circle([39.757233, -77.264744], {
+			color: 'black',
+			fillColor: 'white',
+			fillOpacity: 0.5,
+			radius:50
+		}).addTo(map);	
+		
+		var SE_corner = L.circle([39.757233, -77.157304], {
+			color: 'black',
+			fillColor: 'white',
+			fillOpacity: 0.5,
+			radius:50
+		}).addTo(map);	
+		
+		var polygon = L.polygon([
+			[39.854422, -77.264744],
+			[39.854422, -77.157304],
+			[39.757233, -77.157304],
+			[39.757233, -77.264744]
+		]).addTo(map);
+		//polygon.bindPopup('<a href="https://library.nps.gov/gettysburg">Gettysburg visitor brochure</a>');
+		
+
+	   
+	   const visitor_icon = L.icon({
+			iconUrl: 'images/logo.png',
+			iconSize: [20, 30],
+			iconAnchor: [20, 25],
+			popupAnchor: [0, 0]
+	    });	
+
+	const popup = L.popup();
+
+	VisitorCentermarker = L.marker([39.81169, -77.22599],{icon: visitor_icon}).addTo(map); 
+		VisitorCentermarker.bindPopup('Visitor Center');
+
+	var googlelink = "";
+	var coords = "";
+	var link ="";
+	var url ="";
+	
+	// add OpenStreetMap links, like https://www.openstreetmap.org/search?query=39.818232%2C+-77.280064&zoom=13
+      map.on('click', function(e) {
+	     coords = e.latlng.toString().substring(7,e.latlng.toString().length-1);
+		 url = 'https://www.google.com/maps/place/' + coords;
+		 link = '<a href="' + url + '" >Google maps link</a>';
+		 googlelink = coords + '<br>' + link;
+		 
+		 opencoords = coords.replace(' ','');
+		 openurl = 'https://www.openstreetmap.org/search?query=' + opencoords + '#map=16';
+	     openlink = '<a href="' + openurl + '" >OpenStreetMap link</a>';
+		 
+		 bingcoords = coords.replace(', ','~');
+		 bingurl = 'https://www.bing.com/maps/search?cp=' + bingcoords + '&lvl=15';
+	     binglink = '<a href="' + bingurl + '" >Bing maps link</a>';
+
+		
+      });
+	
+	function onMapClick(e) {
+		popup
+			.setLatLng(e.latlng)
+			.setContent(googlelink + '<br>' + binglink + '<br>' + openlink )
+			.openOn(map)
+	}
+
+	map.on('click', onMapClick);
+		
+   </script>
+</body>
+</html>
