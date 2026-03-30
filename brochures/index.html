@@ -4,12 +4,15 @@
 <H2>
    <title>Topographic map</title>
    	<div style="text-align: center;">
-	Topographic map <br>
+	NPS park brochures <br>
 </H2>
+
+<!--
 <H3>
    	<div style="text-align: center;">
-	<a href="https://crosssearch.nps.gov/brochures">Park brochures</a>
-</H3>
+	<a href="https://library.nps.gov/gettysburg">Park brochures</a>
+</H3> -->
+
     </div>
 
    <meta charset="utf-8" />
@@ -23,133 +26,53 @@
 
 <H4>
 <div style="text-align: center;">
-Click anywhere on the map to get links to Google, Bing and OpenStreetMap maps <br> showing their markers, pictures  and annotations.
+Click anywhere on the map to get links to Google, Bing and OpenStreetMap maps <br> showing their markers, pictures  and annotations. <br>
+Click on the NPS arrowhead to link to the park map/brochure
 <br>
 </H4>
+
 <body>
-   <div id="map" style="height: 700px;"></div>
-   <script src="places-geojson.js" type="text/javascript"></script>
-   <script>
-       //var map = L.map('map').setView([39.760354, -77.662354], 10);
 
-	   // Imagery
-	   // Terrain
-	   // Topographic
-	   // Streets
-	   // Outdoor
-	const queryString = window.location.search;
-    const urlParams = new URLSearchParams(queryString);
-	const place = urlParams.get('place'); // returns null if not found	
+<div id="map" style="height: 700px;"></div>
+//<script src="sample-geojson.js" type="text/javascript"></script>
+<script src="places-geojson.js" type="text/javascript"></script>
+
+<script>
 	
-	if (place === "shiloh") {
-		console.log("shiloh");
-		//const coords = "[35.151511, -88.322072]"
-		var map = L.map('map').setView([35.151511, -88.322072], 10);
-	} else if (place === "gettysburg") {
-		console.log("gettysburg");
-		//const coords = "[39.81169, -77.22599]"
-		var map = L.map('map').setView([39.81169, -77.22599], 10);
-	} else {
-		console.log("no parameter");
-		//default to Gettysburg
-		var map = L.map('map').setView([37.032375, -97.121173], 5);  
-	}
-        L.esri.basemapLayer('Topographic').addTo(map);
+	var map = L.map('map').setView([37.032375, -97.121173], 4);  
+	L.esri.basemapLayer('Topographic').addTo(map);
 
-
-	   var parks = L.esri.featureLayer({
-		   url: 'https://services.arcgis.com/.../FeatureServer/0',
-		   style: function () {
-			   return { color: '#70ca49', weight: 2 };
-		   }
-		}).addTo(map);
-
-		parks.bindPopup(function (layer) {
-			return 'Park Name: ' + layer.feature.properties.NAME;
-			});
-		
-	
-
-		// rectangle pin 39.851075, -77.210884
-		//L.marker([39.846594, -77.210884]).addTo(map)
-		//	.bindPopup('Extent of park brochure map<br> <a href="https://library.nps.gov/gettysburg/esri_topo_map.html">Reset map</a>');
-			// 	<a href="https://library.nps.gov/gettysburg/esri_topo_map.html">Current Esri topographic map of Gettysburg</a>
-
-		var shilo_polygon = L.polygon([
-			[35.166508, -88.368908],
-			[35.166508, -88.29828],	
-			[35.112716, -88.29828],
-			[35.112716, -88.368908]
-		]).addTo(map);	
-		
-		
-		var polygon = L.polygon([
-			[39.854422, -77.264744],
-			[39.854422, -77.157304],
-			[39.757233, -77.157304],
-			[39.757233, -77.264744]
-		]).addTo(map);
-		
-		// Emmitsburg 39.704425, -77.32667
-		//L.marker([39.704425, -77.32667]).addTo(map)
-		//	.bindPopup('Confederate advance through Emmitsburg<br> <a href="https://www.emmitsburg.net/archive_list/articles/history/civil_war/confederate_invasion.htm">Emmitsburg Historical Society account</a>')
-		    //.openPopup();
-	   
-	   const visitor_icon = L.icon({
+	const visitor_icon = L.icon({
 			iconUrl: 'images/logo.png',
-			iconSize: [20, 30],
+			iconSize: [15, 20],
 			iconAnchor: [20, 25],
 			popupAnchor: [0, 0]
 	    });
-
-
+		
 	function onEachFeature(feature, layer) {
-		// does this feature have a property named popupContent?
+		let popupContent = `National Park:<br>`;
+
 		if (feature.properties && feature.properties.popupContent) {
-			layer.bindPopup(feature.properties.popupContent);
+			popupContent += feature.properties.popupContent;
 		}
-	};
 
+		layer.bindPopup(popupContent);
+	}
 
-	var parks = {
-		"type": "FeatureCollection",
-		"features": [
-				{
-				"geometry": {
-					"type": "Point",
-					"coordinates": [
-					29.249711, 
-					-103.161621
-					]
-				},
-				"type": "Feature",
-				"properties": {
-					"popupContent": 'Big Bend>'
-				},
-				"id": 52
-			},
-		]
-	};
+	//const parkLayer = L.geoJSON([park, campus], {
+	const parkLayer = L.geoJSON([park], {
 
-	var parksLayer = L.geoJSON(parks, {
+		style(feature) {
+			return feature.properties && feature.properties.style;
+		},
+
+		onEachFeature,
+
 		pointToLayer(feature, latlng) {
 			return L.marker(latlng, {icon: visitor_icon});
-		},
-		onEachFeature
+		}
 	}).addTo(map);
 
-
-
-	GettysburgMarker = L.marker([39.81169, -77.22599],{icon: visitor_icon}).addTo(map); 
-		GettysburgMarker.bindPopup('<a href="https://crosssearch.nps.gov/brochures/parks/gettysburg">Gettysburg visitor brochure</a>');
-
-	ShilohVisitorCentermarker = L.marker([35.151511, -88.322072],{icon: visitor_icon}).addTo(map); 
-		ShilohVisitorCentermarker.bindPopup('<a href="https://crosssearch.nps.gov/brochures/parks/shiloh">Shiloh visitor brochure</a>');
-		
-	FtDonelsonmarker = L.marker([36.485720, -87.847979],{icon: visitor_icon}).addTo(map);
-		FtDonelsonmarker.bindPopup('<a href="https://crosssearch.nps.gov/brochures/parks/ftdonelson/FortDonelson.jpg">Fort Donalson visitor brochure</a>');	
-	
-	
 	const popup = L.popup();
 	
 	var googlelink = "";
@@ -174,7 +97,7 @@ Click anywhere on the map to get links to Google, Bing and OpenStreetMap maps <b
 
 		
       });
-	
+
 	function onMapClick(e) {
 		popup
 			.setLatLng(e.latlng)
@@ -184,7 +107,31 @@ Click anywhere on the map to get links to Google, Bing and OpenStreetMap maps <b
 
 	map.on('click', onMapClick);
 		
-   </script>
-</body>
+	//const freeBusLayer = L.geoJSON(freeBus, {
 
+	//	filter(feature, layer) {
+	//		if (feature.properties) {
+	//			// If the property "underConstruction" exists and is true, return false (don't render features under construction)
+	//			return feature.properties.underConstruction !== undefined ? !feature.properties.underConstruction : true;
+	//		}
+	//		return false;
+	//	},
+
+	//	onEachFeature
+	//}).addTo(map);
+
+	//const coorsLayer = L.geoJSON(coorsField, {
+
+	//	pointToLayer(feature, latlng) {
+	//		return L.marker(latlng, {icon: baseballIcon});
+	//	},
+
+	//	onEachFeature
+	//}).addTo(map);
+
+</script>
+
+
+
+</body>
 </html>
