@@ -11,10 +11,13 @@ var park = {
             },
             "type": "Feature",
             "properties": {
-				"popupContent": '<a href="https://crosssearch.nps.gov/brochures/parks/shiloh">Shiloh visitor brochure</a>'},
+				//"popupContent": '<a href="https://crosssearch.nps.gov/brochures/parks/shiloh">Shiloh visitor brochure</a>'},
+				"popupContent": "Shiloh National Battlefield Brochure<br><a href='https://crosssearch.nps.gov/brochures/parks/shiloh'>Shiloh visitor brochure</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Shiloh+Military+Park+SHIL&selectUsing=2.0&rows=20>'>Library catalog search</a>"},	
             "id": 51
         },
-        {
+	
+   
+   {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
