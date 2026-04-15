@@ -53,7 +53,7 @@ var park = {
             "type": "Feature",
             "properties": {
 				//"popupContent": '<a href="https://www.nps.gov/romo/planyourvisit/upload/ROMOmap1_small_2022.jpg">Rocky Mountain map on park web site</a> '
-				"popupContent": "Rocky Mountain National Park<br><a href='https://www.nps.gov/romo/planyourvisit/upload/ROMOmap1_small_2022.jpg'>Rocky Mountain map on park web site</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Rocky+ Mountain+Park+ROMO&selectUsing=2.0&rows=20>'>Library catalog search</a>"},
+				"popupContent": "Rocky Mountain National Park<br><a href='https://www.nps.gov/romo/planyourvisit/upload/ROMOmap1_small_2022.jpg'>Rocky Mountain map on park web site</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Rocky+ Mountain+Park+ROMO&selectUsing=2.0&rows=20>'>Library catalog search</a>"
             },
             "id": 55
         },
@@ -67,7 +67,7 @@ var park = {
             "type": "Feature",
             "properties": {
 				"popupContent": '<a href="https://www.nps.gov/bibe/planyourvisit/maps.htm">Big Bend visitor brochure</a> <br><a href="https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=445224594">Catalog record with link to HathiTrust copies </a>'
-								//"popupContent": "Shiloh National Battlefield Brochure<br><a href='https://crosssearch.nps.gov/brochures/parks/shiloh'>Shiloh visitor brochure</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Shiloh+Military+Park+SHIL&selectUsing=2.0&rows=20>'>Library catalog search</a>"},
+								//"popupContent": "Shiloh National Battlefield Brochure<br><a href='https://crosssearch.nps.gov/brochures/parks/shiloh'>Shiloh visitor brochure</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Shiloh+Military+Park+SHIL&selectUsing=2.0&rows=20>'>Library catalog search</a>"
 				
             },
             "id": 57
@@ -98,7 +98,7 @@ var park = {
 				//https://www.loc.gov/item/96682413/
                 //"popupContent": "Grand Canyon"
 				"popupContent": '<a href="https://www.loc.gov/item/96682413/">Grand Canyon visitor brochure'
-								//"popupContent": "Shiloh National Battlefield Brochure<br><a href='https://crosssearch.nps.gov/brochures/parks/shiloh'>Shiloh visitor brochure</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Shiloh+Military+Park+SHIL&selectUsing=2.0&rows=20>'>Library catalog search</a>"},
+								//"popupContent": "Shiloh National Battlefield Brochure<br><a href='https://crosssearch.nps.gov/brochures/parks/shiloh'>Shiloh visitor brochure</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Shiloh+Military+Park+SHIL&selectUsing=2.0&rows=20>'>Library catalog search</a>"
             },
             "id": 58
         },
@@ -112,7 +112,7 @@ var park = {
             "type": "Feature",
             "properties": {
 				"popupContent": '<a href="https://www.nps.gov/yose/planyourvisit/maps.htm">Yosemite visitor map'
-								//"popupContent": "Shiloh National Battlefield Brochure<br><a href='https://crosssearch.nps.gov/brochures/parks/shiloh'>Shiloh visitor brochure</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Shiloh+Military+Park+SHIL&selectUsing=2.0&rows=20>'>Library catalog search</a>"},
+								//"popupContent": "Shiloh National Battlefield Brochure<br><a href='https://crosssearch.nps.gov/brochures/parks/shiloh'>Shiloh visitor brochure</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Shiloh+Military+Park+SHIL&selectUsing=2.0&rows=20>'>Library catalog search</a>"
 
             },
             "id": 74
