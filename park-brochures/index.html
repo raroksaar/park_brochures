@@ -60,7 +60,7 @@ Click anywhere on the map to get links to Google, Bing and OpenStreetMap maps <b
 	    });
 		
 	function onEachFeature(feature, layer) {
-		let popupContent = `National Park:<br>`;
+		let popupContent = `National Park: `;
 
 		if (feature.properties && feature.properties.popupContent) {
 			popupContent += feature.properties.popupContent;
