@@ -2,6 +2,9 @@
 var park = {
     "type": "FeatureCollection",
     "features": [
+        // catalog search example:
+        // <a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Shiloh+Military+Park+SHIL&selectUsing=2.0&rows=20>'>Library catalog search</a>
+
         {
             "geometry": {
                 "type": "Point",
@@ -114,7 +117,7 @@ var park = {
             },
             "id": 74
         },
-/// latest set
+///  set from NPGallery:
 {"features": [{"geometry": {"coordinates": [-71.055412, 42.37323], "type": "Point"}, "properties": {"park": "Boston National Historical Park (BOST)", "popupContent": "Boston National Historical Park Brochure<br><a href='http://npgallery.nps.gov/AssetDetail/673c5e3f-1df4-4ac1-9e28-9674dcf9de2c'>NPGallery page</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Boston+Historical+Park+BOST&selectUsing=2.0&rows=20>'>catalog search for Boston National Historical Park (BOST)</a>'"}, "type": "Feature"}], "type": "FeatureCollection"},
 {"features": [{"geometry": {"coordinates": [-77.735977, 39.462379], "type": "Point"}, "properties": {"park": "Antietam National Battlefield (ANTI)", "popupContent": "Antietam National Battlefield Brochure<br><a href='http://npgallery.nps.gov/AssetDetail/1fdc60bb-35d2-4693-8b75-e06578c23b7b'>NPGallery page</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Antietam+Battlefield+ANTI&selectUsing=2.0&rows=20>'>catalog search for Antietam National Battlefield (ANTI)</a>'"}, "type": "Feature"}], "type": "FeatureCollection"},
 {"features": [{"geometry": {"coordinates": [-78.80275, 37.382679], "type": "Point"}, "properties": {"park": "Appomattox Court House National Historical Park (APCO)", "popupContent": "Appomattox Court House National Historical Park Brochure<br><a href='http://npgallery.nps.gov/AssetDetail/05ce4edf-ad9a-4a78-af03-782ea5b227c9'>NPGallery page</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Appomattox+Court+House+Historical+Park+APCO&selectUsing=2.0&rows=20>'>catalog search for Appomattox Court House National Historical Park (APCO)</a>'"}, "type": "Feature"}], "type": "FeatureCollection"},
