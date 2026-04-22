@@ -5,6 +5,12 @@ var park = {
         // catalog search example:
         // <a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Shiloh+Military+Park+SHIL&selectUsing=2.0&rows=20>'>Library catalog search</a>
         
+      // add these Lowel HABS-HAER links to popup
+      //https://www.loc.gov/item/ma0299/
+      //https://www.loc.gov/item/ma0297/
+      //https://www.loc.gov/item/ma1398/
+      //https://www.loc.gov/item/ma0296/
+      
         {
             "geometry": {
                 "type": "Point",
