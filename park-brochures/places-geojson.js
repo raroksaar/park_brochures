@@ -4,6 +4,19 @@ var park = {
     "features": [
         // catalog search example:
         // <a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Shiloh+Military+Park+SHIL&selectUsing=2.0&rows=20>'>Library catalog search</a>
+        
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+					 -71.312702, 42.644548
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+				"popupContent": "Lowell<br><a href='https://www.loc.gov/item/80690757/'>Lowell visitor brochure</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Lowell+Historical+Park+LOWE&selectUsing=2.0&rows=20>'>Library catalog search</a>"},	
+            "id": 1
+        },
 
         {
             "geometry": {
