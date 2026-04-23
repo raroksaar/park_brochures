@@ -1,4 +1,6 @@
 
+
+
 var park = {
     "type": "FeatureCollection",
     "features": [
@@ -20,7 +22,8 @@ var park = {
             },
             "type": "Feature",
             "properties": {
-				"popupContent": "Lowell<br><a href='https://www.loc.gov/item/80690757/'>Lowell visitor brochure</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Lowell+Historical+Park+LOWE&selectUsing=2.0&rows=20>'>Library catalog search</a>"},	
+			"popupContent": "Lowell"+ LOWE_brochure_link + LOWE_catalog_link + LOWE_habs_1 + LOWE_habs_2 + LOWE_habs_3+ LOWE_habs_4},
+
             "id": 1
         },
 
