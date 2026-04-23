@@ -4,14 +4,6 @@
 var park = {
     "type": "FeatureCollection",
     "features": [
-        // catalog search example:
-        // <a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Shiloh+Military+Park+SHIL&selectUsing=2.0&rows=20>'>Library catalog search</a>
-        
-      // add these Lowel HABS-HAER links to popup
-      //https://www.loc.gov/item/ma0299/
-      //https://www.loc.gov/item/ma0297/
-      //https://www.loc.gov/item/ma1398/
-      //https://www.loc.gov/item/ma0296/
       
         {
             "geometry": {
@@ -171,7 +163,9 @@ var park = {
 {"features": [{"geometry": {"coordinates": [-76.634216, 37.28809], "type": "Point"}, "properties": {"park": "Colonial National Historical Park (COLO)", "popupContent": "Old Colonial NHP Brochure Map 14x8<br><a href='http://npgallery.nps.gov/AssetDetail/19f62e9b-155d-451f-6730-de0f61585bda'>NPGallery page</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Colonial+Historical+Park+COLO&selectUsing=2.0&rows=20>'>catalog search for Colonial National Historical Park (COLO)</a>'"}, "type": "Feature"}], "type": "FeatureCollection"},
 {"features": [{"geometry": {"coordinates": [-76.634216, 37.28809], "type": "Point"}, "properties": {"park": "Colonial National Historical Park (COLO)", "popupContent": "Old Colonial NHP brochure Map 11x8<br><a href='http://npgallery.nps.gov/AssetDetail/19f7817b-155d-451f-6766-e95ebda34453'>NPGallery page</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Colonial+Historical+Park+COLO&selectUsing=2.0&rows=20>'>catalog search for Colonial National Historical Park (COLO)</a>'"}, "type": "Feature"}], "type": "FeatureCollection"},
 {"features": [{"geometry": {"coordinates": [-77.237923, 39.799309], "type": "Point"}, "properties": {"park": "Gettysburg National Military Park (GETT)", "popupContent": "Gettysburg National Military Park Brochure<br><a href='http://npgallery.nps.gov/AssetDetail/397e43e1-8784-4bac-bc27-0f5ab9bc109e'>NPGallery page</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Gettysburg+Military+Park+GETT&selectUsing=2.0&rows=20>'>catalog search for Gettysburg National Military Park (GETT)</a>'"}, "type": "Feature"}], "type": "FeatureCollection"},
-{"features": [{"geometry": {"coordinates": [-73.629013, 42.979092], "type": "Point"}, "properties": {"park": "Saratoga National Historical Park (SARA)", "popupContent": "Saratoga National Historical Park Brochure<br><a href='http://npgallery.nps.gov/AssetDetail/3ac2bbec-90e0-4b02-ac83-6812ee1b4efb'>NPGallery page</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Saratoga+Historical+Park+SARA&selectUsing=2.0&rows=20>'>catalog search for Saratoga National Historical Park (SARA)</a>'"}, "type": "Feature"}], "type": "FeatureCollection"},
+
+{"features": [{"geometry": {"coordinates": [-73.629013, 42.979092], "type": "Point"}, "properties": {"park": "Saratoga", "popupContent": "Saratoga <br><a href='http://npgallery.nps.gov/AssetDetail/3ac2bbec-90e0-4b02-ac83-6812ee1b4efb'>Saratoga Visitor brochure</a><br>" + SARA_catalog_link}, "type": "Feature"}], "type": "FeatureCollection"},
+
 {"features": [{"geometry": {"coordinates": [-76.634216, 37.28809], "type": "Point"}, "properties": {"park": "Colonial National Historical Park (COLO)", "popupContent": "Colonial National Historical Park Brochure<br><a href='http://npgallery.nps.gov/AssetDetail/3ed70256-0912-49b9-a197-b79bd2f89fdf'>NPGallery page</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Colonial+Historical+Park+COLO&selectUsing=2.0&rows=20>'>catalog search for Colonial National Historical Park (COLO)</a>'"}, "type": "Feature"}], "type": "FeatureCollection"},
 {"features": [{"geometry": {"coordinates": [-121.350502, 48.827888], "type": "Point"}, "properties": {"park": "North Cascades National Park (NOCA)", "popupContent": "North Cascades National Park Brochure<br><a href='http://npgallery.nps.gov/AssetDetail/b64d14ff-4844-4b21-b6e0-624579580f8b'>NPGallery page</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=North+Cascades+Park+NOCA&selectUsing=2.0&rows=20>'>catalog search for North Cascades National Park (NOCA)</a>'"}, "type": "Feature"}], "type": "FeatureCollection"},
 {"features": [{"geometry": {"coordinates": [-77.237923, 39.799309], "type": "Point"}, "properties": {"park": "Gettysburg National Military Park (GETT)", "popupContent": "Gettysburg National Military Park brochure<br><a href='http://npgallery.nps.gov/AssetDetail/e9a76abc-1254-4d81-b540-6bc929ffd64a'>NPGallery page</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Gettysburg+Military+Park+GETT&selectUsing=2.0&rows=20>'>catalog search for Gettysburg National Military Park (GETT)</a>'"}, "type": "Feature"}], "type": "FeatureCollection"},
