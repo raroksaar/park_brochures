@@ -83,8 +83,7 @@ var park = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "Big Bend<br><a href='https://www.nps.gov/bibe/planyourvisit/maps.htm'>Big Bend visitor brochure map</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Big+Bend+Park+BIBE&selectUsing=2.0&rows=20>'>Library catalog search</a>"
-				//"popupContent": '<a href="https://www.nps.gov/bibe/planyourvisit/maps.htm">Big Bend visitor brochure</a> <br><a href="https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=445224594">Catalog record with link to HathiTrust copies </a>'
+                "popupContent": BIBE_map_link+BIBE_catalog_link+BIBE_gmp+BIBE_history_book
             },
             "id": 57
         },

@@ -1,3 +1,10 @@
+let BIBE_map_link ="Big Bend<br><a href='https://www.nps.gov/bibe/learn/news/upload/2025-Big-Bend-NP-Paisano-Visitor-Guide-1.pdf'>Big Bend paisano guide</a><br>"
+// https://www.nps.gov/bibe/planyourvisit/maps.htm
+
+let BIBE_catalog_link="<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Big+Bend+Park+BIBE&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
+let BIBE_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=63608742'>General management plan</a><br>"
+let BIBE_history_book ="<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=445224594'>Big Bend history with digital link</a>"
+
 let LOWE_brochure_link = "<br><a href='https://www.loc.gov/item/80690757/'>Lowell visitor brochure</a><br>"
 let LOWE_catalog_link = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Lowell+Historical+Park+LOWE&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 let LOWE_habs_4 = "<a href='https://www.loc.gov/item/ma0299/'>HABS-HAER - New Block boarding houses</a><br>"
