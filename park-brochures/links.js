@@ -1,6 +1,8 @@
-let BIBE_map_link ="Big Bend<br><a href='https://www.nps.gov/bibe/learn/news/upload/2025-Big-Bend-NP-Paisano-Visitor-Guide-1.pdf'>Big Bend paisano guide</a><br>"
-// https://www.nps.gov/bibe/planyourvisit/maps.htm
+//"Rocky Mountain National Park map<br><a href='https://www.nps.gov/romo/planyourvisit/upload/ROMOmap1_small_2022.jpg'>Rocky Mountain map on park web site</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Rocky+ Mountain+Park+ROMO&selectUsing=2.0&rows=20>'>Library catalog search</a>"
+let ROMO_map ="Rocky Mountain<br><a href='https://www.nps.gov/romo/planyourvisit/upload/ROMOmap1_small_2022.jpg'>Rocky Mountain map</a><br>"
+let ROMO_catalog_link = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Rocky+ Mountain+Park+ROMO&selectUsing=2.0&rows=20>'>Library catalog search</a>"
 
+let BIBE_map_link ="Big Bend<br><a href='https://www.nps.gov/bibe/learn/news/upload/2025-Big-Bend-NP-Paisano-Visitor-Guide-1.pdf'>Big Bend paisano guide</a><br>"
 let BIBE_catalog_link="<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Big+Bend+Park+BIBE&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 let BIBE_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=63608742'>General management plan</a><br>"
 let BIBE_history_book ="<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=445224594'>Big Bend history with digital link</a>"

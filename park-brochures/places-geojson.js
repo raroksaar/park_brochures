@@ -69,8 +69,8 @@ var park = {
             },
             "type": "Feature",
             "properties": {
-				//"popupContent": '<a href="https://www.nps.gov/romo/planyourvisit/upload/ROMOmap1_small_2022.jpg">Rocky Mountain map on park web site</a> '
-				"popupContent": "Rocky Mountain National Park map<br><a href='https://www.nps.gov/romo/planyourvisit/upload/ROMOmap1_small_2022.jpg'>Rocky Mountain map on park web site</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Rocky+ Mountain+Park+ROMO&selectUsing=2.0&rows=20>'>Library catalog search</a>"
+				//"popupContent": "Rocky Mountain National Park map<br><a href='https://www.nps.gov/romo/planyourvisit/upload/ROMOmap1_small_2022.jpg'>Rocky Mountain map on park web site</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Rocky+ Mountain+Park+ROMO&selectUsing=2.0&rows=20>'>Library catalog search</a>"
+             "popupContent": ROMO_map+ROMO_catalog_link   
             },
             "id": 55
         },
