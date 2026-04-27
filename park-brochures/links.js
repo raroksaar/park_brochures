@@ -19,7 +19,10 @@ let SARA_catalog_link ="<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/S
 let SARA_gmp_link ="<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=446748668'>General management plan </a><br>"
  
 let MORA_brochure = "<br><a href='https://www.nps.gov/mora/planyourvisit/upload/Mount-Rainier-Brochure-final_Combo_508_v2023.pdf'>Mt Rainier visitor brochure</a><br>"
-MORA_catalog ="<a href=https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Mount+Rainier+Park+MORA&selectUsing=2.0&rows=20'>Library catalog search</a></a><br>"
-MORA_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=60499535' >General management plan</a><br>"
-MORA_Muir = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=74655891'>John Muir writings, see vol.8</a><br>"
-MORA_steep_trails = "<a href='https://babel.hathitrust.org/cgi/pt?id=mdp.39015004741651&seq=293'>John Muir: Ascent of Mt Rainier</a><br>"
+let MORA_catalog ="<a href=https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Mount+Rainier+Park+MORA&selectUsing=2.0&rows=20'>Library catalog search</a></a><br>"
+let MORA_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=60499535' >General management plan</a><br>"
+let MORA_Muir = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=74655891'>John Muir writings, see vol.8</a><br>"
+let MORA_steep_trails = "<a href='https://babel.hathitrust.org/cgi/pt?id=mdp.39015004741651&seq=293'>John Muir: Ascent of Mt Rainier</a><br>"
+
+let YOSE_brochure = "<br><a href='https://www.nps.gov/yose/planyourvisit/maps.htm'>Yosemite visitor brochure</a><br>"
+let YOSE_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Yosemite+Park+YOSE&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
