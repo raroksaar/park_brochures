@@ -31,3 +31,14 @@ let YOSE_Muir = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/
 let MUWO_map_link ="Muir Woods<br><a href='https://www.nps.gov/muwo/planyourvisit/maps.htm'>Muir Woods map</a><br>"
 let MUWO_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Muir+Woods&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 let MUWO_Muir = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=74655891'>John Muir writings</a><br>"
+
+let MIMA_brochure = "<a href='https://www.loc.gov/resource/g3762m.ct005935/?r=-0.172,-0.219,1.467,0.652,0'>Minute Man visitor brochure</a><br>"
+
+//https://www.loc.gov/resource/g3762m.ct005935/?r=-0.172,-0.219,1.467,0.652,0
+// https://www.loc.gov/resource/g3762m.ct005874/?r=0.114,0.11,0.608,0.27,0
+
+let MIMA_underground = "<a href='http://npgallery.nps.gov/AssetDetail/555a3ab0-d856-42d3-a104-3f7dfeadf652'>Underground Railroad brochure</a><br>"
+
+let MIMA_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Minute+Man+Historical+Park+MIMA&selectUsing=2.0&rows=20>'>Library catalog search'</a><br>"
+
+//
