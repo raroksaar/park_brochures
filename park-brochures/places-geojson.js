@@ -4,7 +4,19 @@
 var park = {
     "type": "FeatureCollection",
     "features": [
-      
+      {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+				 -122.580700, 37.897274
+                ]
+            },
+            "type": "Feature",
+			    "properties": {
+                "popupContent": MUWO_map_link + MUWO_catalog + MUWO_Muir
+            },
+            "id": 1
+        },
         {
             "geometry": {
                 "type": "Point",
@@ -16,7 +28,7 @@ var park = {
             "properties": {
 			"popupContent": "Lowell"+ LOWE_brochure_link + LOWE_catalog_link + LOWE_habs_1 + LOWE_habs_2 + LOWE_habs_3+ LOWE_habs_4},
 
-            "id": 1
+            "id": 2
         },
 
         {
@@ -30,7 +42,7 @@ var park = {
             "properties": {
 				//"popupContent": '<a href="https://crosssearch.nps.gov/brochures/parks/shiloh">Shiloh visitor brochure</a>'},
 				"popupContent": "Shiloh National Battlefield Brochure<br><a href='https://crosssearch.nps.gov/brochures/parks/shiloh'>Shiloh visitor brochure</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Shiloh+Military+Park+SHIL&selectUsing=2.0&rows=20>'>Library catalog search</a>"},	
-            "id": 51
+            "id": 3
         },
 	
    
@@ -45,7 +57,7 @@ var park = {
             "properties": {
                 //"popupContent": '<a href="https://crosssearch.nps.gov/brochures/parks/gettysburg">Gettysburg visitor brochure</a>'},
 				"popupContent": "Gettysburg National Battlefield Brochure<br><a href='https://crosssearch.nps.gov/brochures/parks/gettysburg'>Gettysburg visitor brochure</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Gettysburg+Military+Park+GETT&selectUsing=2.0&rows=20>'>Library catalog search</a>"},
-            "id": 52
+            "id": 4
         },
         {
             "geometry": {

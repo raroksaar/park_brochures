@@ -26,3 +26,8 @@ let MORA_steep_trails = "<a href='https://babel.hathitrust.org/cgi/pt?id=mdp.390
 
 let YOSE_brochure = "<br><a href='https://www.nps.gov/yose/planyourvisit/maps.htm'>Yosemite visitor brochure</a><br>"
 let YOSE_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Yosemite+Park+YOSE&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
+let YOSE_Muir = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=74655891'>John Muir writings</a><br>"
+
+let MUWO_map_link ="Muir Woods<br><a href='https://www.nps.gov/muwo/planyourvisit/maps.htm'>Muir Woods map</a><br>"
+let MUWO_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Muir+Woods&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
+let MUWO_Muir = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=74655891'>John Muir writings</a><br>"
