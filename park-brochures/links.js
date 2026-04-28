@@ -39,6 +39,15 @@ let MIMA_brochure = "<a href='https://www.loc.gov/resource/g3762m.ct005935/?r=-0
 
 let MIMA_underground = "<a href='http://npgallery.nps.gov/AssetDetail/555a3ab0-d856-42d3-a104-3f7dfeadf652'>Underground Railroad brochure</a><br>"
 
-let MIMA_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Minute+Man+Historical+Park+MIMA&selectUsing=2.0&rows=20>'>Library catalog search'</a><br>"
+let MIMA_catalog = "<a href='https://eos/fcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Minute+Man+Historical+Park+MIMA&selectUsing=2.0&rows=20>'>Library catalog search'</a><br>"
 
-//
+// Longfellow House
+//  https://www.nps.gov/long/index.htm
+// https://www.loc.gov/resource/g3764c.ct006106/
+// 42.37703118687481, -71.12638239984182
+
+// Frederic Law Olmsted
+// https://www.nps.gov/frla/learn/management/index.htm
+//https://www.loc.gov/resource/g3764b.ct006026/
+// map: https://www.nps.gov/frla/planyourvisit/directions.htm  
+// 42.32537258662645, -71.13236096424491
