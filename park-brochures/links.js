@@ -33,13 +33,14 @@ let MUWO_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Searc
 let MUWO_Muir = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=74655891'>John Muir writings</a><br>"
 
 let MIMA_brochure = "<a href='https://www.loc.gov/resource/g3762m.ct005935/?r=-0.172,-0.219,1.467,0.652,0'>Minute Man visitor brochure</a><br>"
-
-//https://www.loc.gov/resource/g3762m.ct005935/?r=-0.172,-0.219,1.467,0.652,0
-// https://www.loc.gov/resource/g3762m.ct005874/?r=0.114,0.11,0.608,0.27,0
-
 let MIMA_underground = "<a href='http://npgallery.nps.gov/AssetDetail/555a3ab0-d856-42d3-a104-3f7dfeadf652'>Underground Railroad brochure</a><br>"
-
 let MIMA_catalog = "<a href='https://eos/fcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Minute+Man+Historical+Park+MIMA&selectUsing=2.0&rows=20>'>Library catalog search'</a><br>"
+
+
+let ACAD_map ="Acadia<br><a href='https://www.nps.gov/acad/planyourvisit/maps.htm'>Acadia map on park web site</a><br>"
+let ACAD_brochure = "<a href='https://www.loc.gov/resource/g3732a.ct005453/'>Acadia visitor brochure, 1979</a><br>"
+let ACAD_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Acadia+Park+ACAD&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
+let ACAD_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=446726517' >General management plan</a><br>"
 
 // Longfellow House
 //  https://www.nps.gov/long/index.htm
