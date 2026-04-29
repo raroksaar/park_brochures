@@ -38,9 +38,10 @@ let MIMA_catalog = "<a href='https://eos/fcweb01.eosfc-intl.net/N94044/OPAC/Sear
 
 
 let ACAD_map ="Acadia<br><a href='https://www.nps.gov/acad/planyourvisit/maps.htm'>Acadia map on park web site</a><br>"
-let ACAD_brochure = "<a href='https://www.loc.gov/resource/g3732a.ct005577//'>Acadia visitor brochure, 1990</a><br>"
+let ACAD_brochure = "<a href='https://www.loc.gov/resource/g3732a.ct005591/?r=-2.925,-0.016,6.849,3.137,0'>Acadia visitor brochure, 2008</a><br>"
 let ACAD_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Acadia+Park+ACAD&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 let ACAD_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=446726517' >General management plan</a><br>"
+
 
 // Longfellow House
 //  https://www.nps.gov/long/index.htm
@@ -48,6 +49,7 @@ let ACAD_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/R
 // 42.37703118687481, -71.12638239984182
 
 // Frederic Law Olmsted
+
 // https://www.nps.gov/frla/learn/management/index.htm
 //https://www.loc.gov/resource/g3764b.ct006026/
 // map: https://www.nps.gov/frla/planyourvisit/directions.htm  
