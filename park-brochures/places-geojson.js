@@ -136,9 +136,7 @@ var park = {
             },
             "type": "Feature",
             "properties": {
-				//"popupContent": '<a href="https://www.nps.gov/yose/planyourvisit/maps.htm">Yosemite visitor map'
 				"popupContent": "Yosemite<br><a href='https://www.nps.gov/yose/planyourvisit/maps.htm'>Yosemite visitor brochure</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Yosemite+Park+YOSE&selectUsing=2.0&rows=20>'>Library catalog search</a>"
-
             },
             "id": 10
         },
@@ -151,9 +149,7 @@ var park = {
             },
             "type": "Feature",
             "properties": {
-				//"popupContent": '<a href="https://www.nps.gov/yose/planyourvisit/maps.htm">Yosemite visitor map'
 				"popupContent":  ACAD_map+ACAD_brochure+ACAD_catalog+ACAD_gmp
-
             },
             "id": 11
         },
