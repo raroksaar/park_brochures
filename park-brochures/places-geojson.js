@@ -153,6 +153,19 @@ var park = {
             },
             "id": 11
         },
+      {
+           "geometry": {
+                "type": "Point",
+                "coordinates": [
+				 -110.532396, 36.682317
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+				"popupContent":  "Navajo<br>" + NAVA_map+NAVA_catalog+NAVA_gmp+NAVA_habs_1
+            },
+            "id": 12
+        },
 
 
 ///  set from NPGallery:
@@ -226,4 +239,7 @@ var park = {
 {"features": [{"geometry": {"coordinates": [-77.237923, 39.799309], "type": "Point"}, "properties": {"park": "Gettysburg National Military Park (GETT)", "popupContent": "Three Days in July<br><a href='http://npgallery.nps.gov/AssetDetail/09ad90ca-a3c4-44ac-8780-ab031b439acb'>NPGallery page</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Gettysburg+Military+Park+GETT&selectUsing=2.0&rows=20>'>catalog search for Gettysburg National Military Park (GETT)</a>'"}, "type": "Feature"}], "type": "FeatureCollection"},
 ]
 };
+
+// Navajo National Monument
+
 //{"geometry": {"coordinates": [-131.7725, 55.42], "type": "Point"}, "properties": {"LC id": "LC_HABS_HAER_ak0002", "Library of Congress": "https://www.loc.gov/item/ak0002/", "State: ": "Alaska", "popupContent": "Totem Bight State Historical Park, Totem Bight Community House", "wikipedia": "https://en.wikipedia.org/wiki/Totem_Bight_State_Historical_Park"}, "type": "Feature"}

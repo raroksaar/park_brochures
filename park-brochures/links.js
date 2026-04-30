@@ -43,6 +43,12 @@ let ACAD_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Searc
 let ACAD_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=446726517' >General management plan</a><br>"
 
 
+let NAVA_map = "<a href='https://www.nps.gov/nava/planyourvisit/maps.htm'>Map on park web site</a><br>"
+let NAVA_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Navajo+Monument+NAVA&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
+let NAVA_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=62543811' >General management plan</a><br>"
+let NAVA_habs_1 = "<a href='https://www.loc.gov/item/nm0169/'>Crow Canyon petroglyphs</a><br>"
+
+
 // Longfellow House
 //  https://www.nps.gov/long/index.htm
 // https://www.loc.gov/resource/g3764c.ct006106/
