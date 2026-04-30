@@ -24,7 +24,7 @@ let MORA_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/R
 let MORA_Muir = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=74655891'>John Muir writings, see vol.8</a><br>"
 let MORA_steep_trails = "<a href='https://babel.hathitrust.org/cgi/pt?id=mdp.39015004741651&seq=293'>John Muir: Ascent of Mt Rainier</a><br>"
 
-let YOSE_brochure = "<br><a href='https://www.nps.gov/yose/planyourvisit/maps.htm'>Yosemite visitor brochure</a><br>"
+let YOSE_brochure = "<br><a href='https://www.nps.gov/yose/planyourvisit/maps.htm'>Visitor brochure</a><br>"
 let YOSE_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Yosemite+Park+YOSE&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 let YOSE_Muir = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=74655891'>John Muir writings</a><br>"
 
@@ -32,13 +32,13 @@ let MUWO_map_link ="Muir Woods<br><a href='https://www.nps.gov/muwo/planyourvisi
 let MUWO_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Muir+Woods&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 let MUWO_Muir = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=74655891'>John Muir writings</a><br>"
 
-let MIMA_brochure = "<a href='https://www.loc.gov/resource/g3762m.ct005935/?r=-0.172,-0.219,1.467,0.652,0'>Minute Man visitor brochure</a><br>"
+let MIMA_brochure = "<a href='https://www.loc.gov/resource/g3762m.ct005935/?r=-0.172,-0.219,1.467,0.652,0'>Visitor brochure, 1970</a><br>"
 let MIMA_underground = "<a href='http://npgallery.nps.gov/AssetDetail/555a3ab0-d856-42d3-a104-3f7dfeadf652'>Underground Railroad brochure</a><br>"
-let MIMA_catalog = "<a href='https://eos/fcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Minute+Man+Historical+Park+MIMA&selectUsing=2.0&rows=20>'>Library catalog search'</a><br>"
+let MIMA_catalog = "<a href='https://eos/fcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Minute+Man+Historical+Park+MIMA&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 
 
-let ACAD_map ="Acadia<br><a href='https://www.nps.gov/acad/planyourvisit/maps.htm'>Acadia map on park web site</a><br>"
-let ACAD_brochure = "<a href='https://www.loc.gov/resource/g3732a.ct005591/?r=-2.925,-0.016,6.849,3.137,0'>Acadia visitor brochure, 2008</a><br>"
+let ACAD_map ="<a href='https://www.nps.gov/acad/planyourvisit/maps.htm'>Map on park web site</a><br>"
+let ACAD_brochure = "<a href='https://www.loc.gov/resource/g3732a.ct005591/?r=-2.925,-0.016,6.849,3.137,0'>Visitor brochure, 2008</a><br>"
 let ACAD_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Acadia+Park+ACAD&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 let ACAD_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=446726517' >General management plan</a><br>"
 

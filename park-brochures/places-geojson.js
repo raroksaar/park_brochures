@@ -149,7 +149,7 @@ var park = {
             },
             "type": "Feature",
             "properties": {
-				"popupContent":  ACAD_map+ACAD_brochure+ACAD_catalog+ACAD_gmp
+				"popupContent":  "Acadia<br>" + ACAD_map+ACAD_brochure+ACAD_catalog+ACAD_gmp
             },
             "id": 11
         },
