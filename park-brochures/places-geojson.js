@@ -162,7 +162,7 @@ var park = {
             },
             "type": "Feature",
             "properties": {
-				"popupContent":  "Navajo<br>" + NAVA_map+NAVA_catalog+NAVA_gmp+NAVA_habs_1
+				"popupContent":  "Navajo National Monument<br>" + NAVA_map+NAVA_catalog+NAVA_gmp+NAVA_habs_1
             },
             "id": 12
         },
