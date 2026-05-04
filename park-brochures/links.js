@@ -48,6 +48,9 @@ let NAVA_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Searc
 let NAVA_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=62543811' >General management plan</a><br>"
 let NAVA_habs_1 = "<a href='https://www.loc.gov/item/nm0169/'>Crow Canyon petroglyphs</a><br>"
 
+let ANTI_brochure = "Antietam National Battlefield<br><a href='http://npgallery.nps.gov/AssetDetail/1fdc60bb-35d2-4693-8b75-e06578c23b7b'>Park brochure, 2025</a><br>"
+let ANTI_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Antietam+Battlefield+ANTI&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
+let ANTI_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=440913273' >General management plan</a><br>"
 
 // Longfellow House
 //  https://www.nps.gov/long/index.htm
