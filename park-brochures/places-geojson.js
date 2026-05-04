@@ -235,6 +235,4 @@ var park = {
 ]
 };
 
-// Navajo National Monument
-
 //{"geometry": {"coordinates": [-131.7725, 55.42], "type": "Point"}, "properties": {"LC id": "LC_HABS_HAER_ak0002", "Library of Congress": "https://www.loc.gov/item/ak0002/", "State: ": "Alaska", "popupContent": "Totem Bight State Historical Park, Totem Bight Community House", "wikipedia": "https://en.wikipedia.org/wiki/Totem_Bight_State_Historical_Park"}, "type": "Feature"}
