@@ -52,6 +52,13 @@ let ANTI_brochure = "Antietam National Battlefield<br><a href='http://npgallery.
 let ANTI_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Antietam+Battlefield+ANTI&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 let ANTI_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=440913273' >General management plan</a><br>"
 
+let GETT_brochure_1 = "<a href='http://npgallery.nps.gov/AssetDetail/395ce0e8-5ec3-4f8f-92c8-4c5a7d8ec9d6'>1. Park brochure, 2025</a><br>"
+let GETT_brochure_2 = "<a href='http://npgallery.nps.gov/AssetDetail/09ad90ca-a3c4-44ac-8780-ab031b439acb'>2. Park brochure, 2021</a><br>"
+let GETT_brochure_3 = "<a href='http://npgallery.nps.gov/AssetDetail/b3d206ff-fd7c-472f-ac7f-f8754fc695cc'>3. Park brochure, 2025</a><br>"
+let GETT_brochure_4 = "<a href='http://npgallery.nps.gov/AssetDetail/397e43e1-8784-4bac-bc27-0f5ab9bc109e'>4. Park brochure album, 2021</a><br>"
+let GETT_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Gettysburg+Military+Park+GETT&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
+
+
 // Longfellow House
 //  https://www.nps.gov/long/index.htm
 // https://www.loc.gov/resource/g3764c.ct006106/
