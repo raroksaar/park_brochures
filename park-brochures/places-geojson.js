@@ -69,7 +69,7 @@ var park = {
             "type": "Feature",
             "properties": {
 				//"popupContent": '<a href="https://crosssearch.nps.gov/brochures/parks/ftdonelson">Fort Donelson visitor brochure</a>'},
-				"popupContent": "Fort Donelson National Battlefield Brochure<br><a href='https://crosssearch.nps.gov/brochures/parks/ftdonelson'>Park brochure</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Fort+Donelson+Military+Park+FODO&selectUsing=2.0&rows=20>'>Library catalog search</a>"},
+				"popupContent": "Fort Donelson National Battlefield<br><a href='https://crosssearch.nps.gov/brochures/parks/ftdonelson'>Park brochure</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Fort+Donelson+Military+Park+FODO&selectUsing=2.0&rows=20>'>Library catalog search</a>"},
             "id": 5
         },
         {
@@ -123,7 +123,7 @@ var park = {
             "type": "Feature",
             "properties": {                //"popupContent": "Grand Canyon"
 				//"popupContent": '<a href="https://www.loc.gov/item/96682413/">Grand Canyon visitor brochure'
-				"popupContent": "Grand Canyon<br><a href='https://www.loc.gov/item/96682413/'>Grand Canyon visitor brochure</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Grand+Canyon+Park+GRCA&selectUsing=2.0&rows=20>'>Library catalog search</a>"
+				"popupContent": "Grand Canyon<br><a href='https://www.loc.gov/item/96682413/'>Park brochure</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Grand+Canyon+Park+GRCA&selectUsing=2.0&rows=20>'>Library catalog search</a>"
             },
             "id": 9
         },
@@ -136,7 +136,7 @@ var park = {
             },
             "type": "Feature",
             "properties": {
-				"popupContent": "Yosemite<br><a href='https://www.nps.gov/yose/planyourvisit/maps.htm'>Yosemite visitor brochure</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Yosemite+Park+YOSE&selectUsing=2.0&rows=20>'>Library catalog search</a>"
+				"popupContent": "Yosemite<br><a href='https://www.nps.gov/yose/planyourvisit/maps.htm'>Park brochure</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Yosemite+Park+YOSE&selectUsing=2.0&rows=20>'>Library catalog search</a>"
             },
             "id": 10
         },
@@ -198,11 +198,11 @@ var park = {
 
 {"features": [{"geometry": {"coordinates": [-77.237923, 39.799308], "type": "Point"}, "properties": {"park": "Gettysburg National Military Park", "popupContent": "Gettysburg National Military Park<br>"+ GETT_brochure_1 + GETT_brochure_2 + GETT_brochure_3 + GETT_brochure_4 + GETT_catalog}, "type": "Feature"}], "type": "FeatureCollection"},
 
-{"features": [{"geometry": {"coordinates": [-76.634216, 37.28808], "type": "Point"}, "properties": {"park": "Colonial National Historical Park (COLO)", "popupContent": "Old Colonial NHP  Map 14x8<br><a href='http://npgallery.nps.gov/AssetDetail/19f62e9b-155d-451f-6730-de0f61585bda'>Park brochure</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Colonial+Historical+Park+COLO&selectUsing=2.0&rows=20>'>Library catalog search</a>"}, "type": "Feature"}], "type": "FeatureCollection"},
-{"features": [{"geometry": {"coordinates": [-76.634216, 37.28809], "type": "Point"}, "properties": {"park": "Colonial National Historical Park (COLO)", "popupContent": "Old Colonial NHP brochure Map 11x8<br><a href='http://npgallery.nps.gov/AssetDetail/19f7817b-155d-451f-6766-e95ebda34453'>Park brochure</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Colonial+Historical+Park+COLO&selectUsing=2.0&rows=20>'>Library catalog search</a>"}, "type": "Feature"}], "type": "FeatureCollection"},
+{"features": [{"geometry": {"coordinates": [-76.634216, 37.28808], "type": "Point"}, "properties": {"park": "Colonial National Historical Park (COLO)", "popupContent": "Old Colonial NHP<br><a href='http://npgallery.nps.gov/AssetDetail/19f62e9b-155d-451f-6730-de0f61585bda'>Park brochure, 2010</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Colonial+Historical+Park+COLO&selectUsing=2.0&rows=20>'>Library catalog search</a>"}, "type": "Feature"}], "type": "FeatureCollection"},
+{"features": [{"geometry": {"coordinates": [-76.634216, 37.28809], "type": "Point"}, "properties": {"park": "Old Colonial National Historical Park (COLO)", "popupContent": "Old Colonial NHP<br><a href='http://npgallery.nps.gov/AssetDetail/19f7817b-155d-451f-6766-e95ebda34453'>Park brochure, 2017</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Colonial+Historical+Park+COLO&selectUsing=2.0&rows=20>'>Library catalog search</a>"}, "type": "Feature"}], "type": "FeatureCollection"},
 
 {"features": [{"geometry": {"coordinates": [-73.629013, 42.979092], "type": "Point"}, "properties": {"park": "Saratoga", "popupContent": "Saratoga" + SARA_brochure_link + SARA_catalog_link + SARA_gmp_link}, "type": "Feature"}], "type": "FeatureCollection"},
-{"features": [{"geometry": {"coordinates": [-76.634216, 37.28809], "type": "Point"}, "properties": {"park": "Colonial National Historical Park (COLO)", "popupContent": "Colonial National Historical Park <br><a href='http://npgallery.nps.gov/AssetDetail/3ed70256-0912-49b9-a197-b79bd2f89fdf'>Park brochure</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Colonial+Historical+Park+COLO&selectUsing=2.0&rows=20>'>Library catalog search</a>"}, "type": "Feature"}], "type": "FeatureCollection"},
+{"features": [{"geometry": {"coordinates": [-76.634216, 37.28809], "type": "Point"}, "properties": {"park": "Colonial National Historical Park (COLO)", "popupContent": "Colonial National Historical Park <br><a href='http://npgallery.nps.gov/AssetDetail/3ed70256-0912-49b9-a197-b79bd2f89fdf'>Park brochure, 2025</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Colonial+Historical+Park+COLO&selectUsing=2.0&rows=20>'>Library catalog search</a>"}, "type": "Feature"}], "type": "FeatureCollection"},
 {"features": [{"geometry": {"coordinates": [-121.350502, 48.827888], "type": "Point"}, "properties": {"park": "North Cascades ", "popupContent": "North Cascades National Park <br><a href='http://npgallery.nps.gov/AssetDetail/b64d14ff-4844-4b21-b6e0-624579580f8b'>Park brochure</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=North+Cascades+Park+NOCA&selectUsing=2.0&rows=20>'>Library catalog search</a>"}, "type": "Feature"}], "type": "FeatureCollection"},
 
 {"features": [{"geometry": {"coordinates": [-75.444633, 40.0989], "type": "Point"}, "properties": {"park": "Valley Forge National Historical Park (VAFO)", "popupContent": "Valley Forge National Historical Park <br><a href='http://npgallery.nps.gov/AssetDetail/62e60a60-25ba-4af1-87fa-68964cd105c5'>Park brochure</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Valley+Forge+Historical+Park+VAFO&selectUsing=2.0&rows=20>'>Library catalog search</a>"}, "type": "Feature"}], "type": "FeatureCollection"},
