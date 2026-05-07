@@ -108,13 +108,15 @@ Click anywhere on the map to get links to Google, Bing and OpenStreetMap maps <b
 		 bingurl = 'https://www.bing.com/maps/search?cp=' + bingcoords + '&lvl=15';
 	     binglink = '<a href="' + bingurl + '" >Bing maps link</a>';
 
+		 //circlelink = L.circle(coords, 1000).addTo(map);
+
 		
       });
 
 	function onMapClick(e) {
 		popup
 			.setLatLng(e.latlng)
-			.setContent(googlelink + '<br>' + binglink + '<br>' + openlink )
+			.setContent(googlelink + '<br>' + binglink + '<br>' + openlink)  // + '<br>' + circlelink )
 			.openOn(map)
 	}
 
