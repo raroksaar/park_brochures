@@ -95,6 +95,9 @@ Click anywhere on the map to get links to Google, Bing and OpenStreetMap maps <b
 	
 	// add OpenStreetMap links, like https://www.openstreetmap.org/search?query=39.818232%2C+-77.280064&zoom=13
       map.on('click', function(e) {
+		 //L.circle(e.latlng, 50000).addTo(map);
+		 // find and display HABS/HAER places within a given radius of click locations
+
 	     coords = e.latlng.toString().substring(7,e.latlng.toString().length-1);
 		 url = 'https://www.google.com/maps/place/' + coords;
 		 link = '<a href="' + url + '" >Google maps link</a>';
@@ -114,6 +117,7 @@ Click anywhere on the map to get links to Google, Bing and OpenStreetMap maps <b
       });
 
 	function onMapClick(e) {
+
 		popup
 			.setLatLng(e.latlng)
 			.setContent(googlelink + '<br>' + binglink + '<br>' + openlink)  // + '<br>' + circlelink )
