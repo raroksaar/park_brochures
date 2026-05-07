@@ -40,7 +40,6 @@ var park = {
             },
             "type": "Feature",
             "properties": {
-				//"popupContent": '<a href="https://crosssearch.nps.gov/brochures/parks/shiloh">Shiloh visitor brochure</a>'},
 				"popupContent": "Shiloh National Battlefield Brochure<br><a href='https://crosssearch.nps.gov/brochures/parks/shiloh'>Shiloh visitor brochure</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Shiloh+Military+Park+SHIL&selectUsing=2.0&rows=20>'>Library catalog search</a>"},	
             "id": 3
         },
@@ -55,8 +54,7 @@ var park = {
             },
             "type": "Feature",
             "properties": {
-                //"popupContent": '<a href="https://crosssearch.nps.gov/brochures/parks/gettysburg">Gettysburg visitor brochure</a>'},
-				"popupContent": "Gettysburg National Battlefield<br><a href='https://library.nps.gov/brochures/parks/gettysburg'>Park brochure, 1983</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Gettysburg+Military+Park+GETT&selectUsing=2.0&rows=20>'>Library catalog search</a>"},
+               "popupContent": "Gettysburg National Battlefield<br><a href='https://library.nps.gov/brochures/parks/gettysburg'>Park brochure, 1983</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Gettysburg+Military+Park+GETT&selectUsing=2.0&rows=20>'>Library catalog search</a>"},
             "id": 4
         },
         {
@@ -68,7 +66,6 @@ var park = {
             },
             "type": "Feature",
             "properties": {
-				//"popupContent": '<a href="https://crosssearch.nps.gov/brochures/parks/ftdonelson">Fort Donelson visitor brochure</a>'},
 				"popupContent": "Fort Donelson National Battlefield<br><a href='https://crosssearch.nps.gov/brochures/parks/ftdonelson'>Park brochure</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Fort+Donelson+Military+Park+FODO&selectUsing=2.0&rows=20>'>Library catalog search</a>"},
             "id": 5
         },
@@ -121,8 +118,7 @@ var park = {
                 ]
             },
             "type": "Feature",
-            "properties": {                //"popupContent": "Grand Canyon"
-				//"popupContent": '<a href="https://www.loc.gov/item/96682413/">Grand Canyon visitor brochure'
+            "properties": {               
 				"popupContent": "Grand Canyon<br><a href='https://www.loc.gov/item/96682413/'>Park brochure</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Grand+Canyon+Park+GRCA&selectUsing=2.0&rows=20>'>Library catalog search</a>"
             },
             "id": 9
@@ -136,8 +132,7 @@ var park = {
             },
             "type": "Feature",
             "properties": {
-				//"popupContent": "Yosemite<br><a href='https://www.nps.gov/yose/planyourvisit/maps.htm'>Park brochure</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Yosemite+Park+YOSE&selectUsing=2.0&rows=20>'>Library catalog search</a>"
-                "popupContent":  "Yosemite<br>" + YOSE_map+YOSE_catalog+YOSE_Muir
+	            "popupContent":  "Yosemite<br>" + YOSE_map+YOSE_catalog+YOSE_Muir
             },
             "id": 10
         },
