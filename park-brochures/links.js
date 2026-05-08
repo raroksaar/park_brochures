@@ -1,4 +1,9 @@
-//"Rocky Mountain National Park map<br><a href='https://www.nps.gov/romo/planyourvisit/upload/ROMOmap1_small_2022.jpg'>Rocky Mountain map on park web site</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Rocky+ Mountain+Park+ROMO&selectUsing=2.0&rows=20>'>Library catalog search</a>"
+
+//"Grand Canyon<br><a href='https://www.loc.gov/item/96682413/'>Park brochure</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Grand+Canyon+Park+GRCA&selectUsing=2.0&rows=20>'>Library catalog search</a>"
+GRCA_brochure="Grand Canyon<br><a href='https://www.loc.gov/item/96682413/'>Park brochure</a><br>"
+GRCA_catalog= "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Grand+Canyon+Park+GRCA&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
+GRCA_gmp ="<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=53933530'>General management plan</a><br>"
+
 let ROMO_map ="Rocky Mountain<br><a href='https://www.nps.gov/romo/planyourvisit/upload/ROMOmap1_small_2022.jpg'>Rocky Mountain map</a><br>"
 let ROMO_catalog_link = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Rocky+ Mountain+Park+ROMO&selectUsing=2.0&rows=20>'>Library catalog search</a>"
 

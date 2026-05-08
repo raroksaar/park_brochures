@@ -119,7 +119,8 @@ var park = {
             },
             "type": "Feature",
             "properties": {               
-				"popupContent": "Grand Canyon<br><a href='https://www.loc.gov/item/96682413/'>Park brochure</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Grand+Canyon+Park+GRCA&selectUsing=2.0&rows=20>'>Library catalog search</a>"
+				//"popupContent": "Grand Canyon<br><a href='https://www.loc.gov/item/96682413/'>Park brochure</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Grand+Canyon+Park+GRCA&selectUsing=2.0&rows=20>'>Library catalog search</a>"
+                "popupContent": GRCA_brochure + GRCA_catalog + GRCA_gmp
             },
             "id": 9
         },
