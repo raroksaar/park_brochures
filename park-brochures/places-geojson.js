@@ -133,7 +133,7 @@ var park = {
             "type": "Feature",
             "properties": {
 				//"popupContent": "Yosemite<br><a href='https://www.nps.gov/yose/planyourvisit/maps.htm'>Park brochure</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Yosemite+Park+YOSE&selectUsing=2.0&rows=20>'>Library catalog search</a>"
-                "popupContent":  "Yosemite<br>" + YOSE_map+YOSE_catalog+YOSE_Muir
+                "popupContent":  "Yosemite<br>" + YOSE_map+YOSE_catalog+YOSE_gmp+YOSE_Muir
             },
             "id": 10
         },
