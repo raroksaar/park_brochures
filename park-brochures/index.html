@@ -98,6 +98,25 @@ Click anywhere on the map to get links to Google, Bing and OpenStreetMap maps <b
 		 //L.circle(e.latlng, 50000).addTo(map);
 		 // find and display HABS/HAER places within a given radius of click locations
 
+			// Define two coordinates
+			//const point1 = L.latLng(51.505, -0.09);
+			//const point2 = L.latLng(51.505, 0.49);
+
+			// click location:
+			const point1 = e.latlng;
+			// Yosemite
+			const point2 = L.latLng(37.749089, -119.588275);
+	
+			// Calculate distance in meters
+			const distance = point1.distanceTo(point2);
+			console.log('Distance:', distance, 'meters');
+
+			// Convert to kilometers
+			console.log('Distance:', (distance / 1000).toFixed(2), 'km');
+
+			const km = (distance / 1000).toFixed(2);
+			console.log(km);
+
 	     coords = e.latlng.toString().substring(7,e.latlng.toString().length-1);
 		 url = 'https://www.google.com/maps/place/' + coords;
 		 link = '<a href="' + url + '" >Google maps link</a>';
@@ -111,6 +130,8 @@ Click anywhere on the map to get links to Google, Bing and OpenStreetMap maps <b
 		 bingurl = 'https://www.bing.com/maps/search?cp=' + bingcoords + '&lvl=15';
 	     binglink = '<a href="' + bingurl + '" >Bing maps link</a>';
 
+		 toYOSE = 'Distance to Yosemite: ' + km + ' km';
+
 		 //circlelink = L.circle(coords, 1000).addTo(map);
 
 		
@@ -120,7 +141,7 @@ Click anywhere on the map to get links to Google, Bing and OpenStreetMap maps <b
 
 		popup
 			.setLatLng(e.latlng)
-			.setContent(googlelink + '<br>' + binglink + '<br>' + openlink)  // + '<br>' + circlelink )
+			.setContent(googlelink + '<br>' + binglink + '<br>' + openlink +'<br>' + toYOSE)  // + '<br>' + circlelink )
 			.openOn(map)
 	}
 
