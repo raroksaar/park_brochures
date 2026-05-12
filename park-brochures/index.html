@@ -106,15 +106,15 @@ Click anywhere on the map to get links to Google, Bing and OpenStreetMap maps <b
 		}
 	}).addTo(map);
 
-	const habsLayer = L.geoJSON([habs], {
-		style(feature) {
-			return feature.properties && feature.properties.style;
-		},
-		onEachFeature,
-		pointToLayer(feature, latlng) {
-			return L.marker(latlng, {icon: habs_icon});
-		}
-	}).addTo(map);
+//	const habsLayer = L.geoJSON([habs], {
+//		style(feature) {
+//			return feature.properties && feature.properties.style;
+//		},
+//		onEachFeature,
+//		pointToLayer(feature, latlng) {
+//			return L.marker(latlng, {icon: habs_icon});
+//		}
+//	}).addTo(map);
 
 
 
@@ -139,10 +139,14 @@ Click anywhere on the map to get links to Google, Bing and OpenStreetMap maps <b
 			// click location:
 			const point1 = e.latlng;
 			// Yosemite
+			
 			const point2 = L.latLng(37.749089, -119.588275);
 
 			if (point2.distanceTo(circle.getLatLng()) <= circle.getRadius()) {
     			console.log("Yosemite is inside the circle");
+				L.marker([46.4273, -113.2328]).addTo(map)
+					.bindPopup('A pretty CSS popup.<br> Easily customizable.')
+					.openPopup();
 			} else {
     			console.log("Yosemite is outside the circle");
 			}
