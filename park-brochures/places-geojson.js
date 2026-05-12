@@ -13,7 +13,8 @@ var park = {
             },
             "type": "Feature",
 			    "properties": {
-                "popupContent": MUWO_map_link + MUWO_catalog + MUWO_Muir
+                "popupContent": MUWO_map_link + MUWO_catalog + MUWO_Muir,
+                "show_on_map": true
             },
             "id": 1
         },

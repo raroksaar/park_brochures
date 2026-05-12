@@ -78,9 +78,7 @@ Click anywhere on the map to get links to Google, Bing and OpenStreetMap maps <b
 		style(feature) {
 			return feature.properties && feature.properties.style;
 		},
-
 		onEachFeature,
-
 		pointToLayer(feature, latlng) {
 			return L.marker(latlng, {icon: visitor_icon});
 		}
@@ -144,15 +142,11 @@ Click anywhere on the map to get links to Google, Bing and OpenStreetMap maps <b
 		}else {
 				toYOSE = 'Distance to Yosemite is more than 100 km';
 		}
-	
-
 		 //circlelink = L.circle(coords, 1000).addTo(map);
-
 		
       });
 
 	function onMapClick(e) {
-
 		popup
 			.setLatLng(e.latlng)
 			.setContent(googlelink + '<br>' + binglink + '<br>' + openlink +'<br>' + toYOSE)  // + '<br>' + circlelink )
@@ -160,12 +154,8 @@ Click anywhere on the map to get links to Google, Bing and OpenStreetMap maps <b
 	}
 
 	map.on('click', onMapClick);
-		
-
 
 </script>
-
-
 
 </body>
 </html>
