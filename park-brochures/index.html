@@ -69,13 +69,21 @@ Click anywhere on the map to get links to Google, Bing and OpenStreetMap maps <b
 			popupAnchor: [0, 0]
 	    });
 
-		L.geoJSON(habs, {
-    		filter: function(feature, layer) {
-        	return feature.properties.show_on_map;
-    		}
-			}).addTo(map);
+		//L.geoJSON(habs, {
+    	//	filter: function(feature, layer) {
+        //	return feature.properties.show_on_map;
+    	//	}
+		//	}).addTo(map);
 
-
+			//	var center = circle.getLatLng();
+			//	var radius = circle.getRadius();
+			//	var pointsInside = [];
+			//	geojsonLayer.eachLayer(function(layer) {
+			//		var point = layer.getLatLng();
+			//		if (point.distanceTo(center) <= radius) {
+			//			pointsInside.push(layer); // store the point or marker
+			//		}
+			//	});
 		
 	function onEachFeature(feature, layer) {
 		let popupContent = `<b>Site: `;
