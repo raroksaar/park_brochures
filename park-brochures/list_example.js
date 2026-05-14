@@ -10,11 +10,16 @@ const geoJsonString = `{
 const habsString =`{
     "type": "FeatureCollection",
     "features": [
-	{"geometry": {"coordinates": [-113.2328, 46.4273], "type": "Point"}, "properties": {"id": "LC_HABS_HAER_mt0149", "link": "https://www.loc.gov/item/mt0149/", "title": "Royal Basin Mine & Mill Site, Maxville, Granite County, MT"}, "type": "Feature"}, 
+	{"geometry": {"coordinates": [-113.2328, 46.4273], "type": "Point"}, "properties": {"id": "LC_HABS_HAER_mt0149", "link": "https://www.loc.gov/item/mt0149/", "title": "Royal Basin Mine & Mill Site, Maxville, Granite County, MT"}, "type": "Feature"},
+	
 	{"geometry": {"coordinates": [-115.2599, 47.3704], "type": "Point"}, "properties": {"id": "LC_HABS_HAER_mt0147", "link": "https://www.loc.gov/item/mt0147/", "title": "Mullan Road Segment, Saint Regis, Mineral County, MT"}, "type": "Feature"}, 
+	
 	{"geometry": {"coordinates": [-114.4115, 47.0122], "type": "Point"}, "properties": {"id": "LC_HABS_HAER_mt0146", "link": "https://www.loc.gov/item/mt0146/", "title": "Alberton Pictograph, Alberton, Mineral County, MT"}, "type": "Feature"}, 
+	
 	{"geometry": {"coordinates": [-114.1032, 46.7499], "type": "Point"}, "properties": {"id": "LC_HABS_HAER_mt0144", "link": "https://www.loc.gov/item/mt0144/", "title": "Traveler's Rest-Lolo Trail, Lolo, Missoula County, MT"}, "type": "Feature"}, 
+	
 	{"geometry": {"coordinates": [-111.6023, 46.2214], "type": "Point"}, "properties": {"id": "LC_HABS_HAER_mt0166", "link": "https://www.loc.gov/item/mt0166/", "title": "Vermont Marble Quarry, Abandoned Mine Site, Limestone Hills, 2.25 miles Northeast of Radersburg, Radersburg, Broadwater County, MT"}, "type": "Feature"}, 
+	
 	{"geometry": {"coordinates": [-114.1267, 46.4145], "type": "Point"}, "properties": {"id": "LC_HABS_HAER_mt0045", "link": "https://www.loc.gov/item/mt0045/", "title": "Victor Bridge, Spanning Bitterroot River, Victor, Ravalli County, MT"}, "type": "Feature"} 
 	]
 }`;
