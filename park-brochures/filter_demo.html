@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Leaflet Filter Example</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <style>
+    #map { height: 500px; }
+    #filterBox { margin: 10px; }
+  </style>
+</head>
+<body>
+
+<div id="filterBox">
+  <label>Filter by category: </label>
+  <select id="categoryFilter">
+    <option value="">All</option>
+    <option value="park">Park</option>
+    <option value="museum">Museum</option>
+    <option value="restaurant">Restaurant</option>
+  </select>
+</div>
+
+<div id="map"></div>
+
+<!-- Leaflet JS -->
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script>
+  // Sample GeoJSON data
+  const places = {
+    "type": "FeatureCollection",
+    "features": [
+      { "type": "Feature", "properties": { "name": "Central Park", "category": "park" }, "geometry": { "type": "Point", "coordinates": [-73.9654, 40.7829] } },
+      { "type": "Feature", "properties": { "name": "Metropolitan Museum", "category": "museum" }, "geometry": { "type": "Point", "coordinates": [-73.9632, 40.7794] } },
+      { "type": "Feature", "properties": { "name": "Joe's Pizza", "category": "restaurant" }, "geometry": { "type": "Point", "coordinates": [-74.0018, 40.7306] } }
+    ]
+  };
+
+  // Initialize map
+  const map = L.map('map').setView([40.78, -73.96], 13);
+
+  // Add OpenStreetMap tiles
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; OpenStreetMap contributors'
+  }).addTo(map);
+
+  let geojsonLayer;
+
+  // Function to render filtered data
+  function renderData(filterCategory) {
+    if (geojsonLayer) {
+      map.removeLayer(geojsonLayer);
+    }
+
+    geojsonLayer = L.geoJSON(places, {
+      filter: function(feature) {
+        if (!filterCategory) return true; // Show all if no filter
+        return feature.properties.category === filterCategory;
+      },
+      onEachFeature: function(feature, layer) {
+        layer.bindPopup(`<b>${feature.properties.name}</b><br>Category: ${feature.properties.category}`);
+      }
+    }).addTo(map);
+  }
+
+  // Initial render
+  renderData("");
+
+  // Listen for filter changes
+  document.getElementById('categoryFilter').addEventListener('change', function() {
+    renderData(this.value);
+  });
+</script>
+
+</body>
+</html>
