@@ -65,6 +65,9 @@ let GETT_brochure_4 = "<a href='http://npgallery.nps.gov/AssetDetail/397e43e1-87
 let GETT_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Gettysburg+Military+Park+GETT&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 
 
+// Jean Lafitte map:
+// https://www.nps.gov/jela/planyourvisit/maps.htm
+
 // Longfellow House
 //  https://www.nps.gov/long/index.htm
 // https://www.loc.gov/resource/g3764c.ct006106/
