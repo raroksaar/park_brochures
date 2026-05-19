@@ -69,7 +69,7 @@ let GETT_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Searc
 // https://www.nps.gov/jela/planyourvisit/maps.htm
 let JELA_map = "<a href='https://www.nps.gov/jela/planyourvisit/maps.htm'>Map on park web site</a><br>"
 let JELA_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Jean Lafitte+Historical+Park+JELA&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
-let JELA_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=241543909' >General management plan</a><br>"
+let JELA_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=449045264' >General management plan</a><br>"
 
 
 
