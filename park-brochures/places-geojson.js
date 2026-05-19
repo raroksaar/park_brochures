@@ -163,6 +163,20 @@ var park = {
             },
             "id": 12
         },
+         {
+           "geometry": {
+                "type": "Point",
+                "coordinates": [
+				 -90.1701812744141, 29.8020095825195
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+				"popupContent":  "Jean Lafitte National Historical Park and Preserve<br>" + JELA_map+JELA_catalog+JELA_gmp
+            },
+            "id": 12
+        },
+
 
 
 ///  set from NPGallery:
