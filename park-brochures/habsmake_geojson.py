@@ -1,45 +1,44 @@
 import codecs
-import geojson
 from geojson import Point, Feature, FeatureCollection
 
+# f = codecs.open(r'C:\brochures_test\NPG_list_selected_all.txt', 'r', encoding='utf-8')
+# w = codecs.open(r'C:\brochures_test\NPG_list_geojson_all.geojson', 'w', encoding='utf-8')
 n = 0
 
-# C:\map_project\all_with_coords.json'
 
-# read tsv rather than json
-f = codecs.open(r'C:\map_project\all_with_coords.txt', 'r', 'utf8')
-o = codecs.open(r'C:\map_project\all_with_coords.geojson', 'w', 'utf8')
+f = codecs.open(r'C:\LC\HABS-tsv.tsv', 'r', 'utf8')
+o = codecs.open(r'C:\LC\HABS.geojson', 'w', 'utf8')
 
+
+# o.write('var habs = {"type": "FeatureCollection",    "features": [')
+# o.write(',\n')
 
 for line in f:
     n = n + 1
     line = line[:-2]
-    print(line)
     fields = line.split('\t')
     
-    if n > 100:
+    if n > 10:
         break
     
     #print(fields)
-    #id	title	url	long_lat
+    #id	url	title	town	area	description	long-lat
     id= fields[0]
-    title = fields[1]
-    state = title[-2:]
-    #print(state)
+    link = fields[1]
+    title = fields[2]
+    town = fields[3]
+    area = fields[4]
+    description = fields[5]
+    longlat = fields[6]   # -93.6767, 32.4981
 
-    link = fields[2]
-    link = "<a href='" + link + "'>Library of Congress</a><br>"
-    #print(link)
-    longlat = fields[3]   # -93.6767, 32.4981
     lola = longlat.split(', ')
-    #print(lola)
     long = lola[0]
     lat = lola[1]
     point = (Point((float(long), float(lat))))
     print(point)
     
     # Wrap it in a Feature with properties
-    feature = Feature(geometry=point, properties={"state": state, "popupContent": title+'<br>'+link})
+    feature = Feature(geometry=point, properties={"town": town, "popupContent": title +'br'+ description +'<br>'+link +'<br>'+ link})
     # Create a FeatureCollection
     collection = FeatureCollection([feature])
     #print(collection)
@@ -48,6 +47,7 @@ for line in f:
     o.write(str(collection))
     o.write(',\n')
 
+#o.write(']};')
 f.close()
 o.close()
 
