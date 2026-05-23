@@ -177,6 +177,20 @@ var park = {
             "id": 12
         },
 
+         {
+           "geometry": {
+                "type": "Point",
+                "coordinates": [
+				 -135.31596, 57.04888
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+				"popupContent":  "Sitka National Historical Park<br>" + SITK_map+SITK_catalog+SITK_gmp
+            },
+            "id": 13
+        },
+
 
 
 ///  set from NPGallery:
