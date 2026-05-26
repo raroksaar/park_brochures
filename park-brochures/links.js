@@ -85,3 +85,14 @@ let SITK_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/R
 //https://www.loc.gov/resource/g3764b.ct006026/
 // map: https://www.nps.gov/frla/planyourvisit/directions.htm  
 // 42.32537258662645, -71.13236096424491
+
+let ak0004_lc = "<a href='https://www.loc.gov/item/ak0004'>Library of Congress</a><br>"
+let ak0004_nara ="<a href='https://s3.amazonaws.com/NARAprodstorage/lz/electronic-records/rg-079/NPS_AK/66000165_NHL.pdf'>National Archives</a><br></br>"
+
+let ak0436_lc = "<a href='https://www.loc.gov/item/ak0436'>Library of Congress</a><br>"
+
+// storage is:
+//let ak0436_nara ="<a href='https://s3.amazonaws.com/NARAprodstorage/lz/electronic-records/rg-079/NPS_AK/93000338.pdf'>National Archives</a><br></br>"
+
+// for NARA catalog link, NARA id is parameter, catalog link is better than direct link since there is more context
+let ak0436_nara ="<a href='https://catalog.archives.gov/id/75325602'>National Archives</a><br></br>"
