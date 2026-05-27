@@ -91,8 +91,8 @@ let ak0004_nara ="<a href='https://s3.amazonaws.com/NARAprodstorage/lz/electroni
 
 let ak0436_lc = "<a href='https://www.loc.gov/item/ak0436'>Library of Congress</a><br>"
 
-// storage is:
-//let ak0436_nara ="<a href='https://s3.amazonaws.com/NARAprodstorage/lz/electronic-records/rg-079/NPS_AK/93000338.pdf'>National Archives</a><br></br>"
+let la660_nara = "<a href='https://s3.amazonaws.com/NARAprodstorage/lz/electronic-records/rg-079/NPS_LA/91001780.pdf'>National Archives</a><br></br>"
+// https://s3.amazonaws.com/NARAprodstorage/lz/electronic-records/rg-079/NPS_LA/91001780.pdf
 
 // for NARA catalog link, NARA id is parameter, catalog link is better than direct link since there is more context
-let ak0436_nara ="<a href='https://catalog.archives.gov/id/75325602'>National Archives</a><br></br>"
+let ak0436_nara ="<a href='https://catalog.archives.gov/id/75325602'>National Archives catalog</a><br></br>"
