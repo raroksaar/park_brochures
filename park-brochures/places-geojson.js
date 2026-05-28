@@ -176,7 +176,6 @@ var park = {
             },
             "id": 12
         },
-
          {
            "geometry": {
                 "type": "Point",
@@ -191,6 +190,19 @@ var park = {
             "id": 13
         },
 
+        {
+           "geometry": {
+                "type": "Point",
+                "coordinates": [
+				 -109.883102416992, 38.2717704772949	
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+				"popupContent":  "Canyonlands National Historical Park<br>" + CANY_map+CANY_catalog+CANY_gmp+CANY_gmp_etic
+            },
+            "id": 14
+        },
 
 
 ///  set from NPGallery:

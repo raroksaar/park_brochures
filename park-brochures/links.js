@@ -74,6 +74,10 @@ let SITK_map = "<a href='https://www.nps.gov/sitk/planyourvisit/maps.htm'>Map on
 let SITK_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Sitka+Historical+Park+SITKA&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 let SITK_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=70664426'>General management plan</a><br>"
 
+let CANY_map = "<a href='https://www.nps.gov/cany/planyourvisit/maps.htm'>Map on park web site</a><br>"
+let CANY_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Canyonlands+Park+CANY&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
+let CANY_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=446752552'>General management plan</a><br>"
+let CANY_gmp_etic = "<a href='https://pubs.nps.gov/eTIC/CACO-CHIS/CANY_164_D1212_B_0001_of_0007.pdf'>General management plan brochure</a><br>"
 
 // Canyonlands gmp brochure
 // https://pubs.nps.gov/eTIC/CACO-CHIS/CANY_164_D1212_B_0001_of_0007.pdf
