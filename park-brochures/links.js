@@ -74,6 +74,10 @@ let SITK_map = "<a href='https://www.nps.gov/sitk/planyourvisit/maps.htm'>Map on
 let SITK_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Sitka+Historical+Park+SITKA&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 let SITK_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=70664426'>General management plan</a><br>"
 
+
+// Canyonlands gmp brochure
+// https://pubs.nps.gov/eTIC/CACO-CHIS/CANY_164_D1212_B_0001_of_0007.pdf
+
 // Longfellow House
 //  https://www.nps.gov/long/index.htm
 // https://www.loc.gov/resource/g3764c.ct006106/
