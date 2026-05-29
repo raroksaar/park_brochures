@@ -204,6 +204,21 @@ var park = {
             "id": 14
         },
 
+        {
+           "geometry": {
+                "type": "Point",
+                "coordinates": [
+				 -107.958702087402, 36.0527992248535
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+				"popupContent":  "Chaco Culture National Historical Park<br>" + CHCU_map + CHCU_catalog + CHCU_gmp   
+            },
+            "id": 15
+        },
+
+
 
 ///  set from NPGallery:
 {"features": [{"geometry": {"coordinates": [-77.735977, 39.462379], "type": "Point"}, "properties": {"park": "Antietam National Battlefield (ANTI)", "popupContent": ANTI_brochure + ANTI_catalog + ANTI_gmp}, "type": "Feature"}], "type": "FeatureCollection"},

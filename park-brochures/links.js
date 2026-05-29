@@ -79,8 +79,9 @@ let CANY_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Searc
 let CANY_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=446752552'>General management plan</a><br>"
 let CANY_gmp_etic = "<a href='https://pubs.nps.gov/eTIC/CACO-CHIS/CANY_164_D1212_B_0001_of_0007.pdf'>General management plan brochure</a><br>"
 
-// Canyonlands gmp brochure
-// https://pubs.nps.gov/eTIC/CACO-CHIS/CANY_164_D1212_B_0001_of_0007.pdf
+let CHCU_map = "<a href='https://www.nps.gov/chcu/planyourvisit/maps.htm'>Map on park web site</a><br>"
+let CHCU_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Chaco+Culture+Park+CHCU&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
+let CHCU_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=53227751'>General management plan</a><br>"
 
 // Longfellow House
 //  https://www.nps.gov/long/index.htm
