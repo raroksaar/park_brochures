@@ -218,6 +218,20 @@ var park = {
             "id": 15
         },
 
+                {
+           "geometry": {
+                "type": "Point",
+                "coordinates": [
+				 -118.537902832031, 36.7172584533691
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+				"popupContent":  "Sequoia and Kings Canyon National Parks<br>" + SEKI_map + SEKI_catalog + SEKI_gmp
+            },
+            "id": 16
+        },
+
 
 
 ///  set from NPGallery:

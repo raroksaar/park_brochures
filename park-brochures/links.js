@@ -83,6 +83,11 @@ let CHCU_map = "<a href='https://www.nps.gov/chcu/planyourvisit/maps.htm'>Map on
 let CHCU_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Chaco+Culture+Park+CHCU&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 let CHCU_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=53227751'>General management plan</a><br>"
 
+let SEKI_map = "<a href='https://www.nps.gov/seki/planyourvisit/maps.htm'>Map on park web site</a><br>"
+let SEKI_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Sequoia+and+Kings+Canyon+SEKI&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
+let SEKI_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=64650515'>General management plan</a><br>"
+
+
 // Longfellow House
 //  https://www.nps.gov/long/index.htm
 // https://www.loc.gov/resource/g3764c.ct006106/
