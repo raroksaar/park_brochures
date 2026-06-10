@@ -78,7 +78,7 @@ var park = {
             "type": "Feature",
             "properties": {
 
-             "popupContent": ROMO_map+ROMO_catalog_link   
+             "popupContent": ROMO_map+ROMO_catalog_link+ROMO_gmp 
             },
             "id": 6
         },
@@ -227,7 +227,7 @@ var park = {
             },
             "type": "Feature",
             "properties": {
-				"popupContent":  "Sequoia and Kings Canyon National Parks<br>" + SEKI_map + SEKI_catalog + SEKI_gmp
+				"popupContent":  "Sequoia and Kings Canyon National Parks<br>" + SEKI_map + SEKI_catalog + SEKI_gmp + SEKI_guide
             },
             "id": 16
         },

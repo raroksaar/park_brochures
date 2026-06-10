@@ -1,13 +1,14 @@
 
 //"Grand Canyon<br><a href='https://www.loc.gov/item/96682413/'>Park brochure</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Grand+Canyon+Park+GRCA&selectUsing=2.0&rows=20>'>Library catalog search</a>"
-GRCA_brochure="Grand Canyon<br><a href='https://www.loc.gov/item/96682413/'>Park brochure</a><br>"
-GRCA_catalog= "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Grand+Canyon+Park+GRCA&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
-GRCA_gmp ="<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=53933530'>General management plan</a><br>"
+let GRCA_brochure="Grand Canyon<br><a href='https://www.loc.gov/item/96682413/'>Park brochure</a><br>"
+let GRCA_catalog= "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Grand+Canyon+Park+GRCA&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
+let GRCA_gmp ="<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=53933530'>General management plan</a><br>"
 
-let ROMO_map ="Rocky Mountain<br><a href='https://www.nps.gov/romo/planyourvisit/upload/ROMOmap1_small_2022.jpg'>Rocky Mountain map</a><br>"
-let ROMO_catalog_link = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Rocky+ Mountain+Park+ROMO&selectUsing=2.0&rows=20>'>Library catalog search</a>"
+let ROMO_map ="Rocky Mountain National Park<br><a href='https://www.nps.gov/romo/planyourvisit/upload/ROMOmap1_small_2022.jpg'>Rocky Mountain map</a><br>"
+let ROMO_catalog_link = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Rocky+ Mountain+Park+ROMO&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
+let ROMO_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=60650837'>Proposed master plan</a><br>"
 
-let BIBE_map_link ="Big Bend<br><a href='https://www.nps.gov/bibe/learn/news/upload/2025-Big-Bend-NP-Paisano-Visitor-Guide-1.pdf'>Big Bend paisano guide</a><br>"
+let BIBE_map_link ="Big Bend Nationl Park<br><a href='https://www.nps.gov/bibe/learn/news/upload/2025-Big-Bend-NP-Paisano-Visitor-Guide-1.pdf'>Big Bend paisano guide</a><br>"
 let BIBE_catalog_link="<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Big+Bend+Park+BIBE&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 let BIBE_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=63608742'>General management plan</a><br>"
 let BIBE_history_book ="<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=445224594'>Big Bend history with digital link</a>"
@@ -86,7 +87,7 @@ let CHCU_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/R
 let SEKI_map = "<a href='https://www.nps.gov/seki/planyourvisit/maps.htm'>Map on park web site</a><br>"
 let SEKI_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Sequoia+and+Kings+Canyon+SEKI&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 let SEKI_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=64650515'>General management plan</a><br>"
-
+let SEKI_guide = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=53724795'>Guide to Sequoia and Kings Canyon</a><br>"
 
 // Longfellow House
 //  https://www.nps.gov/long/index.htm
