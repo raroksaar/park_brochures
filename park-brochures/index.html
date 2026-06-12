@@ -49,12 +49,19 @@ Click anywhere on the map to get links to Google, Bing and OpenStreetMap maps <b
 
 <script>
 	
-	var map = L.map('map').setView([37.032375, -97.121173], 4);  
+	var map = L.map('map').setView([37.032375, -97.121173], 5);  
 	L.esri.basemapLayer('Topographic').addTo(map);
 
 	const visitor_icon = L.icon({
 			iconUrl: 'images/logo.png',
 			iconSize: [15, 20],
+			iconAnchor: [20, 25],
+			popupAnchor: [0, 0]
+	    });
+
+	const ranger_icon = L.icon({
+			iconUrl: 'images/ranger_2.png',
+			iconSize: [25, 35],
 			iconAnchor: [20, 25],
 			popupAnchor: [0, 0]
 	    });
@@ -67,7 +74,7 @@ Click anywhere on the map to get links to Google, Bing and OpenStreetMap maps <b
 	    });
 		
 	function onEachFeature(feature, layer) {
-		let popupContent = `<b>Site: `;
+		let popupContent = '<b><img src="images\\ranger_2.png" alt="Ranger"> <br>';
 
 		if (feature.properties && feature.properties.popupContent) {
 			popupContent += feature.properties.popupContent;
@@ -85,7 +92,7 @@ Click anywhere on the map to get links to Google, Bing and OpenStreetMap maps <b
 		onEachFeature,
 
 		pointToLayer(feature, latlng) {
-			return L.marker(latlng, {icon: visitor_icon});
+			return L.marker(latlng, {icon: ranger_icon});
 		}
 	}).addTo(map);
 	
