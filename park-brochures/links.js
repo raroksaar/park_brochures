@@ -89,6 +89,11 @@ let SEKI_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Searc
 let SEKI_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=64650515'>General management plan</a><br>"
 let SEKI_guide = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=53724795'>Guide to Sequoia and Kings Canyon</a><br>"
 
+let EFMO_map = "<a href='http://npgallery.nps.gov/AssetDetail/50f769c3-9879-4a08-bddb-3a81c124f658'>Park brochure</a><br>"
+let EFMO_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Effigy+Mounds+Monument+EFMO&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
+let EFMO_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=244144214'>General management plan</a><br>"
+
+
 // Longfellow House
 //  https://www.nps.gov/long/index.htm
 // https://www.loc.gov/resource/g3764c.ct006106/
