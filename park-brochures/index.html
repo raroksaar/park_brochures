@@ -74,7 +74,7 @@ Click anywhere on the map to get links to Google, Bing and OpenStreetMap maps <b
 	    });
 		
 	function onEachFeature(feature, layer) {
-		let popupContent = '<b><img src="images\\ranger_2.png" alt="Ranger"> <br>';
+		let popupContent = '<b><img src="images\\FtUnion_3.png" alt="Fort Union" width="200" height="75"> <br>';
 
 		if (feature.properties && feature.properties.popupContent) {
 			popupContent += feature.properties.popupContent;
@@ -92,7 +92,7 @@ Click anywhere on the map to get links to Google, Bing and OpenStreetMap maps <b
 		onEachFeature,
 
 		pointToLayer(feature, latlng) {
-			return L.marker(latlng, {icon: ranger_icon});
+			return L.marker(latlng, {icon: visitor_icon});
 		}
 	}).addTo(map);
 	
