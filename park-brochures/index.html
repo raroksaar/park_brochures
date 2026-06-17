@@ -73,10 +73,8 @@ Click anywhere on the map to get links to Google, Bing and OpenStreetMap maps <b
 			popupAnchor: [0, 0]
 	    });
 		
-
-		// <a href="https://example.com"><img src="your_image.png" alt="Description"></a>
 	function onEachFeature(feature, layer) {
-		let popupContent = '<a href="https://npg.si.edu/object/npg_NPG.65.79"<b><img src="images\\JohnMuir.jpg" alt="John Muir" width="200" height="250"> <br>';
+		let popupContent = '<b><img src="images\\logo.png" alt="Arrowhead" width="40" height="60"> <br>';
 
 		if (feature.properties && feature.properties.popupContent) {
 			popupContent += feature.properties.popupContent;
@@ -143,6 +141,7 @@ Click anywhere on the map to get links to Google, Bing and OpenStreetMap maps <b
 
 	map.on('click', onMapClick);
 		
+
 </script>
 
 
