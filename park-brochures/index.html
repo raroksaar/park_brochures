@@ -73,8 +73,10 @@ Click anywhere on the map to get links to Google, Bing and OpenStreetMap maps <b
 			popupAnchor: [0, 0]
 	    });
 		
+
+		// <a href="https://example.com"><img src="your_image.png" alt="Description"></a>
 	function onEachFeature(feature, layer) {
-		let popupContent = '<b><img src="images\\FtUnion.png" alt="Fort Union" width="250" height="50"> <br>';
+		let popupContent = '<a href="https://npg.si.edu/object/npg_NPG.65.79"<b><img src="images\\JohnMuir.jpg" alt="John Muir" width="200" height="250"> <br>';
 
 		if (feature.properties && feature.properties.popupContent) {
 			popupContent += feature.properties.popupContent;
@@ -141,28 +143,6 @@ Click anywhere on the map to get links to Google, Bing and OpenStreetMap maps <b
 
 	map.on('click', onMapClick);
 		
-	//const freeBusLayer = L.geoJSON(freeBus, {
-
-	//	filter(feature, layer) {
-	//		if (feature.properties) {
-	//			// If the property "underConstruction" exists and is true, return false (don't render features under construction)
-	//			return feature.properties.underConstruction !== undefined ? !feature.properties.underConstruction : true;
-	//		}
-	//		return false;
-	//	},
-
-	//	onEachFeature
-	//}).addTo(map);
-
-	//const coorsLayer = L.geoJSON(coorsField, {
-
-	//	pointToLayer(feature, latlng) {
-	//		return L.marker(latlng, {icon: baseballIcon});
-	//	},
-
-	//	onEachFeature
-	//}).addTo(map);
-
 </script>
 
 
