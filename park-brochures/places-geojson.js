@@ -11,7 +11,7 @@ var park = {
             },
             "type": "Feature",
 			    "properties": {
-                "popupContent": "<font size='4'>Muir Woods</font size><br>"+ MUWO_map_link + MUWO_catalog + MUWO_Muir,
+                "popupContent":  "<font size='4'>Muir Woods</font size><br>"+ MUWO_map_link + MUWO_catalog + MUWO_Muir + MUWO_image + MUWO_link,
                 "show_on_map": true
             },
             "id": 1
