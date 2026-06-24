@@ -100,6 +100,8 @@ let CIRO_map = "<a href='http://npgallery.nps.gov/AssetDetail/04d19b7c-5b78-4d17
 let CIRO_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=City+of+Rocks+Reserve+CIRO&selectUsing=2.0&rows=20>'>Library catalog search</a></br>"
 let CIRO_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=441160066'>General management plan</a><br>"
 
+let AGFO_admin = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=56319217'>Administrative History</a><br>"
+let AGFO_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Agate+Fossil+Beds+Monument+AGFO&selectUsing=2.0&rows=20>'>Library catalog search</a></br>"
 
 // Longfellow House
 //  https://www.nps.gov/long/index.htm

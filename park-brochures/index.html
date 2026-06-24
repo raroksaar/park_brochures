@@ -76,7 +76,8 @@ Click anywhere on the map to get links to Google, Bing and OpenStreetMap maps <b
 	    });
 		
 	function onEachFeature(feature, layer) {
-		let popupContent = '<b><img src="images\\logo.png" alt="Arrowhead" width="22" height="30">';
+		//let popupContent = '<b><img src="images\\logo.png" alt="Arrowhead" width="22" height="30">';
+		let popupContent = '<b>';
 
 		if (feature.properties && feature.properties.popupContent) {
 			popupContent += feature.properties.popupContent;
