@@ -102,6 +102,8 @@ let CIRO_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/R
 
 let AGFO_admin = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=56319217'>Administrative History</a><br>"
 let AGFO_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Agate+Fossil+Beds+Monument+AGFO&selectUsing=2.0&rows=20>'>Library catalog search</a></br>"
+let AGFO_handbook = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=73765437'>Handbook</a><br>"
+
 
 // Longfellow House
 //  https://www.nps.gov/long/index.htm
