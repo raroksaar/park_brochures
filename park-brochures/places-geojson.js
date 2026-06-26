@@ -218,7 +218,7 @@ var park = {
             "id": 15
         },
 
-                {
+        {
            "geometry": {
                 "type": "Point",
                 "coordinates": [
@@ -228,6 +228,21 @@ var park = {
             "type": "Feature",
             "properties": {
 				"popupContent":  "Sequoia and Kings Canyon National Parks<br>" + SEKI_map + SEKI_catalog + SEKI_gmp + SEKI_guide
+            },
+            "id": 16
+        },
+
+
+        {
+           "geometry": {
+                "type": "Point",
+                "coordinates": [
+				 	-75.1469268798828, 39.945369720459
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+				"popupContent":  "Independence National Historical Park<br>" + INDE_map + INDE_catalog + INDE_gmp
             },
             "id": 16
         },
@@ -245,7 +260,7 @@ var park = {
 {"features": [{"geometry": {"coordinates": [-84.130638, 32.19788], "type": "Point"}, "properties": {"park": "Andersonville National Historic Site (ANDE)", "popupContent": "Andersonville National Historic Site <br><a href='http://npgallery.nps.gov/AssetDetail/abbb923b-9728-4e48-979f-0eff83181779'>Park brochure, 2025</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Andersonville+Historic+Site+ANDE&selectUsing=2.0&rows=20>'>Library catalog search</a>"}, "type": "Feature"}], "type": "FeatureCollection"},
 {"features": [{"geometry": {"coordinates": [-76.348373, 34.825039], "type": "Point"}, "properties": {"park": "Cape Lookout National Seashore (CALO)", "popupContent": "Cape Lookout National Seashore <br><a href='http://npgallery.nps.gov/AssetDetail/8226173e-4c11-4e88-95b2-be48a0e9035f'>Park brochure, 2023</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Cape+Lookout+Seashore+CALO&selectUsing=2.0&rows=20>'>Library catalog search</a>"}, "type": "Feature"}], "type": "FeatureCollection"},
 
-{"features": [{"geometry": {"coordinates": [-103.744003, 42.421471], "type": "Point"}, "properties": {"park": "Agate Fossil Beds National Monument (AGFO)", "popupContent": "Agate Fossil Beds National Monument <br><a href='http://npgallery.nps.gov/AssetDetail/5e5dc81f-62fe-4d00-b7d3-824158870496'>Park brochure, 2025</a><br>"+ AGFO_catalog + AGFO_admin + AGFO_handbook}, "type": "Feature"}], "type": "FeatureCollection"},
+{"features": [{"geometry": {"coordinates": [-103.744003, 42.421471], "type": "Point"}, "properties": {"park": "Agate Fossil Beds National Monument (AGFO)", "popupContent": "Agate Fossil Beds National Monument <br><a href='http://npgallery.nps.gov/AssetDetail/5e5dc81f-62fe-4d00-b7d3-824158870496'>Park brochure, 2025</a><br>"+ AGFO_catalog + AGFO_admin + AGFO_statement + AGFO_handbook}, "type": "Feature"}], "type": "FeatureCollection"},
 
 {"features": [{"geometry": {"coordinates": [-85.68013, 32.45546], "type": "Point"}, "properties": {"park": "Tuskegee Airmen National Historic Site (TUAI)", "popupContent": "Maps from park brochure.  - Tuskegee Airmen National Historic Site<br><a href='http://npgallery.nps.gov/AssetDetail/87de543f-c8f2-453f-8bee-c2e10fa7a337'>Park brochure, 2018</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Tuskegee+Airmen+Historic+Site+TUAI&selectUsing=2.0&rows=20>'>Library catalog search</a>"}, "type": "Feature"}], "type": "FeatureCollection"},
 {"features": [{"geometry": {"coordinates": [-84.266762, 33.972408], "type": "Point"}, "properties": {"park": "Chattahoochee River National Recreation Area (CHAT)", "popupContent": "Chattahoochee River National Recreation Area <br><a href='http://npgallery.nps.gov/AssetDetail/15ab77e2-83cc-44e1-b463-705f5cffb19e'>Park brochure, 2025</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Chattahoochee+River+Recreation+Area+CHAT&selectUsing=2.0&rows=20>'>Library catalog search</a>"}, "type": "Feature"}], "type": "FeatureCollection"},
