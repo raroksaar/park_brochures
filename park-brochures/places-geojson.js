@@ -231,7 +231,6 @@ var park = {
             "id": 16
         },
 
-
         {
            "geometry": {
                 "type": "Point",
@@ -246,6 +245,19 @@ var park = {
             "id": 16
         },
 
+        {
+           "geometry": {
+                "type": "Point",
+                "coordinates": [
+				 	-119.649200439453, 44.5381088256836
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+				"popupContent":  "John Day Fossil Beds National Monument<br>" + JODA_map + JODA_catalog + JODA_gmp
+            },
+            "id": 16
+        },
 
 
 ///  set from NPGallery:
