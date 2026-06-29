@@ -3,7 +3,7 @@
 let GRCA_brochure="Grand Canyon<br><a href='https://www.loc.gov/item/96682413/'>Park brochure</a><br>"
 let GRCA_catalog= "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Grand+Canyon+Park+GRCA&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 let GRCA_gmp ="<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=53933530'>General management plan</a><br>"
-let GRCA_usgs ="<a href='https://crosssearch.nps.gov/vufind/Search/Results?filter%5B%5D=institution%3A%22U.S.+Geological+Survey+%28USGS%29%22&filter%5B%5D=building%3A%22Grand+Canyon+National+Park+%28GRCA%29%22&type=AllFields'>USGS reports</a><br>"
+let GRCA_usgs ="<a href='https://library.nps.gov/vufind/Search/Results?filter%5B%5D=institution%3A%22U.S.+Geological+Survey+%28USGS%29%22&filter%5B%5D=building%3A%22Grand+Canyon+National+Park+%28GRCA%29%22&type=AllFields'>USGS reports</a><br>"
 
 let ROMO_map ="Rocky Mountain National Park<br><a href='https://www.nps.gov/romo/planyourvisit/upload/ROMOmap1_small_2022.jpg'>Rocky Mountain map</a><br>"
 let ROMO_catalog_link = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Rocky+ Mountain+Park+ROMO&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
@@ -111,7 +111,7 @@ let INDE_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Searc
 let INDE_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=65769981'>General management plan</a><br>"
  
 let YELL_catalog = "</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Yellowstone+Park+YELL&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
-let YELL_usgs = "<a href='https://crosssearch.nps.gov/vufind/Search/Results?filter%5B%5D=institution%3A%22U.S.+Geological+Survey+%28USGS%29%22&filter%5B%5D=building%3A%22Yellowstone+National+Park+%28YELL%29%22&type=AllFields'>USGS reports</a><br>"
+let YELL_usgs = "<a href='https://library.nps.gov/vufind/Search/Results?filter%5B%5D=institution%3A%22U.S.+Geological+Survey+%28USGS%29%22&filter%5B%5D=building%3A%22Yellowstone+National+Park+%28YELL%29%22&type=AllFields'>USGS reports</a><br>"
 
 // Longfellow House
 //  https://www.nps.gov/long/index.htm
