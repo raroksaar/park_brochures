@@ -141,3 +141,5 @@ let la660_nara = "<a href='https://s3.amazonaws.com/NARAprodstorage/lz/electroni
 
 // for NARA catalog link, NARA id is parameter, catalog link is better than direct link since there is more context
 let ak0436_nara ="<a href='https://catalog.archives.gov/id/75325602'>National Archives catalog</a><br></br>"
+
+let md1369_nara ="<a href='https://catalog.archives.gov/id/106776006'>National Archives catalog</a><br></br>"
