@@ -120,7 +120,7 @@ let JODA_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/R
 
 let BISC_catalog = "</a><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Biscayne+BISC&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 let BISC_map = "<a href='https://www.nps.gov/bisc/planyourvisit/maps.htm'>Park map</a><br>"
-let BISC_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=449245259'>General management plan</a><br>"
+let BISC_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=449245259'>General management plan</a><br>  <a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=241608922'>General management plan ammendment, 2011</a><br>"
 
 // Longfellow House
 //  https://www.nps.gov/long/index.htm
