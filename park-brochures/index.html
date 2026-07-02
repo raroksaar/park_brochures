@@ -47,8 +47,8 @@ Click anywhere on the map to get links to Google, Bing and OpenStreetMap maps <b
 
 <script src="links.js"></script>
 <script src="places-geojson.js" type="text/javascript"></script>
-<script src="all_habs.js" type="text/javascript"></script>
-<script src="NARA_linkeed.js" type="text/javascript"></script>
+<!--<script src="all_habs.js" type="text/javascript"></script> -->
+<script src="NARA_linked.js" type="text/javascript"></script> 
 
 
 
@@ -102,7 +102,7 @@ Click anywhere on the map to get links to Google, Bing and OpenStreetMap maps <b
 		}
 	}).addTo(map);
 	
-	const habsLayr = L.geoJSON([habs], {
+	const habsLayr = L.geoJSON([habs_2], {
 		style(feature) {
 			return feature.properties && feature.properties.style;
 		},

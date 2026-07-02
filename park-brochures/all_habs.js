@@ -1,6 +1,7 @@
 var habs ={"type": "FeatureCollection","features": [
 
 // from latest run, copied from NARA_linked_js can't repeat var habs
+{"features": [{"geometry": {"coordinates": [-80.211948, 25.74339], "type": "Point"}, "properties": {"popupContent": "Vizcaya, Casino, 3251 South Miami Avenue, Miami, Miami-Dade County, FL<br><a href='https://www.loc.gov/item/fl0875'>Library of Congress</a><br><a href='https://catalog.archives.gov/search?page=1&q=70000181_NHL'>National Archives</a><br>", "town": "Miami,  Miami-Dade County,  FL"}, "type": "Feature"}], "type": "FeatureCollection"},
 
 {"features": [{"geometry": {"coordinates": [-131.597062, 55.318142], "type": "Point"}, "properties": {"popupContent": "Chief Kashakes' House, Mile 2.5 South Tongass Highway, Saxman, Ketchikan Gateway Borough, AK<br><a href='https://www.loc.gov/item/ak0436'>Library of Congress</a><br><a href='https://catalog.archives.gov/search?page=1&q=93000338_NHL'>National Archives</a><br>", "town": "Saxman,  Ketchikan Gateway Borough,  AK"}, "type": "Feature"}], "type": "FeatureCollection"},
 {"features": [{"geometry": {"coordinates": [-170.280888, 57.12088], "type": "Point"}, "properties": {"popupContent": "Saints Peter & Paul Russian Orthodox Church, Church Street, Saint Paul, Aleutians West Census Area, AK<br><a href='https://www.loc.gov/item/ak0258'>Library of Congress</a><br><a href='https://catalog.archives.gov/search?page=1&q=80000744_NHL'>National Archives</a><br>", "town": "Saint Paul,  Aleutians West Census Area,  AK"}, "type": "Feature"}], "type": "FeatureCollection"},
