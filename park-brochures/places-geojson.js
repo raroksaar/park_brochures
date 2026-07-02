@@ -242,9 +242,8 @@ var park = {
             "properties": {
 				"popupContent":  "Independence National Historical Park<br>" + INDE_map + INDE_catalog + INDE_gmp
             },
-            "id": 16
+            "id": 17
         },
-
         {
            "geometry": {
                 "type": "Point",
@@ -256,8 +255,23 @@ var park = {
             "properties": {
 				"popupContent":  "John Day Fossil Beds National Monument<br>" + JODA_map + JODA_catalog + JODA_gmp
             },
-            "id": 16
+            "id": 18
         },
+
+        {
+           "geometry": {
+                "type": "Point",
+                "coordinates": [
+				 	-80.2182998657227, 25.4696102142334
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+				"popupContent":  "Biscayne National Park<br>" + BISC_map + BISC_catalog + BISC_gmp 
+            },
+            "id": 19
+        },
+
 
 
 ///  set from NPGallery:

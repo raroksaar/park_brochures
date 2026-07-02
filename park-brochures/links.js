@@ -118,6 +118,9 @@ let JODA_map = "<a href='https://www.nps.gov/joda/planyourvisit/maps.htm'>Park m
 let JODA_catalog = "</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=John+Day+Fossil+Beds+JODA&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 let JODA_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=66074420'>General management plan</a><br>"
 
+let BISC_catalog = "</a><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Biscayne+BISC&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
+let BISC_map = "<a href='https://www.nps.gov/bisc/planyourvisit/maps.htm'>Park map</a><br>"
+let BISC_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=449245259'>General management plan</a><br>"
 
 // Longfellow House
 //  https://www.nps.gov/long/index.htm
