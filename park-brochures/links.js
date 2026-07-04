@@ -122,6 +122,10 @@ let BISC_catalog = "</a><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/S
 let BISC_map = "<a href='https://www.nps.gov/bisc/planyourvisit/maps.htm'>Park map</a><br>"
 let BISC_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=449245259'>General management plan</a><br>  <a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=241608922'>General management plan ammendment, 2011</a><br>"
 
+let OLYM_catalog = "</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Olympic+Park+OLYM&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
+let OLYM_usgs = "https://library.nps.gov/vufind/Search/Results?filter%5B%5D=institution%3A%22U.S.+Geological+Survey+%28USGS%29%22&filter%5B%5D=building%3A%22Olympic+National+Park+%28OLYM%29%22&type=AllFields"
+
+
 // Longfellow House
 //  https://www.nps.gov/long/index.htm
 // https://www.loc.gov/resource/g3764c.ct006106/
