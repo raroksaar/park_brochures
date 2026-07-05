@@ -281,7 +281,7 @@ var park = {
             },
             "type": "Feature",
             "properties": {
-				"popupContent":  "Olympic National Park<br>" + OLYM_map + OLYM_catalog + OLYM_usgs
+				"popupContent":  "Olympic National Park<br>" + OLYM_map + OLYM_catalog + OLYM_gmp + OLYM_usgs
             },
             "id": 20
         },

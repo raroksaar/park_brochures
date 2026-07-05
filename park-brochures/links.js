@@ -125,6 +125,7 @@ let BISC_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/R
 let OLYM_map = "<a href='https://www.nps.gov/olym/planyourvisit/maps.htm'>Park map</a><br>"
 let OLYM_catalog = "</a><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Olympic+Park+OLYM&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 let OLYM_usgs = "<a href='https://library.nps.gov/vufind/Search/Results?filter%5B%5D=institution%3A%22U.S.+Geological+Survey+%28USGS%29%22&filter%5B%5D=building%3A%22Olympic+National+Park+%28OLYM%29%22&type=AllFields'>USGS reports</a><br>"
+let OLYM_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=65516735'>General management plan</a><br>"
 
 
 // Longfellow House
