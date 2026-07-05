@@ -272,6 +272,20 @@ var park = {
             "id": 19
         },
 
+            {
+           "geometry": {
+                "type": "Point",
+                "coordinates": [
+				 	-123.432299, 48.103187 
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+				"popupContent":  "Olympic National Park<br>" + OLYM_map + OLYM_catalog + OLYM_usgs
+            },
+            "id": 20
+        },
+    
 
 
 ///  set from NPGallery:
