@@ -271,8 +271,7 @@ var park = {
             },
             "id": 19
         },
-
-            {
+        {
            "geometry": {
                 "type": "Point",
                 "coordinates": [
@@ -286,6 +285,20 @@ var park = {
             "id": 20
         },
     
+        {
+           "geometry": {
+                "type": "Point",
+                "coordinates": [
+				 	-113.858703613281, 48.7467994689941	
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+				"popupContent":  "Glacier National Park<br>" + GLAC_map + GLAC_catalog + GLAC_gmp + GLAC_usgs
+            },
+            "id": 21
+        },
+
 
 
 ///  set from NPGallery:
