@@ -48,7 +48,8 @@ Click anywhere on the map to get links to Google, Bing and OpenStreetMap maps <b
 <script src="links.js"></script>
 <script src="places-geojson.js" type="text/javascript"></script>
 <!--<script src="all_habs.js" type="text/javascript"></script> -->
-<script src="NARA_linked.js" type="text/javascript"></script> 
+<script src="NARA_linked_habs.js" type="text/javascript"></script> 
+<script src="NARA_linked_haer.js" type="text/javascript"></script> 
 
 
 
@@ -72,12 +73,19 @@ Click anywhere on the map to get links to Google, Bing and OpenStreetMap maps <b
 	    });
 		
 	const habs_icon = L.icon({
-			iconUrl: 'images/marker-icon-2x-grey.png',
+			iconUrl: 'images/marker-icon-2x-green.png',
 			iconSize: [10, 15],
 			iconAnchor: [2, 2],
 			popupAnchor: [0, 0]
 	    });
 		
+
+	const haer_icon = L.icon({
+			iconUrl: 'images/marker-icon-2x-grey.png',
+			iconSize: [10, 15],
+			iconAnchor: [2, 2],
+			popupAnchor: [0, 0]
+	    });
 	function onEachFeature(feature, layer) {
 		//let popupContent = '<b><img src="images\\logo.png" alt="Arrowhead" width="22" height="30">';
 		let popupContent = '<b>';
@@ -102,13 +110,24 @@ Click anywhere on the map to get links to Google, Bing and OpenStreetMap maps <b
 		}
 	}).addTo(map);
 	
-	const habsLayr = L.geoJSON([habs_2], {
+	const habsLayr = L.geoJSON([habs], {
 		style(feature) {
 			return feature.properties && feature.properties.style;
 		},
 		onEachFeature,
 		pointToLayer(feature, latlng) {
 			return L.marker(latlng, {icon: habs_icon});
+		}
+	}).addTo(map);
+	
+
+	const haerLayer = L.geoJSON([haer], {
+		style(feature) {
+			return feature.properties && feature.properties.style;
+		},
+		onEachFeature,
+		pointToLayer(feature, latlng) {
+			return L.marker(latlng, {icon: haer_icon});
 		}
 	}).addTo(map);
 	
