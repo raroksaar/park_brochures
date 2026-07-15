@@ -1,4 +1,29 @@
 
+
+let ACAD_map ="<a href='https://www.nps.gov/acad/planyourvisit/maps.htm'>Map on park web site</a><br>"
+let ACAD_brochure = "<a href='https://www.loc.gov/resource/g3732a.ct005591/?r=-2.925,-0.016,6.849,3.137,0'>Visitor brochure, 2008</a><br>"
+let ACAD_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Acadia+Park+ACAD&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
+let ACAD_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=446726517' >General management plan</a><br>"
+
+let AGFO_admin = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=56319217'>Administrative History</a><br>"
+let AGFO_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Agate+Fossil+Beds+Monument+AGFO&selectUsing=2.0&rows=20>'>Library catalog search</a></br>"
+let AGFO_handbook = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=73765437'>Handbook</a><br>"
+let AGFO_statement = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=449226126'>Statement for management</a><br>"
+
+let BIBE_map_link ="Big Bend Nationl Park<br><a href='https://www.nps.gov/bibe/learn/news/upload/2025-Big-Bend-NP-Paisano-Visitor-Guide-1.pdf'>Big Bend paisano guide</a><br>"
+let BIBE_catalog_link="<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Big+Bend+Park+BIBE&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
+let BIBE_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=63608742'>General management plan</a><br>"
+let BIBE_history_book ="<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=445224594'>Big Bend history with digital link</a>"
+
+let CANY_map = "<a href='https://www.nps.gov/cany/planyourvisit/maps.htm'>Map on park web site</a><br>"
+let CANY_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Canyonlands+Park+CANY&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
+let CANY_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=446752552'>General management plan</a><br>"
+let CANY_gmp_etic = "<a href='https://pubs.nps.gov/eTIC/CACO-CHIS/CANY_164_D1212_B_0001_of_0007.pdf'>General management plan brochure</a><br>"
+
+let CHCU_map = "<a href='https://www.nps.gov/chcu/planyourvisit/maps.htm'>Map on park web site</a><br>"
+let CHCU_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Chaco+Culture+Park+CHCU&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
+let CHCU_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=53227751'>General management plan</a><br>"
+
 //"Grand Canyon<br><a href='https://www.loc.gov/item/96682413/'>Park brochure</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Grand+Canyon+Park+GRCA&selectUsing=2.0&rows=20>'>Library catalog search</a>"
 let GRCA_brochure="Grand Canyon<br><a href='https://www.loc.gov/item/96682413/'>Park brochure</a><br>"
 let GRCA_catalog= "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Grand+Canyon+Park+GRCA&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
@@ -9,10 +34,6 @@ let ROMO_map ="Rocky Mountain National Park<br><a href='https://www.nps.gov/romo
 let ROMO_catalog_link = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Rocky+ Mountain+Park+ROMO&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 let ROMO_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=60650837'>Proposed master plan</a><br>"
 
-let BIBE_map_link ="Big Bend Nationl Park<br><a href='https://www.nps.gov/bibe/learn/news/upload/2025-Big-Bend-NP-Paisano-Visitor-Guide-1.pdf'>Big Bend paisano guide</a><br>"
-let BIBE_catalog_link="<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Big+Bend+Park+BIBE&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
-let BIBE_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=63608742'>General management plan</a><br>"
-let BIBE_history_book ="<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=445224594'>Big Bend history with digital link</a>"
 
 let LOWE_brochure_link = "<br><a href='https://www.loc.gov/item/80690757/'>Lowell visitor brochure</a><br>"
 let LOWE_catalog_link = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Lowell+Historical+Park+LOWE&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
@@ -21,20 +42,12 @@ let LOWE_habs_3 = "<a href='https://www.loc.gov/item/ma0298/'>HABS-HAER - Town H
 let LOWE_habs_2 = "<a href='https://www.loc.gov/item/ma0297/'>HABS-HAER - Brick Block boarding houses</a><br>"
 let LOWE_habs_1 = "<a href='https://www.loc.gov/item/ma0296/'>HABS-HAER - Boott & Mass. Agents' House</a><br>"
 
-let SARA_brochure_link ="<br><a href='http://npgallery.nps.gov/AssetDetail/3ac2bbec-90e0-4b02-ac83-6812ee1b4efb'>Saratoga Visitor brochure</a><br>"
-let SARA_catalog_link ="<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Saratoga+Historical+Park+SARA&selectUsing=2.0&rows=20>'>Library catalog search </a><br>"
-let SARA_gmp_link ="<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=446748668'>General management plan </a><br>"
- 
 let MORA_brochure = "<br><a href='https://www.nps.gov/mora/planyourvisit/upload/Mount-Rainier-Brochure-final_Combo_508_v2023.pdf'>Mt Rainier visitor brochure</a><br>"
 let MORA_catalog ="<a href=https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Mount+Rainier+Park+MORA&selectUsing=2.0&rows=20'>Library catalog search</a></a><br>"
 let MORA_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=60499535' >General management plan</a><br>"
 let MORA_Muir = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=74655891'>John Muir writings, see vol.8</a><br>"
 let MORA_steep_trails = "<a href='https://babel.hathitrust.org/cgi/pt?id=mdp.39015004741651&seq=293'>John Muir: Ascent of Mt Rainier</a><br>"
 
-let YOSE_map = "<a href='https://www.nps.gov/yose/planyourvisit/maps.htm'>Visitor map</a><br>"
-let YOSE_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Yosemite+Park+YOSE&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
-let YOSE_Muir = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=74655891'>John Muir writings</a><br>"
-let YOSE_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=54724664' >General management plan</a><br>"
 
 let MUWO_map_link ="<a href='https://www.nps.gov/muwo/planyourvisit/maps.htm'>Visitor map</a><br>"
 let MUWO_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Muir+Woods&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
@@ -48,12 +61,6 @@ let MIMA_underground = "<a href='http://npgallery.nps.gov/AssetDetail/555a3ab0-d
 let MIMA_catalog = "<a href='https://eos/fcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Minute+Man+Historical+Park+MIMA&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 
 
-let ACAD_map ="<a href='https://www.nps.gov/acad/planyourvisit/maps.htm'>Map on park web site</a><br>"
-let ACAD_brochure = "<a href='https://www.loc.gov/resource/g3732a.ct005591/?r=-2.925,-0.016,6.849,3.137,0'>Visitor brochure, 2008</a><br>"
-let ACAD_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Acadia+Park+ACAD&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
-let ACAD_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=446726517' >General management plan</a><br>"
-
-
 let NAVA_map = "<a href='https://www.nps.gov/nava/planyourvisit/maps.htm'>Map on park web site</a><br>"
 let NAVA_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Navajo+Monument+NAVA&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 let NAVA_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=62543811' >General management plan</a><br>"
@@ -62,6 +69,10 @@ let NAVA_habs_1 = "<a href='https://www.loc.gov/item/nm0169/'>Crow Canyon petrog
 let ANTI_brochure = "Antietam National Battlefield<br><a href='http://npgallery.nps.gov/AssetDetail/1fdc60bb-35d2-4693-8b75-e06578c23b7b'>Park brochure, 2025</a><br>"
 let ANTI_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Antietam+Battlefield+ANTI&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 let ANTI_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=440913273' >General management plan</a><br>"
+
+let BISC_catalog = "</a><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Biscayne+BISC&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
+let BISC_map = "<a href='https://www.nps.gov/bisc/planyourvisit/maps.htm'>Park map</a><br>"
+let BISC_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=449245259'>General management plan</a><br>  <a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=241608922'>General management plan ammendment, 2011</a><br>"
 
 let GETT_brochure_1 = "<a href='http://npgallery.nps.gov/AssetDetail/395ce0e8-5ec3-4f8f-92c8-4c5a7d8ec9d6'>1. Park brochure, 2025</a><br>"
 let GETT_brochure_2 = "<a href='http://npgallery.nps.gov/AssetDetail/09ad90ca-a3c4-44ac-8780-ab031b439acb'>2. Park brochure, 2021</a><br>"
@@ -75,23 +86,26 @@ let JELA_map = "<a href='https://www.nps.gov/jela/planyourvisit/maps.htm'>Map on
 let JELA_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Jean Lafitte+Historical+Park+JELA&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 let JELA_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=449045264' >General management plan</a><br>"
 
-let SITK_map = "<a href='https://www.nps.gov/sitk/planyourvisit/maps.htm'>Map on park web site</a><br>"
-let SITK_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Sitka+Historical+Park+SITKA&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
-let SITK_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=70664426'>General management plan</a><br>"
+let SAFR_map = "<a href='https://www.nps.gov/safr/planyourvisit/maps.htm'>Map on park web site</a><br>"
+let SAFR_catalog = "<a href='https://library.nps.gov/vufind/Search/Results?filter%5B%5D=collection%3A%22NPS+-+NPS+LIBRIS%22&filter%5B%5D=building%3A%22San+Francisco+Maritime+National+Historical+Park+%28SAFR%29%22&type=AllFields'>Library catalog search</a><br>"
+let SAFR_gmp ="<a href='https://library.nps.gov/vufind/Record/safr_ocn645874833' >General management plan</a><br>"
 
-let CANY_map = "<a href='https://www.nps.gov/cany/planyourvisit/maps.htm'>Map on park web site</a><br>"
-let CANY_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Canyonlands+Park+CANY&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
-let CANY_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=446752552'>General management plan</a><br>"
-let CANY_gmp_etic = "<a href='https://pubs.nps.gov/eTIC/CACO-CHIS/CANY_164_D1212_B_0001_of_0007.pdf'>General management plan brochure</a><br>"
+let SARA_brochure_link ="<br><a href='http://npgallery.nps.gov/AssetDetail/3ac2bbec-90e0-4b02-ac83-6812ee1b4efb'>Saratoga Visitor brochure</a><br>"
+let SARA_catalog_link ="<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Saratoga+Historical+Park+SARA&selectUsing=2.0&rows=20>'>Library catalog search </a><br>"
+let SARA_gmp_link ="<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=446748668'>General management plan </a><br>"
 
-let CHCU_map = "<a href='https://www.nps.gov/chcu/planyourvisit/maps.htm'>Map on park web site</a><br>"
-let CHCU_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Chaco+Culture+Park+CHCU&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
-let CHCU_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=53227751'>General management plan</a><br>"
+
 
 let SEKI_map = "<a href='https://www.nps.gov/seki/planyourvisit/maps.htm'>Map on park web site</a><br>"
 let SEKI_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Sequoia+and+Kings+Canyon+SEKI&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 let SEKI_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=64650515'>General management plan</a><br>"
 let SEKI_guide = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=53724795'>Guide to Sequoia and Kings Canyon</a><br>"
+
+let SITK_map = "<a href='https://www.nps.gov/sitk/planyourvisit/maps.htm'>Map on park web site</a><br>"
+let SITK_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Sitka+Historical+Park+SITKA&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
+let SITK_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=70664426'>General management plan</a><br>"
+
+
 
 let EFMO_map = "<a href='http://npgallery.nps.gov/AssetDetail/50f769c3-9879-4a08-bddb-3a81c124f658'>Park brochure</a><br>"
 let EFMO_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Effigy+Mounds+Monument+EFMO&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
@@ -101,26 +115,14 @@ let CIRO_map = "<a href='http://npgallery.nps.gov/AssetDetail/04d19b7c-5b78-4d17
 let CIRO_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=City+of+Rocks+Reserve+CIRO&selectUsing=2.0&rows=20>'>Library catalog search</a></br>"
 let CIRO_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=441160066'>General management plan</a><br>"
 
-let AGFO_admin = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=56319217'>Administrative History</a><br>"
-let AGFO_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Agate+Fossil+Beds+Monument+AGFO&selectUsing=2.0&rows=20>'>Library catalog search</a></br>"
-let AGFO_handbook = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=73765437'>Handbook</a><br>"
-let AGFO_statement = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=449226126'>Statement for management</a><br>"
-
 let INDE_map ="<a href='https://www.nps.gov/inde/planyourvisit/maps.htm'>Park map</a><br>"
 let INDE_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Independence+Historical+Site+INDE&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 let INDE_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=65769981'>General management plan</a><br>"
  
-let YELL_catalog = "</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Yellowstone+Park+YELL&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
-let YELL_usgs = "<a href='https://library.nps.gov/vufind/Search/Results?filter%5B%5D=institution%3A%22U.S.+Geological+Survey+%28USGS%29%22&filter%5B%5D=building%3A%22Yellowstone+National+Park+%28YELL%29%22&type=AllFields'>USGS reports</a><br>"
-
 
 let JODA_map = "<a href='https://www.nps.gov/joda/planyourvisit/maps.htm'>Park map</a>"
 let JODA_catalog = "</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=John+Day+Fossil+Beds+JODA&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 let JODA_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=66074420'>General management plan</a><br>"
-
-let BISC_catalog = "</a><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Biscayne+BISC&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
-let BISC_map = "<a href='https://www.nps.gov/bisc/planyourvisit/maps.htm'>Park map</a><br>"
-let BISC_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=449245259'>General management plan</a><br>  <a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=241608922'>General management plan ammendment, 2011</a><br>"
 
 let OLYM_map = "<a href='https://www.nps.gov/olym/planyourvisit/maps.htm'>Park map</a><br>"
 let OLYM_catalog = "</a><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Olympic+Park+OLYM&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
@@ -136,6 +138,15 @@ let GLAC_map = "<a href='https://www.nps.gov/glac/planyourvisit/maps.htm'>Park m
 let GLAC_catalog = "</a><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Glacier+Park+GLAC&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 let GLAC_usgs = "<a href='https://library.nps.gov/vufind/Search/Results?filter%5B%5D=institution%3A%22U.S.+Geological+Survey+%28USGS%29%22&filter%5B%5D=building%3A%22Glacier+National+Park+%28GLAC%29%22&type=AllFields'>USGS reports</a><br>"
 let GLAC_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=61017831'>General management plan</a><br>"
+
+// https://library.nps.gov/vufind/Search/Results?filter%5B%5D=collection%3A%22NPS+-+NPS+LIBRIS%22&filter%5B%5D=building%3A%22Yellowstone+National+Park+%28YELL%29%22&type=AllFields
+let YELL_catalog = "</a><br><a href='https://library.nps.gov/vufind/Search/Results?filter%5B%5D=collection%3A%22NPS+-+NPS+LIBRIS%22&filter%5B%5D=building%3A%22Yellowstone+National+Park+%28YELL%29%22&type=AllFields'>Library catalog search</a><br>"
+let YELL_usgs = "<a href='https://library.nps.gov/vufind/Search/Results?filter%5B%5D=institution%3A%22U.S.+Geological+Survey+%28USGS%29%22&filter%5B%5D=building%3A%22Yellowstone+National+Park+%28YELL%29%22&type=AllFields'>USGS reports</a><br>"
+
+let YOSE_map = "<a href='https://www.nps.gov/yose/planyourvisit/maps.htm'>Visitor map</a><br>"
+let YOSE_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Yosemite+Park+YOSE&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
+let YOSE_Muir = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=74655891'>John Muir writings</a><br>"
+let YOSE_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=54724664' >General management plan</a><br>"
 
 
 // Longfellow House
