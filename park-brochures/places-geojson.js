@@ -299,6 +299,20 @@ var park = {
             "id": 21
         },
 
+                {
+           "geometry": {
+                "type": "Point",
+                "coordinates": [
+				 	-92.9181137084961, 35.9686393737793	
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+				"popupContent":  "Buffalo National River<br>" + BUFF_map + BUFF_catalog + BUFF_trail  + BUFF_usgs
+            },
+            "id": 22
+        },
+
 
 
 

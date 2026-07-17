@@ -10,10 +10,15 @@ let AGFO_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Searc
 let AGFO_handbook = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=73765437'>Handbook</a><br>"
 let AGFO_statement = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=449226126'>Statement for management</a><br>"
 
-let BIBE_map_link ="Big Bend Nationl Park<br><a href='https://www.nps.gov/bibe/learn/news/upload/2025-Big-Bend-NP-Paisano-Visitor-Guide-1.pdf'>Big Bend paisano guide</a><br>"
+let BIBE_map_link ="Big Bend National Park<br><a href='https://www.nps.gov/bibe/learn/news/upload/2025-Big-Bend-NP-Paisano-Visitor-Guide-1.pdf'>Big Bend paisano guide</a><br>"
 let BIBE_catalog_link="<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Big+Bend+Park+BIBE&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 let BIBE_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=63608742'>General management plan</a><br>"
 let BIBE_history_book ="<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=445224594'>Big Bend history with digital link</a>"
+
+let BUFF_map ="<a href='https://www.nps.gov/buff/planyourvisit/maps.htm'>Map on park web site</a><br>"
+let BUFF_catalog="<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Buffalo+River+BUFF&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
+let BUFF_trail = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=449274379'>Trail plan</a><br>"
+let BUFF_usgs = "<a href='https://library.nps.gov/vufind/Search/Results?filter%5B%5D=institution%3A%22U.S.+Geological+Survey+%28USGS%29%22&filter%5B%5D=building%3A%22Buffalo+National+River+%28BUFF%29%22&type=AllFields'>USGS reports</a><br>"
 
 let CANY_map = "<a href='https://www.nps.gov/cany/planyourvisit/maps.htm'>Map on park web site</a><br>"
 let CANY_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Canyonlands+Park+CANY&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
@@ -23,6 +28,12 @@ let CANY_gmp_etic = "<a href='https://pubs.nps.gov/eTIC/CACO-CHIS/CANY_164_D1212
 let CHCU_map = "<a href='https://www.nps.gov/chcu/planyourvisit/maps.htm'>Map on park web site</a><br>"
 let CHCU_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Chaco+Culture+Park+CHCU&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 let CHCU_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=53227751'>General management plan</a><br>"
+
+//https://home.nps.gov/glac/planyourvisit/maps.htm
+let GLAC_map = "<a href='https://www.nps.gov/glac/planyourvisit/maps.htm'>Park map</a><br>"
+let GLAC_catalog = "</a><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Glacier+Park+GLAC&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
+let GLAC_usgs = "<a href='https://library.nps.gov/vufind/Search/Results?filter%5B%5D=institution%3A%22U.S.+Geological+Survey+%28USGS%29%22&filter%5B%5D=building%3A%22Glacier+National+Park+%28GLAC%29%22&type=AllFields'>USGS reports</a><br>"
+let GLAC_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=61017831'>General management plan</a><br>"
 
 //"Grand Canyon<br><a href='https://www.loc.gov/item/96682413/'>Park brochure</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Grand+Canyon+Park+GRCA&selectUsing=2.0&rows=20>'>Library catalog search</a>"
 let GRCA_brochure="Grand Canyon<br><a href='https://www.loc.gov/item/96682413/'>Park brochure</a><br>"
@@ -131,13 +142,6 @@ let OLYM_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/R
 
 let HSTR_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Harry+Truman+HSTR&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 let HSTR_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=75329851'>General management plan</a><br>"
-
-
-//https://home.nps.gov/glac/planyourvisit/maps.htm
-let GLAC_map = "<a href='https://www.nps.gov/glac/planyourvisit/maps.htm'>Park map</a><br>"
-let GLAC_catalog = "</a><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Glacier+Park+GLAC&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
-let GLAC_usgs = "<a href='https://library.nps.gov/vufind/Search/Results?filter%5B%5D=institution%3A%22U.S.+Geological+Survey+%28USGS%29%22&filter%5B%5D=building%3A%22Glacier+National+Park+%28GLAC%29%22&type=AllFields'>USGS reports</a><br>"
-let GLAC_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=61017831'>General management plan</a><br>"
 
 // https://library.nps.gov/vufind/Search/Results?filter%5B%5D=collection%3A%22NPS+-+NPS+LIBRIS%22&filter%5B%5D=building%3A%22Yellowstone+National+Park+%28YELL%29%22&type=AllFields
 let YELL_catalog = "</a><br><a href='https://library.nps.gov/vufind/Search/Results?filter%5B%5D=collection%3A%22NPS+-+NPS+LIBRIS%22&filter%5B%5D=building%3A%22Yellowstone+National+Park+%28YELL%29%22&type=AllFields'>Library catalog search</a><br>"
