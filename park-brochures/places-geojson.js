@@ -299,7 +299,7 @@ var park = {
             "id": 21
         },
 
-                {
+        {
            "geometry": {
                 "type": "Point",
                 "coordinates": [
@@ -313,7 +313,19 @@ var park = {
             "id": 22
         },
 
-
+        {
+           "geometry": {
+                "type": "Point",
+                "coordinates": [
+				 	-72.9943466186523, 40.6918296813965
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+				"popupContent":  "Fire Island National Seashore<br>" + FIIS_map + FIIS_catalog + FIIS_gmp + FIIS_usgs
+            },
+            "id": 23
+        },
 
 
 

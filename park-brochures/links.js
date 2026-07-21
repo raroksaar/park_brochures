@@ -29,6 +29,12 @@ let CHCU_map = "<a href='https://www.nps.gov/chcu/planyourvisit/maps.htm'>Map on
 let CHCU_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Chaco+Culture+Park+CHCU&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 let CHCU_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=53227751'>General management plan</a><br>"
 
+let FIIS_map = "<a href='https://www.nps.gov/fiis/planyourvisit/maps.htm'>Map on park web site</a><br>"
+let FIIS_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Fire+Island+Seashore+FIIS&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
+let FIIS_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=60984524'>General management plan</a><br>"
+let FIIS_usgs = "<a href='https://library.nps.gov/vufind/Search/Results?filter%5B%5D=institution%3A%22U.S.+Geological+Survey+%28USGS%29%22&filter%5B%5D=building%3A%22Fire+Island+National+Seashore+%28FIIS%29%22&type=AllFields'>USGS reports</a><br>"
+
+
 //https://home.nps.gov/glac/planyourvisit/maps.htm
 let GLAC_map = "<a href='https://www.nps.gov/glac/planyourvisit/maps.htm'>Park map</a><br>"
 let GLAC_catalog = "</a><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Glacier+Park+GLAC&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
