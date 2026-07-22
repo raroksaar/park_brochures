@@ -327,6 +327,20 @@ var park = {
             "id": 23
         },
 
+        //GRTE	Grand Teton National Park	43.8258895874023	-110.685600280762
+        {
+           "geometry": {
+                "type": "Point",
+                "coordinates": [
+				 	-110.685600280762, 43.8258895874023	
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+				"popupContent": "Grand Teton National Park<br>" + GRTE_map + GRTE_catalog + GRTE_gmp + GRTE_usgs
+            },
+            "id": 24
+        },
 
 
 ///  set from NPGallery:
