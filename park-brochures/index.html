@@ -80,14 +80,18 @@ Click anywhere on the map to get links to Google, Bing and OpenStreetMap maps <b
 			iconAnchor: [2, 2],
 			popupAnchor: [0, 0]
 	    });
-		
 
+	//  habs_icon.on('mouseover',function(ev) {
+  	//   	ev.target.openPopup();
+	//   });
+	
 	const haer_icon = L.icon({
 			iconUrl: 'images/gear_2.jpg',
 			iconSize: [15, 15],
 			iconAnchor: [2, 2],
 			popupAnchor: [0, 0]
 	    });
+
 	function onEachFeature(feature, layer) {
 		//let popupContent = '<b><img src="images\\logo.png" alt="Arrowhead" width="22" height="30">';
 		let popupContent = '<b>';
@@ -121,7 +125,8 @@ Click anywhere on the map to get links to Google, Bing and OpenStreetMap maps <b
 			return L.marker(latlng, {icon: habs_icon});
 		}
 	}).addTo(map);
-	
+
+
 
 	const haerLayer = L.geoJSON([haer], {
 		style(feature) {
