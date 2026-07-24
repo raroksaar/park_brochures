@@ -53,6 +53,7 @@ Click anywhere on the map to get links to Google, Bing and OpenStreetMap maps <b
 
 
 
+
 <script>
 	
 	var map = L.map('map').setView([37.032375, -97.121173], 5);  
@@ -84,6 +85,15 @@ Click anywhere on the map to get links to Google, Bing and OpenStreetMap maps <b
 	//  habs_icon.on('mouseover',function(ev) {
   	//   	ev.target.openPopup();
 	//   });
+
+	const plantation_icon = L.icon({
+		// home-icon.jpg
+		// chat_house.jpg
+			iconUrl: 'images/chat_house.jpg',
+			iconSize: [15, 18],
+			iconAnchor: [2, 2],
+			popupAnchor: [0, 0]
+	    });
 	
 	const haer_icon = L.icon({
 			iconUrl: 'images/gear_2.jpg',
@@ -126,9 +136,15 @@ Click anywhere on the map to get links to Google, Bing and OpenStreetMap maps <b
 		}
 	}).addTo(map);
 
-		// habsLayr.bindTooltip("test", {permanent: false, direction: "top"});
-        // habsLayr.on('mouseover', function () { this.openTooltip(); });
-        // habsLayr.on('mouseout', function () { this.closeTooltip(); });
+	const plantations = L.geoJSON([plantation], {
+		style(feature) {
+			return feature.properties && feature.properties.style;
+		},
+		onEachFeature,
+		pointToLayer(feature, latlng) {
+			return L.marker(latlng, {icon: plantation_icon});
+		}
+	}).addTo(map);
 
 
 
