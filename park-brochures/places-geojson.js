@@ -355,7 +355,22 @@ var park = {
             },
             "id": 25
         },
-        
+
+// TUMA	Tumacacori National Historical Park	31.5621604919434	-111.04759979248
+        {
+           "geometry": {
+                "type": "Point",
+                "coordinates": [
+				 	-111.04759979248, 31.5621604919434
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+				"popupContent": "Tumacacori National Historical Park<br>" + TUMA_map + TUMA_catalog + TUMA_gmp
+            },
+            "id": 26
+        }, 
+
 ///  set from NPGallery:
 {"features": [{"geometry": {"coordinates": [-77.735977, 39.462379], "type": "Point"}, "properties": {"park": "Antietam National Battlefield (ANTI)", "popupContent": ANTI_brochure + ANTI_catalog + ANTI_gmp}, "type": "Feature"}], "type": "FeatureCollection"},
 {"features": [{"geometry": {"coordinates": [-78.80275, 37.382679], "type": "Point"}, "properties": {"park": "Appomattox Court House National Historical Park (APCO)", "popupContent": "Appomattox Court House National Historical Park<br><a href='http://npgallery.nps.gov/AssetDetail/05ce4edf-ad9a-4a78-af03-782ea5b227c9'>Park brochure, 2025</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Appomattox+Court+House+Historical+Park+APCO&selectUsing=2.0&rows=20>'>Library catalog search</a>"}, "type": "Feature"}], "type": "FeatureCollection"},
