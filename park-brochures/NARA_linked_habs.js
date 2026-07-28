@@ -20,7 +20,7 @@ var plantation = {"type": "FeatureCollection",    "features": [
 
 
 var habs = {"type": "FeatureCollection",    "features": [
-{"features": [{"geometry": {"coordinates": [-74.088278, 41.750861], "type": "Point"}, "properties": {"popupContent": "Jean Hasbrouck House, Huguenot Street, New Paltz, Ulster County, NY<br><a href='https://www.loc.gov/item/ny0882'>Library of Congress</a><br>"}, "type": "Feature"}], "type": "FeatureCollection"},
+{"features": [{"geometry": {"coordinates": [-74.088278, 41.750861], "type": "Point"}, "properties": {"popupContent": "Jean Hasbrouck House, Huguenot Street, New Paltz, Ulster County, NY<br><a href='https://www.loc.gov/item/ny0882'>Library of Congress</a><br><a href='https://catalog.archives.gov/search?page=1&q=66000578+NPS'>National Archives</a><br>"}, "type": "Feature"}], "type": "FeatureCollection"},
 // NRIS Number: 67000016, 66000578
 
 {"features": [{"geometry": {"coordinates": [-107.6167, 36.547], "type": "Point"}, "properties": {"popupContent": "Crow Canyon Petroglyphs, Cuervo Canyon at junction of Canon Largo, Blanco, San Juan County, NM<br><a href='https://www.loc.gov/item/nm0169'>Library of Congress</a><br>", "town": "Blanco San Juan County NM"}, "type": "Feature"}], "type": "FeatureCollection"},
