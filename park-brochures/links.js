@@ -123,6 +123,10 @@ let OZAR_usgs = "<a href='https://library.nps.gov/vufind/Search/Results?filter%5
 let ROMO_map ="Rocky Mountain National Park<br><a href='https://www.nps.gov/romo/planyourvisit/upload/ROMOmap1_small_2022.jpg'>Rocky Mountain map</a><br>"
 let ROMO_catalog_link = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Rocky+ Mountain+Park+ROMO&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 let ROMO_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=60650837'>Proposed master plan</a><br>"
+let ROMO_usgs = "<a href='https://library.nps.gov/vufind/Search/Results?filter%5B%5D=institution%3A%22U.S.+Geological+Survey+%28USGS%29%22&filter%5B%5D=building%3A%22Rocky+Mountain+National+Park+%28ROMO%29%22&type=AllFields'>USGS reports</a><br>"
+
+// https://crosssearch.nps.gov/vufind/Search/Results?filter%5B%5D=institution%3A%22U.S.+Geological+Survey+%28USGS%29%22&filter%5B%5D=building%3A%22Rocky+Mountain+National+Park+%28ROMO%29%22&type=AllFields
+
 
 let SAFR_map = "<a href='https://www.nps.gov/safr/planyourvisit/maps.htm'>Map on park web site</a><br>"
 let SAFR_catalog = "<a href='https://library.nps.gov/vufind/Search/Results?filter%5B%5D=collection%3A%22NPS+-+NPS+LIBRIS%22&filter%5B%5D=building%3A%22San+Francisco+Maritime+National+Historical+Park+%28SAFR%29%22&type=AllFields'>Library catalog search</a><br>"
@@ -153,7 +157,6 @@ let OLYM_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/R
 let HSTR_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Harry+Truman+HSTR&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 let HSTR_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=75329851'>General management plan</a><br>"
 
-// https://library.nps.gov/vufind/Search/Results?filter%5B%5D=collection%3A%22NPS+-+NPS+LIBRIS%22&filter%5B%5D=building%3A%22Yellowstone+National+Park+%28YELL%29%22&type=AllFields
 let YELL_catalog = "</a><br><a href='https://library.nps.gov/vufind/Search/Results?filter%5B%5D=collection%3A%22NPS+-+NPS+LIBRIS%22&filter%5B%5D=building%3A%22Yellowstone+National+Park+%28YELL%29%22&type=AllFields'>Library catalog search</a><br>"
 let YELL_usgs = "<a href='https://library.nps.gov/vufind/Search/Results?filter%5B%5D=institution%3A%22U.S.+Geological+Survey+%28USGS%29%22&filter%5B%5D=building%3A%22Yellowstone+National+Park+%28YELL%29%22&type=AllFields'>USGS reports</a><br>"
 
@@ -161,7 +164,7 @@ let YOSE_map = "<a href='https://www.nps.gov/yose/planyourvisit/maps.htm'>Visito
 let YOSE_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Yosemite+Park+YOSE&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 let YOSE_Muir = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=74655891'>John Muir writings</a><br>"
 let YOSE_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=54724664' >General management plan</a><br>"
-
+let YOSE_usgs = "<a href='https://library.nps.gov/vufind/Search/Results?filter%5B%5D=institution%3A%22U.S.+Geological+Survey+%28USGS%29%22&filter%5B%5D=building%3A%22Yosemite+National+Park+%28YOSE%29%22&type=AllFields'>USGS reports</a><br>"
 
 // Longfellow House
 //  https://www.nps.gov/long/index.htm
