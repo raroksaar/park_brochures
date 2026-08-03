@@ -45,6 +45,12 @@ let EFMO_map = "<a href='http://npgallery.nps.gov/AssetDetail/50f769c3-9879-4a08
 let EFMO_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Effigy+Mounds+Monument+EFMO&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 let EFMO_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=244144214'>General management plan</a><br>"
 
+let EVER_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Everglades+Park+EVER&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
+let EVER_usgs = "<a href='https://library.nps.gov/vufind/Search/Results?filter%5B%5D=institution%3A%22U.S.+Geological+Survey+%28USGS%29%22&filter%5B%5D=building%3A%22Everglades+National+Park+%28EVER%29%22&type=AllFields'>USGS reports</a><br>"
+let EVER_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=449328501'>South Florida ... coordinated management plan</a><br>"
+
+//https://catalog.hathitrust.org/Record/003246490
+
 
 let FIIS_map = "<a href='https://www.nps.gov/fiis/planyourvisit/maps.htm'>Map on park web site</a><br>"
 let FIIS_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Fire+Island+Seashore+FIIS&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
