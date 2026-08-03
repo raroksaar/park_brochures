@@ -42,6 +42,7 @@ let CIRO_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Searc
 let CIRO_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=441160066'>General management plan</a><br>"
 
 let DRTO_map = "<a href='https://www.nps.gov/drto/planyourvisit/maps.htm'>Park map/brochure</a><br>"
+let DRTO_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Dry+Tortugas+Park+DRTO&selectUsing=2.0&rows=20>'>Library catalog search</a></br>"
 
 
 

@@ -380,7 +380,7 @@ var park = {
             },
             "type": "Feature",
             "properties": {
-				"popupContent": "Dry Tortugas National Park<br>" + DRTO_map // + TUMA_catalog + TUMA_gmp
+				"popupContent": "Dry Tortugas National Park<br>" + DRTO_map + DRTO_catalog// + TUMA_catalog + TUMA_gmp
             },
             "id": 27
         }, 
