@@ -18,16 +18,10 @@ var plantation = {"type": "FeatureCollection",    "features": [
 
 ]}
 
-
 var habs = {"type": "FeatureCollection",    "features": [
 {"features": [{"geometry": {"coordinates": [-74.088278, 41.750861], "type": "Point"}, "properties": {"popupContent": "Jean Hasbrouck House, Huguenot Street, New Paltz, Ulster County, NY<br><a href='https://www.loc.gov/item/ny0882'>Library of Congress</a><br><a href='https://catalog.archives.gov/search?page=1&q=75316089+NPS'>National Archives</a><br>"}, "type": "Feature"}], "type": "FeatureCollection"},
-// NRIS Number:  75316089
 
 {"features": [{"geometry": {"coordinates": [-145.73088, 64.035589], "type": "Point"}, "properties": {"popupContent": "Sullivan Roadhouse, Valdez-Fairbanks Trail, Fairbanks, AK<br><a href='https://www.loc.gov/item/ak0040'>Library of Congress</a><br><a href='https://catalog.archives.gov/search?page=1&q=79003756+NPS'>National Archives</a><br><a href='https://en.wikipedia.org/wiki/Sullivan_Roadhouse'>Wikipedia</a> "}, "type": "Feature"}], "type": "FeatureCollection"},
-
-//"LC id": "LC_HABS_HAER_ak0040", "Library of Congress": "https://www.loc.gov/item/ak0040/", "State": "AK",
-// NRIS Number:  79003756
-//"wikipedia link": "https://en.wikipedia.org/wiki/Sullivan_Roadhouse<br>
 
 {"features": [{"geometry": {"coordinates": [-107.6167, 36.547], "type": "Point"}, "properties": {"popupContent": "Crow Canyon Petroglyphs, Cuervo Canyon at junction of Canon Largo, Blanco, San Juan County, NM<br><a href='https://www.loc.gov/item/nm0169'>Library of Congress</a><br>", "town": "Blanco San Juan County NM"}, "type": "Feature"}], "type": "FeatureCollection"},
 {"features": [{"geometry": {"coordinates": [-131.597062, 55.318142], "type": "Point"}, "properties": {"popupContent": "Chief Kashakes' House, Mile 2.5 South Tongass Highway, Saxman, Ketchikan Gateway Borough, AK<br><a href='https://www.loc.gov/item/ak0436'>Library of Congress</a><br><a href='https://catalog.archives.gov/search?page=1&q=93000338+NPS'>Na79003756tional Archives</a><br>", "town": "Saxman,  Ketchikan Gateway Borough,  AK"}, "type": "Feature"}], "type": "FeatureCollection"},
