@@ -41,6 +41,11 @@ let CIRO_map = "<a href='http://npgallery.nps.gov/AssetDetail/04d19b7c-5b78-4d17
 let CIRO_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=City+of+Rocks+Reserve+CIRO&selectUsing=2.0&rows=20>'>Library catalog search</a></br>"
 let CIRO_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=441160066'>General management plan</a><br>"
 
+let DENA_map = "<a href='https://www.nps.gov/dena/planyourvisit/maps.htm'>Park map/brochure</a><br>"
+let DENA_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Denali+Park+DENA&selectUsing=2.0&rows=20>'>Library catalog search</a></br>"
+let DENA_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=64437675'>General management plan</a><br>"
+// 
+
 let DRTO_map = "<a href='https://www.nps.gov/drto/planyourvisit/maps.htm'>Park map/brochure</a><br>"
 let DRTO_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Dry+Tortugas+Park+DRTO&selectUsing=2.0&rows=20>'>Library catalog search</a></br>"
 

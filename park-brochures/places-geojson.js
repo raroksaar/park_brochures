@@ -385,7 +385,21 @@ var park = {
             "id": 27
         }, 
 
+        // DENA	Denali National Park and Preserve	63.3182792663574	-150.602905273438
 
+        {
+           "geometry": {
+                "type": "Point",
+                "coordinates": [
+				 	-150.602905273438, 63.3182792663574	
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+				"popupContent": "Denali National Park and Preserve<br>" + DENA_map + DENA_catalog + DENA_gmp
+            },
+            "id": 27
+        }, 
 
 
 
