@@ -90,6 +90,10 @@ let GRTE_catalog= "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search
 let GRTE_gmp ="<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=60943398'>Statement for management</a><br>"
 let GRTE_usgs ="<a href='https://library.nps.gov/vufind/Search/Results?filter%5B%5D=institution%3A%22U.S.+Geological+Survey+%28USGS%29%22&filter%5B%5D=building%3A%22Grand+Teton+National+Park+%28GRTE%29%22&type=AllFields'>USGS reports</a><br>"
 
+let HAGR_catalog= "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Hamilton+Grange+Memorial+HAGR&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
+let HAGR_map ="<a href='https://www.nps.gov/hagr/planyourvisit/maps.htm'>Park map</a><br>"
+let HAGR_gmp ="<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=449340062'>General manangement plan</a><br>"
+
 let INDE_map ="<a href='https://www.nps.gov/inde/planyourvisit/maps.htm'>Park map</a><br>"
 let INDE_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Independence+Historical+Site+INDE&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 let INDE_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=65769981'>General management plan</a><br>"

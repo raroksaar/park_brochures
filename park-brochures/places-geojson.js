@@ -398,9 +398,25 @@ var park = {
             "properties": {
 				"popupContent": "Denali National Park and Preserve<br>" + DENA_map + DENA_catalog + DENA_gmp
             },
-            "id": 27
+            "id": 28
         }, 
 
+        //HAGR	Hamilton Grange National Memorial	40.8213386535645	-73.9471664428711
+
+
+        {
+           "geometry": {
+                "type": "Point",
+                "coordinates": [
+				 	-73.9471664428711, 40.8213386535645	
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+				"popupContent": "Hamilton Grange National Memorial<br>" + HAGR_map + HAGR_catalog + HAGR_gmp
+            },
+            "id": 29
+        }, 
 
 
 ///  set from NPGallery:
