@@ -86,7 +86,7 @@ Click anywhere on the map to get links to Google, Bing and OpenStreetMap maps <b
   	//   	ev.target.openPopup();
 	//   });
 
-	const plantation_icon = L.icon({
+	const mansion_icon = L.icon({
 		// home-icon.jpg
 		// chat_house.jpg
 			iconUrl: 'images/chat_house.jpg',
@@ -136,13 +136,13 @@ Click anywhere on the map to get links to Google, Bing and OpenStreetMap maps <b
 		}
 	}).addTo(map);
 
-	const plantations = L.geoJSON([plantation], {
+	const mansions = L.geoJSON([mansion], {
 		style(feature) {
 			return feature.properties && feature.properties.style;
 		},
 		onEachFeature,
 		pointToLayer(feature, latlng) {
-			return L.marker(latlng, {icon: plantation_icon});
+			return L.marker(latlng, {icon: mansion_icon});
 		}
 	}).addTo(map);
 
