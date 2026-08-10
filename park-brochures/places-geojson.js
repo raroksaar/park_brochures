@@ -145,7 +145,7 @@ var park = {
             },
             "type": "Feature",
             "properties": {
-				"popupContent":  "Acadia<br>" + ACAD_map+ACAD_brochure+ACAD_catalog+ACAD_gmp
+				"popupContent":  "Acadia National Park<br>" + ACAD_map+ACAD_brochure+ACAD_catalog+ACAD_gmp+ACAD_usgs
             },
             "id": 11
         },
@@ -418,6 +418,20 @@ var park = {
             "id": 29
         }, 
 
+        //LAKE	Lake Mead National Recreation Area	36.2438583374023	-114.379402160645
+        {
+           "geometry": {
+                "type": "Point",
+                "coordinates": [
+				 	-114.379402160645, 36.2438583374023
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+				"popupContent": "Lake Mead National Recreation Area<br>" + LAKE_map + LAKE_catalog + LAKE_gmp + LAKE_usgs
+            },
+            "id": 30
+        }, 
 
 ///  set from NPGallery:
 {"features": [{"geometry": {"coordinates": [-77.735977, 39.462379], "type": "Point"}, "properties": {"park": "Antietam National Battlefield (ANTI)", "popupContent": ANTI_brochure + ANTI_catalog + ANTI_gmp}, "type": "Feature"}], "type": "FeatureCollection"},

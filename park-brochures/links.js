@@ -4,6 +4,8 @@ let ACAD_map ="<a href='https://www.nps.gov/acad/planyourvisit/maps.htm'>Map on 
 let ACAD_brochure = "<a href='https://www.loc.gov/resource/g3732a.ct005591/?r=-2.925,-0.016,6.849,3.137,0'>Visitor brochure, 2008</a><br>"
 let ACAD_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Acadia+Park+ACAD&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 let ACAD_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=446726517' >General management plan</a><br>"
+let ACAD_usgs = "<a href='https://library.nps.gov/vufind/Search/Results?filter%5B%5D=institution%3A%22U.S.+Geological+Survey+%28USGS%29%22&filter%5B%5D=building%3A%22Acadia+National+Park+%28ACAD%29%22&type=AllFields'>USGS reports</a><br>"
+
 
 let AGFO_admin = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=56319217'>Administrative History</a><br>"
 let AGFO_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Agate+Fossil+Beds+Monument+AGFO&selectUsing=2.0&rows=20>'>Library catalog search</a></br>"
@@ -105,6 +107,12 @@ let JELA_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/R
 let JODA_map = "<a href='https://www.nps.gov/joda/planyourvisit/maps.htm'>Park map</a>"
 let JODA_catalog = "</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=John+Day+Fossil+Beds+JODA&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 let JODA_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=66074420'>General management plan</a><br>"
+
+
+let LAKE_map = "<a href='https://www.nps.gov/lake/planyourvisit/maps.htm'>Park map</a>"
+let LAKE_catalog = "</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Lake+Mead+Recreation+Area+LAKE&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
+let LAKE_gmp ="<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=70662273'>General management plan</a><br>" 
+let LAKE_usgs ="<a href='https://library.nps.gov/vufind/Search/Results?filter%5B%5D=institution%3A%22U.S.+Geological+Survey+%28USGS%29%22&filter%5B%5D=building%3A%22Lake+Mead+National+Recreation+Area+%28LAKE%29%22&type=AllFields'>USGS reports</a><br>"
 
 let LOWE_brochure_link = "<br><a href='https://www.loc.gov/item/80690757/'>Lowell visitor brochure</a><br>"
 let LOWE_catalog_link = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Lowell+Historical+Park+LOWE&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
