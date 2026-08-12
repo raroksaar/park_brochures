@@ -15,7 +15,8 @@ let AGFO_statement = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Det
 let ANTI_brochure = "Antietam National Battlefield<br><a href='http://npgallery.nps.gov/AssetDetail/1fdc60bb-35d2-4693-8b75-e06578c23b7b'>Park brochure, 2025</a><br>"
 let ANTI_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Antietam+Battlefield+ANTI&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 let ANTI_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=440913273' >General management plan</a><br>"
-
+let ANTI_nara = "<a href='https://catalog.archives.gov/search?page=1&q=66000038+NPS'>National Archives National Register proposal</a><br>"
+ 
 let BIBE_map_link ="Big Bend National Park<br><a href='https://www.nps.gov/bibe/learn/news/upload/2025-Big-Bend-NP-Paisano-Visitor-Guide-1.pdf'>Big Bend paisano guide</a><br>"
 let BIBE_catalog_link="<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Big+Bend+Park+BIBE&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 let BIBE_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=63608742'>General management plan</a><br>"
