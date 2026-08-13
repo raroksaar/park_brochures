@@ -173,6 +173,17 @@ let SEKI_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Searc
 let SEKI_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=64650515'>General management plan</a><br>"
 let SEKI_guide = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=53724795'>Guide to Sequoia and Kings Canyon</a><br>"
 
+let SHIL_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Shiloh+Military+Park+SHIL&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
+let SHIL_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=70702668'>General management plan</a><br>"
+let SHIL_bierce = "<a href='https://babel.hathitrust.org/cgi/pt?id=hvd.32044024436800&seq=242'>Ambrose Bierce: 'What I saw of Shiloh'</a><br>"
+let SHIL_grant = "<a href='https://babel.hathitrust.org/cgi/pt?id=hvd.32044022643373&seq=346'>U.S. Grant: The army at Pittsburg Landing</a><br>"
+
+//  <a href="https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=440137081">Collected works of Ambrose Bierce ...</a>
+//	<a href="https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=440068987">The personal memoirs of U.S. Grant.</a>
+
+
+
+
 let SITK_map = "<a href='https://www.nps.gov/sitk/planyourvisit/maps.htm'>Map on park web site</a><br>"
 let SITK_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Sitka+Historical+Park+SITKA&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 let SITK_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=70664426'>General management plan</a><br>"
