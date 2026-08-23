@@ -91,6 +91,13 @@ let GRCA_catalog= "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search
 let GRCA_gmp ="<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=53933530'>General management plan</a><br>"
 let GRCA_usgs ="<a href='https://library.nps.gov/vufind/Search/Results?filter%5B%5D=institution%3A%22U.S.+Geological+Survey+%28USGS%29%22&filter%5B%5D=building%3A%22Grand+Canyon+National+Park+%28GRCA%29%22&type=AllFields'>USGS reports</a><br>"
 
+let GRSM_catalog= "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Great+Smoky+Mountains+Park+GRSM&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
+let GRSM_map = "<a href='https://www.nps.gov/grsm/planyourvisit/maps.htm'>Park map</a><br>" //
+let GRSM_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=446751452'>General management plan</a><br>"
+let GRSM_usgs ="<a href='https://library.nps.gov/vufind/Search/Results?filter%5B%5D=institution%3A%22U.S.+Geological+Survey+%28USGS%29%22&filter%5B%5D=building%3A%22Great+Smoky+Mountains+National+Park+%28GRSM%29%22&type=AllFields'>USGS reports</a><br>"
+
+
+
 let GRTE_map="<a href='https://www.nps.gov/grte/planyourvisit/maps.htm/'>Park map</a><br>"
 let GRTE_catalog= "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Grand+Teton+Park+GRTE&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 let GRTE_gmp ="<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=60943398'>Statement for management</a><br>"
@@ -103,6 +110,9 @@ let GUIS_usgs = "<a href='https://crosssearch.nps.gov/vufind/Search/Results?filt
 let HAGR_catalog= "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Hamilton+Grange+Memorial+HAGR&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 let HAGR_map ="<a href='https://www.nps.gov/hagr/planyourvisit/maps.htm'>Park map</a><br>"
 let HAGR_gmp ="<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=449340062'>General manangement plan</a><br>"
+
+let HSTR_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Harry+Truman+HSTR&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
+let HSTR_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=75329851'>General management plan</a><br>"
 
 let INDE_map ="<a href='https://www.nps.gov/inde/planyourvisit/maps.htm'>Park map</a><br>"
 let INDE_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Independence+Historical+Site+INDE&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
@@ -151,6 +161,12 @@ let NAVA_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Searc
 let NAVA_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=62543811' >General management plan</a><br>"
 let NAVA_habs_1 = "<a href='https://www.loc.gov/item/nm0169/'>Crow Canyon petroglyphs</a><br>"
 
+let OLYM_map = "<a href='https://www.nps.gov/olym/planyourvisit/maps.htm'>Park map</a><br>"
+let OLYM_catalog = "</a><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Olympic+Park+OLYM&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
+let OLYM_usgs = "<a href='https://library.nps.gov/vufind/Search/Results?filter%5B%5D=institution%3A%22U.S.+Geological+Survey+%28USGS%29%22&filter%5B%5D=building%3A%22Olympic+National+Park+%28OLYM%29%22&type=AllFields'>USGS reports</a><br>"
+let OLYM_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=65516735'>General management plan</a><br>"
+
+
 let OZAR_map = "<a href='https://www.nps.gov/ozar/planyourvisit/maps.htm'>Map on park web site</a><br>"
 let OZAR_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Ozark+Scenic+Riverways+OZAR&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 let OZAR_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=449290873'>General management plan</a><br>"
@@ -195,14 +211,6 @@ let SITK_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/R
 let TUMA_map = "<a href='https://www.nps.gov/tuma/planyourvisit/maps.htm'>Map on park web site</a><br>"
 let TUMA_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Tumacacori Historical Park+TUMA&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 let TUMA_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=63858319'>General management plan</a><br>"
-
-let OLYM_map = "<a href='https://www.nps.gov/olym/planyourvisit/maps.htm'>Park map</a><br>"
-let OLYM_catalog = "</a><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Olympic+Park+OLYM&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
-let OLYM_usgs = "<a href='https://library.nps.gov/vufind/Search/Results?filter%5B%5D=institution%3A%22U.S.+Geological+Survey+%28USGS%29%22&filter%5B%5D=building%3A%22Olympic+National+Park+%28OLYM%29%22&type=AllFields'>USGS reports</a><br>"
-let OLYM_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=65516735'>General management plan</a><br>"
-
-let HSTR_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Harry+Truman+HSTR&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
-let HSTR_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=75329851'>General management plan</a><br>"
 
 let YELL_catalog = "</a><br><a href='https://library.nps.gov/vufind/Search/Results?filter%5B%5D=collection%3A%22NPS+-+NPS+LIBRIS%22&filter%5B%5D=building%3A%22Yellowstone+National+Park+%28YELL%29%22&type=AllFields'>Library catalog search</a><br>"
 let YELL_usgs = "<a href='https://library.nps.gov/vufind/Search/Results?filter%5B%5D=institution%3A%22U.S.+Geological+Survey+%28USGS%29%22&filter%5B%5D=building%3A%22Yellowstone+National+Park+%28YELL%29%22&type=AllFields'>USGS reports</a><br>"
