@@ -437,7 +437,7 @@ var park = {
            "geometry": {
                 "type": "Point",
                 "coordinates": [
-				 	 -83.425, 35.611111  //wikipedia: 35.611111, -83.425
+				 	 -83.528190612793, 35.5715599060059	
                 ]
             },
             "type": "Feature",
@@ -446,6 +446,22 @@ var park = {
             },
             "id": 31
         }, 
+
+        
+        {
+           "geometry": {
+                "type": "Point",
+                "coordinates": [
+				 	 -78.5008163452148, 38.3517684936523  
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+				"popupContent": "Shenandoah National Park<br>" + SHEN_map + SHEN_catalog + SHEN_gmp + SHEN_usgs // + SHEN_usgs
+            },
+            "id": 32
+        }, 
+
 
 
 

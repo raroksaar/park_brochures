@@ -193,6 +193,13 @@ let SEKI_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Searc
 let SEKI_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=64650515'>General management plan</a><br>"
 let SEKI_guide = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=53724795'>Guide to Sequoia and Kings Canyon</a><br>"
 
+let SHEN_map = "<a href='https://www.nps.gov/shen/planyourvisit/maps.htm'>Map on park web site</a><br>"
+let SHEN_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Shenandoah+Park+SHEN&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
+let SHEN_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=449287113'>General management plan</a><br>"
+
+let SHEN_usgs = "<a href='https://library.nps.gov/vufind/Search/Results?filter%5B%5D=collection%3A%22USGS+-+Pub+Warehouse%22&filter%5B%5D=building%3A%22Shenandoah+National+Park+%28SHEN%29%22&type=AllFields'>USGS reports</a><br>"
+
+
 let SHIL_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Shiloh+Military+Park+SHIL&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 let SHIL_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=70702668'>General management plan</a><br>"
 let SHIL_bierce = "<a href='https://babel.hathitrust.org/cgi/pt?id=hvd.32044024436800&seq=242'>Ambrose Bierce: 'What I saw of Shiloh'</a><br>"
