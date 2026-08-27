@@ -21,6 +21,9 @@ let BIBE_map_link ="Big Bend National Park<br><a href='https://www.nps.gov/bibe/
 let BIBE_catalog_link="<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Big+Bend+Park+BIBE&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 let BIBE_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=63608742'>General management plan</a><br>"
 let BIBE_history_book ="<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=445224594'>Big Bend history with digital link</a>"
+let BIBE_usgs = "<a href='https://library.nps.gov/vufind/Search/Results?filter%5B%5D=collection%3A%22USGS+-+Pub+Warehouse%22&filter%5B%5D=building%3A%22Big+Bend+National+Park+%28BIBE%29%22&type=AllFields'>USGS reports</a><br>"
+
+//https://library.nps.gov/vufind/Search/Results?filter%5B%5D=collection%3A%22USGS+-+Pub+Warehouse%22&filter%5B%5D=building%3A%22Big+Bend+National+Park+%28BIBE%29%22&type=AllFields
 
 let BISC_catalog = "</a><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Biscayne+BISC&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 let BISC_map = "<a href='https://www.nps.gov/bisc/planyourvisit/maps.htm'>Park map</a><br>"

@@ -91,7 +91,7 @@ var park = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": BIBE_map_link+BIBE_catalog_link+BIBE_gmp+BIBE_history_book
+                "popupContent": BIBE_map_link+BIBE_catalog_link+BIBE_gmp+BIBE_usgs + BIBE_history_book
             },
             "id": 7
         },
@@ -461,6 +461,7 @@ var park = {
             },
             "id": 32
         }, 
+
 
 
 
