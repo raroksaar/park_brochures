@@ -53,7 +53,11 @@ let CIRO_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/R
 let DENA_map = "<a href='https://www.nps.gov/dena/planyourvisit/maps.htm'>Park map/brochure</a><br>"
 let DENA_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Denali+Park+DENA&selectUsing=2.0&rows=20>'>Library catalog search</a></br>"
 let DENA_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=64437675'>General management plan</a><br>"
-// 
+
+let DEVA_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Death+Valley+Park+DEVA&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
+let DEVA_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=61840803'>General management plan</a><br>"
+let DEVA_usgs = "<a href='https://library.nps.gov/vufind/Search/Results?filter%5B%5D=institution%3A%22U.S.+Geological+Survey+%28USGS%29%22&filter%5B%5D=building%3A%22Death+Valley+National+Park+%28DEVA%29%22&type=AllFields'>USGS reports</a><br>"
+
 
 let DRTO_map = "<a href='https://www.nps.gov/drto/planyourvisit/maps.htm'>Park map/brochure</a><br>"
 let DRTO_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Dry+Tortugas+Park+DRTO&selectUsing=2.0&rows=20>'>Library catalog search</a></br>"
