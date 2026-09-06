@@ -58,6 +58,10 @@ var mansion = {"type": "FeatureCollection",    "features": [
 ]}
 
 var habs = {"type": "FeatureCollection",    "features": [
+// 	LC_HABS_HAER_mo1062		Vital St. Gemme Beauvais House II, St. Mary's Road, Sainte Genevieve, Ste. Genevieve County, MO	Sainte Genevieve Ste Genevieve County MO	Ste. Genevieve County,  MO	HABS MO-1284 ; Building/structure dates: ca. 1799 Initial Construction ; National Register of Historic Places NRIS Number: 66000892	66000892		37.974, -90.0408
+
+{"features": [{"geometry": {"coordinates": [-90.0408, 37.974], "type": "Point"}, "properties": {"popupContent": "Vital St. Gemme Beauvais House II, St. Mary's Road, Sainte Genevieve, Ste. Genevieve County, MO<br><a href='https://www.loc.gov/item/mo1062'>Library of Congress</a><br><a href='https://catalog.archives.gov/search?page=1&q=66000892+NPS'>National Archives</a><br>"}, "type": "Feature"}], "type": "FeatureCollection"},
+
 {"features": [{"geometry": {"coordinates": [-74.088278, 41.750861], "type": "Point"}, "properties": {"popupContent": "Jean Hasbrouck House, Huguenot Street, New Paltz, Ulster County, NY<br><a href='https://www.loc.gov/item/ny0882'>Library of Congress</a><br><a href='https://catalog.archives.gov/search?page=1&q=75316089+NPS'>National Archives</a><br>"}, "type": "Feature"}], "type": "FeatureCollection"},
 {"features": [{"geometry": {"coordinates": [-145.73088, 64.035589], "type": "Point"}, "properties": {"popupContent": "Sullivan Roadhouse, Valdez-Fairbanks Trail, Fairbanks, AK<br><a href='https://www.loc.gov/item/ak0040'>Library of Congress</a><br><a href='https://catalog.archives.gov/search?page=1&q=79003756+NPS'>National Archives</a><br><a href='https://en.wikipedia.org/wiki/Sullivan_Roadhouse'>Wikipedia</a> "}, "type": "Feature"}], "type": "FeatureCollection"},
 
