@@ -147,6 +147,17 @@ Click anywhere on the map to get links to Google, Bing and OpenStreetMap maps <b
 	}).addTo(map);
 
 
+	// Define the polygon's coordinates
+	const latlngs = [
+	[-122.4194, 37.7749],
+	[-122.2711, 37.8044],
+	[-122.4702, 37.6879]
+	];
+
+	//Create and add the polygon to the map
+	const polygon = L.polygon(latlngs, { color: 'blue' }).addTo(map);
+
+
 
 	const haerLayer = L.geoJSON([haer], {
 		style(feature) {
