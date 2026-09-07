@@ -4,8 +4,7 @@ var town = {"type": "FeatureCollection",    "features": [
 ]}
 
 var square = {
-    "type": "FeatureCollection",
-    "features": [
+    "type": "FeatureCollection", "features": [
         {
             "type": "Feature",
             "geometry": {
@@ -21,15 +20,30 @@ var square = {
                 ]
             },
             "properties": {
-                "popupContent": "Yosemite National Park",
+                "popupContent": "Yosemite National Park from OpenStreetMap",
                 "underConstruction": false
             },
-            "id": 2
+
+           // "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+					// "Death Valley National Park" from OpenStreetMap API:
+                    [-118.0010844, 35.5914210],
+                    [-116.2764626, 35.5914210],
+                    [-116.2764626, 37.3494449],
+                    [-118.0010844, 37.3494449],
+                    [-118.0010844, 35.5914210]
+	
+                ]
+            },
+            "properties": {
+                "popupContent": "Death Valley National Park, from OpenStreetMap"
+            },
+     
         },
 		]
 }
-
-
 
 var haer = {"type": "FeatureCollection",    "features": [
 {"features": [{"geometry": {"coordinates": [-143.12267, 65.35045], "type": "Point"}, "properties": {"popupContent": "Gold Placers Incorporated, Near Coal Creek & Yukon River, Eagle, Southeast Fairbanks Census Area, AK<br><a href='https://www.loc.gov/item/ak0193'>Library of Congress</a><br><a href='https://catalog.archives.gov/search?page=1&q=95000573+NPS'>National Archives</a><br>", "town": "Eagle,  Southeast Fairbanks Census Area,  AK"}, "type": "Feature"}], "type": "FeatureCollection"},
