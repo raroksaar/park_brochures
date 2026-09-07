@@ -3,6 +3,39 @@ var town = {"type": "FeatureCollection",    "features": [
 {"features": [{"geometry": {"coordinates": [-104.494735, 44.982942], "type": "Point"}, "properties": {"popupContent": "Missouri River Bridge, Spanning Missouri River on County Road 200, Hulett, Crook County, WY<br><a href='https://www.loc.gov/item/wy0146'>Library of Congress</a><br><a href='https://catalog.archives.gov/search?page=1&q=398928+NPS'>National Archives</a><br>", "town": "Hulett,  Crook County,  WY"}, "type": "Feature"}], "type": "FeatureCollection"},
 ]}
 
+var square = {
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+					[-122.4150, 37.798781],
+					[-122.4350, 37.798781],
+					[-122.4350, 37.7750],
+					[-122.4150, 37.7750],
+					[-122.4150, 37.798781]
+					
+					//[25.8765170, 57.8470549],
+					//[25.9749974, 57.8470549],
+					//[25.9749974, 57.9280127],
+					//[25.8765170, 57.9280127],
+					//[25.8765170, 57.8470549]
+				
+                ]
+            },
+            "properties": {
+                "popupContent": "San Francisco bounding box.",
+                "underConstruction": false
+            },
+            "id": 2
+        },
+		]
+}
+
+
+
 var haer = {"type": "FeatureCollection",    "features": [
 {"features": [{"geometry": {"coordinates": [-143.12267, 65.35045], "type": "Point"}, "properties": {"popupContent": "Gold Placers Incorporated, Near Coal Creek & Yukon River, Eagle, Southeast Fairbanks Census Area, AK<br><a href='https://www.loc.gov/item/ak0193'>Library of Congress</a><br><a href='https://catalog.archives.gov/search?page=1&q=95000573+NPS'>National Archives</a><br>", "town": "Eagle,  Southeast Fairbanks Census Area,  AK"}, "type": "Feature"}], "type": "FeatureCollection"},
 {"features": [{"geometry": {"coordinates": [-143.21113, 65.28397], "type": "Point"}, "properties": {"popupContent": "Gold Placers Incorporated, Warehouse, Near Coal Creek & Yukon River, Eagle, Southeast Fairbanks Census Area, AK<br><a href='https://www.loc.gov/item/ak0195'>Library of Congress</a><br><a href='https://catalog.archives.gov/search?page=1&q=95000573+NPS'>National Archives</a><br>", "town": "Eagle,  Southeast Fairbanks Census Area,  AK"}, "type": "Feature"}], "type": "FeatureCollection"},
