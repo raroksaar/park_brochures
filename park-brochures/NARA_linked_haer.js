@@ -23,10 +23,10 @@ var square = {
                 "popupContent": "Yosemite National Park, OpenStreetMap rectangle",
                 "underConstruction": false
             },
-            "id": 2
+            "id": 1
         },
 
-         {
+        {
             "type": "Feature",
             "geometry": {
                 "type": "LineString",
@@ -43,7 +43,27 @@ var square = {
                 "underConstruction": false
             },
             "id": 2
-        },       
+        },
+
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [-113.9798956, 35.7500810],
+                    [-111.5870400, 35.7500810],
+                    [-111.5870400, 36.8656855],
+                    [-113.9798956, 36.8656855],
+                    [-113.9798956, 35.7500810]
+                ]
+            },
+            "properties": {
+                "popupContent": "Grand Canyon National Park, OpenStreetMap rectangle",
+                "underConstruction": false
+            },
+            "id": 3
+        },
+        
 		]
 }       
 		
