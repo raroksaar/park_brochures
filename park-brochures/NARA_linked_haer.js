@@ -63,6 +63,44 @@ var square = {
             },
             "id": 3
         },
+
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [-118.9828478, 36.5928561],
+                    [-118.3339151, 36.5928561],
+                    [-118.3339151, 37.2376181],
+                    [-118.9828478, 37.2376181],
+                    [-118.9828478, 36.5928561],
+                ]
+            },
+            "properties": {
+                "popupContent": "Kings Canyon National Park, OpenStreetMap rectangle",
+            },
+            "id": 4
+        },
+
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [-118.9195403, 36.2910769],
+                    [-118.2349488, 36.2910769],
+                    [-118.2349488, 36.7006603],
+                    [-118.9195403, 36.7006603],
+                    [-118.9195403, 36.2910769]
+                ]
+            },
+            "properties": {
+                "popupContent": "Sequoia National Park, OpenStreetMap rectangle",
+            },
+            "id": 5
+        },
+
+
         
 		]
 }       
