@@ -1,3 +1,112 @@
+var town = {"type": "FeatureCollection",    "features": [
+{"features": [{"geometry": {"coordinates": [-143.12267, 65.35045], "type": "Point"}, "properties": {"popupContent": "Gold Placers Incorporated, Near Coal Creek & Yukon River, Eagle, Southeast Fairbanks Census Area, AK<br><a href='https://www.loc.gov/item/ak0193'>Library of Congress</a><br><a href='https://catalog.archives.gov/search?page=1&q=95000573+NPS'>National Archives</a><br>", "town": "Eagle,  Southeast Fairbanks Census Area,  AK"}, "type": "Feature"}], "type": "FeatureCollection"},
+{"features": [{"geometry": {"coordinates": [-104.494735, 44.982942], "type": "Point"}, "properties": {"popupContent": "Missouri River Bridge, Spanning Missouri River on County Road 200, Hulett, Crook County, WY<br><a href='https://www.loc.gov/item/wy0146'>Library of Congress</a><br><a href='https://catalog.archives.gov/search?page=1&q=398928+NPS'>National Archives</a><br>", "town": "Hulett,  Crook County,  WY"}, "type": "Feature"}], "type": "FeatureCollection"},
+]}
+
+var square = {
+     "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+					// "Yosemite+CA" from OpenStreetMap API:
+					[-119.8861599, 37.4921493],
+					[-119.1995075, 37.4921493],
+					[-119.1995075, 38.1863499],
+					[-119.8861599, 38.1863499],
+					[-119.8861599, 37.4921493]
+                ]
+            },
+            "properties": {
+                "popupContent": "Yosemite National Park, OpenStreetMap rectangle",
+                "underConstruction": false
+            },
+            "id": 1
+        },
+
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [-118.0010844, 35.5914210],
+                    [-116.2764626, 35.5914210],
+                    [-116.2764626, 37.3494449],
+                    [-118.0010844, 37.3494449],
+                    [-118.0010844, 35.5914210]	
+                ]
+            },
+            "properties": {
+                "popupContent": "Death Valley National Park, OpenStreetMap rectangle",
+                "underConstruction": false
+            },
+            "id": 2
+        },
+
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [-113.9798956, 35.7500810],
+                    [-111.5870400, 35.7500810],
+                    [-111.5870400, 36.8656855],
+                    [-113.9798956, 36.8656855],
+                    [-113.9798956, 35.7500810]
+                ]
+            },
+            "properties": {
+                "popupContent": "Grand Canyon National Park, OpenStreetMap rectangle",
+                "underConstruction": false
+            },
+            "id": 3
+        },
+
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [-118.9828478, 36.5928561],
+                    [-118.3339151, 36.5928561],
+                    [-118.3339151, 37.2376181],
+                    [-118.9828478, 37.2376181],
+                    [-118.9828478, 36.5928561],
+                ]
+            },
+            "properties": {
+                "popupContent": "Kings Canyon National Park, OpenStreetMap rectangle",
+            },
+            "id": 4
+        },
+
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [-118.9195403, 36.2910769],
+                    [-118.2349488, 36.2910769],
+                    [-118.2349488, 36.7006603],
+                    [-118.9195403, 36.7006603],
+                    [-118.9195403, 36.2910769]
+                ]
+            },
+            "properties": {
+                "popupContent": "Sequoia National Park, OpenStreetMap rectangle",
+            },
+            "id": 5
+        },
+
+
+        
+		]
+}       
+		
+
+
 var haer = {"type": "FeatureCollection",    "features": [
 {"features": [{"geometry": {"coordinates": [-143.12267, 65.35045], "type": "Point"}, "properties": {"popupContent": "Gold Placers Incorporated, Near Coal Creek & Yukon River, Eagle, Southeast Fairbanks Census Area, AK<br><a href='https://www.loc.gov/item/ak0193'>Library of Congress</a><br><a href='https://catalog.archives.gov/search?page=1&q=95000573+NPS'>National Archives</a><br>", "town": "Eagle,  Southeast Fairbanks Census Area,  AK"}, "type": "Feature"}], "type": "FeatureCollection"},
 {"features": [{"geometry": {"coordinates": [-143.21113, 65.28397], "type": "Point"}, "properties": {"popupContent": "Gold Placers Incorporated, Warehouse, Near Coal Creek & Yukon River, Eagle, Southeast Fairbanks Census Area, AK<br><a href='https://www.loc.gov/item/ak0195'>Library of Congress</a><br><a href='https://catalog.archives.gov/search?page=1&q=95000573+NPS'>National Archives</a><br>", "town": "Eagle,  Southeast Fairbanks Census Area,  AK"}, "type": "Feature"}], "type": "FeatureCollection"},

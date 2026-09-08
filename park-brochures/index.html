@@ -146,6 +146,23 @@ Click anywhere on the map to get links to Google, Bing and OpenStreetMap maps <b
 		}
 	}).addTo(map);
 
+	
+	const squareLayer = L.geoJSON(square, {
+		// filter(feature, layer) {
+		// 	if (feature.properties) {
+		// 		// If the property "underConstruction" exists and is true, return false (don't render features under construction)
+		// 		return feature.properties.underConstruction !== undefined ? !feature.properties.underConstruction : true;
+		// 	}
+		// 	return false;
+		//},
+    
+		onEachFeature,
+		    color: "green",   // Border color
+			weight: 4,          // Border thickness
+			fillColor: "green", // Fill color
+			fillOpacity: 0.5    // Fill transparency
+
+	}).addTo(map);
 
 
 	const haerLayer = L.geoJSON([haer], {
