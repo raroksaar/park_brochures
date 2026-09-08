@@ -463,6 +463,21 @@ var park = {
         }, 
 
 
+        {
+           "geometry": {
+                "type": "Point",
+                "coordinates": [
+				 	 -118.15299987793, 36.7269897460938
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+				"popupContent": "Manzanar National Historic Site<br>" + MANZ_map + MANZ_catalog + MANZ_gmp
+            },
+            "id": 33
+        }, 
+
+
 
 
 

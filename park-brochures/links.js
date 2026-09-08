@@ -148,6 +148,11 @@ let LOWE_habs_3 = "<a href='https://www.loc.gov/item/ma0298/'>HABS-HAER - Town H
 let LOWE_habs_2 = "<a href='https://www.loc.gov/item/ma0297/'>HABS-HAER - Brick Block boarding houses</a><br>"
 let LOWE_habs_1 = "<a href='https://www.loc.gov/item/ma0296/'>HABS-HAER - Boott & Mass. Agents' House</a><br>"
 
+let MANZ_map ="<a href='https://www.nps.gov/manz/planyourvisit/maps.htm'>Visitor map/brochure</a><br>"
+let MANZ_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Manzanar+Historic+Site+MANZ&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
+let MANZ_gmp ="<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=58305751'>General management plan</a><br>" 
+
+
 let MORA_brochure = "<br><a href='https://www.nps.gov/mora/planyourvisit/upload/Mount-Rainier-Brochure-final_Combo_508_v2023.pdf'>Mt Rainier visitor brochure</a><br>"
 let MORA_catalog ="<a href=https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Mount+Rainier+Park+MORA&selectUsing=2.0&rows=20'>Library catalog search</a></a><br>"
 let MORA_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=60499535' >General management plan</a><br>"

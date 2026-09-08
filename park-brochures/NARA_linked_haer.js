@@ -20,7 +20,7 @@ var square = {
                 ]
             },
             "properties": {
-                "popupContent": "Yosemite National Park, OpenStreetMap rectangle",
+                "popupContent": "Yosemite National Park<br>OpenStreetMap rectangle",
                 "underConstruction": false
             },
             "id": 1
@@ -39,7 +39,7 @@ var square = {
                 ]
             },
             "properties": {
-                "popupContent": "Death Valley National Park, OpenStreetMap rectangle",
+                "popupContent": "Death Valley National Park<br>OpenStreetMap rectangle",
                 "underConstruction": false
             },
             "id": 2
@@ -58,7 +58,7 @@ var square = {
                 ]
             },
             "properties": {
-                "popupContent": "Grand Canyon National Park, OpenStreetMap rectangle",
+                "popupContent": "Grand Canyon National Park<br>OpenStreetMap rectangle",
                 "underConstruction": false
             },
             "id": 3
@@ -77,7 +77,7 @@ var square = {
                 ]
             },
             "properties": {
-                "popupContent": "Kings Canyon National Park, OpenStreetMap rectangle",
+                "popupContent": "Kings Canyon National Park<br>OpenStreetMap rectangle",
             },
             "id": 4
         },
@@ -95,12 +95,28 @@ var square = {
                 ]
             },
             "properties": {
-                "popupContent": "Sequoia National Park, OpenStreetMap rectangle",
+                "popupContent": "Sequoia National Park<br>OpenStreetMap rectangle",
             },
             "id": 5
         },
 
-
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [-118.1653531, 36.7170068],
+                    [-118.1406879, 36.7170068],
+                    [-118.1406879, 36.7370157],
+                    [-118.1653531, 36.7370157],
+                    [-118.1653531, 36.7170068]
+                ]
+            },
+            "properties": {
+                "popupContent": "Manzanar NationalHistoric Site<br>OpenStreetMap rectangle",
+            },
+            "id": 6
+        },
         
 		]
 }       
