@@ -136,6 +136,23 @@ var square = {
             "id": 7
         },
   
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [-111.1559859, 44.1315750],
+                    [-109.8254870, 44.1315750],
+                    [-109.8254870, 45.1089567],
+                    [-111.1559859, 45.1089567],
+                    [-111.1559859, 44.1315750]
+                ]
+            },
+            "properties": {
+                "popupContent": "Yellowstone National Park<br>OpenStreetMap rectangle",
+            },
+            "id": 8
+        },
 
 		]
 }       
