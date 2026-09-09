@@ -113,11 +113,30 @@ var square = {
                 ]
             },
             "properties": {
-                "popupContent": "Manzanar NationalHistoric Site<br>OpenStreetMap rectangle",
+                "popupContent": "Manzanar National Historic Site<br>OpenStreetMap rectangle",
             },
             "id": 6
         },
-        
+  
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [-103.7818953, 28.9716602],
+                    [-102.8396970, 28.9716602],
+                    [-102.8396970, 29.6947196],
+                    [-103.7818953, 29.6947196],
+                    [-103.7818953, 28.9716602]
+                ]
+            },
+            "properties": {
+                "popupContent": "Big Bend National Park<br>OpenStreetMap rectangle",
+            },
+            "id": 7
+        },
+  
+
 		]
 }       
 		
