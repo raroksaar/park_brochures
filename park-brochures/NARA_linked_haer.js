@@ -154,10 +154,63 @@ var square = {
             "id": 8
         },
 
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [-121.9796972, 46.7079952],
+                    [-121.4428388, 46.7079952],
+                    [-121.4428388, 47.0006080],
+                    [-121.9796972, 47.0006080],
+                    [-121.9796972, 46.7079952]
+                ]
+            },
+            "properties": {
+                "popupContent": "Mount Rainier National Park<br>OpenStreetMap rectangle",
+            },
+            "id": 9
+        },
+
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [-121.6391262, 48.3695517],
+                    [-120.6327638, 48.3695517],
+                    [-120.6327638, 49.0009153],
+                    [-121.6391262, 49.0009153],
+                    [-121.6391262, 48.3695517]
+                ]
+            },
+            "properties": {
+                "popupContent": "North Cascades National Park<br>OpenStreetMap rectangle",
+            },
+            "id": 10
+        },
+
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [-124.7425886, 47.4697688],
+                    [-123.1240183, 47.4697688],
+                    [-123.1240183, 48.2752636],
+                    [-124.7425886, 48.2752636],
+                    [-124.7425886, 47.4697688]
+                ]
+            },
+            "properties": {
+                "popupContent": "Olympic National Park<br>OpenStreetMap rectangle",
+            },
+            "id": 11
+        },
+
 		]
 }       
 		
-
 
 var haer = {"type": "FeatureCollection",    "features": [
 {"features": [{"geometry": {"coordinates": [-143.12267, 65.35045], "type": "Point"}, "properties": {"popupContent": "Gold Placers Incorporated, Near Coal Creek & Yukon River, Eagle, Southeast Fairbanks Census Area, AK<br><a href='https://www.loc.gov/item/ak0193'>Library of Congress</a><br><a href='https://catalog.archives.gov/search?page=1&q=95000573+NPS'>National Archives</a><br>", "town": "Eagle,  Southeast Fairbanks Census Area,  AK"}, "type": "Feature"}], "type": "FeatureCollection"},
