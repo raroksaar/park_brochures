@@ -462,7 +462,6 @@ var park = {
             "id": 32
         }, 
 
-
         {
            "geometry": {
                 "type": "Point",
@@ -477,8 +476,20 @@ var park = {
             "id": 33
         }, 
 
-
-
+// KAHO	Kaloko-Honokohau National Historical Park	19.6782093048096	-156.031295776367
+        {
+           "geometry": {
+                "type": "Point",
+                "coordinates": [
+				 	 -156.031295776367, 19.6782093048096	
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+				"popupContent": "Kaloko-Honokohau National Historical Park<br>" + KAHO_map + KAHO_catalog + KAHO_gmp
+            },
+            "id": 34
+        }, 
 
 
 ///  set from NPGallery:

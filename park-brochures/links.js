@@ -135,6 +135,9 @@ let JODA_map = "<a href='https://www.nps.gov/joda/planyourvisit/maps.htm'>Park m
 let JODA_catalog = "</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=John+Day+Fossil+Beds+JODA&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 let JODA_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=66074420'>General management plan</a><br>"
 
+let KAHO_map  = "<a href='https://www.nps.gov/kaho/planyourvisit/maps.htm'>Park map/brochure</a>"
+let KAHO_catalog = "</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Kaloko-Honokohau+Historical+Park+KAHO&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
+let KAHO_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=59629365'>General management plan</a><br>"
 
 let LAKE_map = "<a href='https://www.nps.gov/lake/planyourvisit/maps.htm'>Park map</a>"
 let LAKE_catalog = "</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Lake+Mead+Recreation+Area+LAKE&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
