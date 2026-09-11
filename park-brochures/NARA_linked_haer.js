@@ -208,6 +208,26 @@ var square = {
             "id": 11
         },
 
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [-156.0363380, 19.6701910],
+                    [-156.0165447, 19.6701910],
+                    [-156.0165447, 19.6931448],
+                    [-156.0363380, 19.6931448],
+                    [-156.0363380, 19.6701910]
+                ]
+            },
+            "properties": {
+                "popupContent": "Kaloko-Honokōhau National Historical Park<br>OpenStreetMap rectangle",
+            },
+            "id": 12
+        },
+
+
+
 		]
 }       
 		
