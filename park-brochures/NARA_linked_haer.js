@@ -226,7 +226,23 @@ var square = {
             "id": 12
         },
 
-
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [-154.3250195, 59.8518454],
+                    [-152.1986778, 59.8518454],
+                    [-152.1986778, 61.5128360],
+                    [-154.3250195, 61.5128360],
+                    [-154.3250195, 59.8518454]
+                ]
+            },
+            "properties": {
+                "popupContent": "Lake Clark National Park and Preserve<br>OpenStreetMap rectangle",
+            },
+            "id": 13
+        },
 
 		]
 }       
