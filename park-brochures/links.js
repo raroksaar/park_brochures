@@ -139,6 +139,11 @@ let KAHO_map  = "<a href='https://www.nps.gov/kaho/planyourvisit/maps.htm'>Park 
 let KAHO_catalog = "</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Kaloko-Honokohau+Historical+Park+KAHO&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 let KAHO_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=59629365'>General management plan</a><br>"
 
+let LACL_map = "<a href='https://www.nps.gov/lacl/planyourvisit/maps.htm'>Park map</a>"
+let LACL_catalog = "</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Lake+Clark+Park+Preserve+LACL&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
+let LACL_gmp ="<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=60663986'>General management plan</a><br>" 
+let LACL_usgs ="<a href='https://library.nps.gov/vufind/Search/Results?filter%5B%5D=collection%3A%22USGS+-+Pub+Warehouse%22&filter%5B%5D=building%3A%22Lake+Clark+National+Park+and+Preserve+%28LACL%29%22&type=AllFields'>USGS reports</a><br>"
+
 let LAKE_map = "<a href='https://www.nps.gov/lake/planyourvisit/maps.htm'>Park map</a>"
 let LAKE_catalog = "</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Lake+Mead+Recreation+Area+LAKE&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 let LAKE_gmp ="<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=70662273'>General management plan</a><br>" 
