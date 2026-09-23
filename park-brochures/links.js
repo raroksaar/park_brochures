@@ -183,6 +183,8 @@ let NAVA_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Searc
 let NAVA_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=62543811' >General management plan</a><br>"
 let NAVA_habs_1 = "<a href='https://www.loc.gov/item/nm0169/'>Crow Canyon petroglyphs</a><br>"
 
+let NOCA_usgs = "<a href='https://library.nps.gov/vufind/Search/Results?filter%5B%5D=institution%3A%22U.S.+Geological+Survey+%28USGS%29%22&filter%5B%5D=building%3A%22North+Cascades+National+Park+%28NOCA%29%22&type=AllFields'>USGS reports</a><br>"
+
 let OLYM_map = "<a href='https://www.nps.gov/olym/planyourvisit/maps.htm'>Park map</a><br>"
 let OLYM_catalog = "</a><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Olympic+Park+OLYM&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 let OLYM_usgs = "<a href='https://library.nps.gov/vufind/Search/Results?filter%5B%5D=institution%3A%22U.S.+Geological+Survey+%28USGS%29%22&filter%5B%5D=building%3A%22Olympic+National+Park+%28OLYM%29%22&type=AllFields'>USGS reports</a><br>"
