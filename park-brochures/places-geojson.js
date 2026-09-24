@@ -486,7 +486,7 @@ var park = {
             },
             "type": "Feature",
             "properties": {
-				"popupContent": "Kaloko-Honokohau National Historical Park<br>" + KAHO_map + KAHO_catalog + KAHO_gmp
+				"popupContent": "Kaloko-Honokohau National Historical Park<br>" + KAHO_map + KAHO_catalog + KAHO_gmp + KAHO_usgs
             },
             "id": 34
         }, 
@@ -502,6 +502,21 @@ var park = {
             "type": "Feature",
             "properties": {
 				"popupContent": "Lake Clark National Park and Preserve<br>" + LACL_map + LACL_catalog + LACL_gmp  + LACL_usgs
+            },
+            "id": 35
+        }, 
+        
+        // SACR	Saint Croix Island International Historic Site	45.128791809082	-67.1335067749023
+        {
+           "geometry": {
+                "type": "Point",
+                "coordinates": [
+				 	 -67.1335067749023, 45.128791809082	
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+				"popupContent": "Saint Croix Island International Historic Site<br>"+ SACR_map + SACR_catalog + SACR_gmp + SACR_usgs
             },
             "id": 35
         }, 

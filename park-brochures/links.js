@@ -138,6 +138,7 @@ let JODA_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/R
 let KAHO_map  = "<a href='https://www.nps.gov/kaho/planyourvisit/maps.htm'>Park map/brochure</a>"
 let KAHO_catalog = "</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Kaloko-Honokohau+Historical+Park+KAHO&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 let KAHO_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=59629365'>General management plan</a><br>"
+let KAHO_usgs ="<a href='https://crosssearch.nps.gov/vufind/Search/Results?filter%5B%5D=institution%3A%22U.S.+Geological+Survey+%28USGS%29%22&filter%5B%5D=building%3A%22Kaloko-Honokohau+National+Historical+Park+%28KAHO%29%22&type=AllFields'>USGS reports</a><br>"
 
 let LACL_map = "<a href='https://www.nps.gov/lacl/planyourvisit/maps.htm'>Park map</a>"
 let LACL_catalog = "</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Lake+Clark+Park+Preserve+LACL&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
@@ -201,8 +202,10 @@ let ROMO_catalog_link = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/
 let ROMO_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=60650837'>Proposed master plan</a><br>"
 let ROMO_usgs = "<a href='https://library.nps.gov/vufind/Search/Results?filter%5B%5D=institution%3A%22U.S.+Geological+Survey+%28USGS%29%22&filter%5B%5D=building%3A%22Rocky+Mountain+National+Park+%28ROMO%29%22&type=AllFields'>USGS reports</a><br>"
 
-// https://crosssearch.nps.gov/vufind/Search/Results?filter%5B%5D=institution%3A%22U.S.+Geological+Survey+%28USGS%29%22&filter%5B%5D=building%3A%22Rocky+Mountain+National+Park+%28ROMO%29%22&type=AllFields
-
+let SACR_map = "<a href='https://www.nps.gov/sacr/planyourvisit/maps.htm'>Map on park web site</a><br>"
+let SACR_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Saint+Croix+Island+Historic+Site+SACR&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
+let SACR_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=61897266'>General management plan</a><br>"
+let SACR_usgs = "<a href='https://library.nps.gov/vufind/Search/Results?filter%5B%5D=institution%3A%22U.S.+Geological+Survey+%28USGS%29%22&filter%5B%5D=building%3A%22Saint+Croix+National+Scenic+Riverway+%28SACN%29%22&type=AllFields'>USGS reports</a><br>"
 
 let SAFR_map = "<a href='https://www.nps.gov/safr/planyourvisit/maps.htm'>Map on park web site</a><br>"
 let SAFR_catalog = "<a href='https://library.nps.gov/vufind/Search/Results?filter%5B%5D=collection%3A%22NPS+-+NPS+LIBRIS%22&filter%5B%5D=building%3A%22San+Francisco+Maritime+National+Historical+Park+%28SAFR%29%22&type=AllFields'>Library catalog search</a><br>"
