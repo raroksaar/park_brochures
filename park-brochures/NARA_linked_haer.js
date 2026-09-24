@@ -244,6 +244,24 @@ var square = {
             "id": 13
         },
 
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [-78.8595251, 38.0335682],
+                    [-78.1500601, 38.0335682],
+                    [-78.1500601, 38.9102781],
+                    [-78.8595251, 38.9102781],
+                    [-78.8595251, 38.0335682]
+                ]
+            },
+            "properties": {
+                "popupContent": "Shenandoah National Park<br>OpenStreetMap rectangle",
+            },
+            "id": 14
+        },
+        
 		]
 }       
 		
