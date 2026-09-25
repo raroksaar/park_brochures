@@ -521,6 +521,21 @@ var park = {
             "id": 35
         }, 
 
+        // HAVO	Hawaii Volcanoes National Park	19.2349796295166	-155.407302856445
+        {
+           "geometry": {
+                "type": "Point",
+                "coordinates": [
+				 	 -155.407302856445, 19.2349796295166
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+				"popupContent": "Hawaii Volcanoes National Park<br>" //+ SACR_map + SACR_catalog + SACR_gmp + SACR_usgs
+            },
+            "id": 36
+        }, 
+
 
 ///  set from NPGallery:
 {"features": [{"geometry": {"coordinates": [-77.735977, 39.462379], "type": "Point"}, "properties": {"park": "Antietam National Battlefield (ANTI)", "popupContent": ANTI_brochure + ANTI_catalog + ANTI_gmp + ANTI_nara}, "type": "Feature"}], "type": "FeatureCollection"},
