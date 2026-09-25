@@ -120,6 +120,11 @@ let HAGR_catalog= "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search
 let HAGR_map ="<a href='https://www.nps.gov/hagr/planyourvisit/maps.htm'>Park map</a><br>"
 let HAGR_gmp ="<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=449340062'>General manangement plan</a><br>"
 
+
+let HAVO_catalog= "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Hawaii+Volcano+Park+HAVO&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
+let HAVO_map ="<a href='https://www.nps.gov/havo/planyourvisit/maps.htm'>Park map</a><br>"
+// HAVO draft gmp: 245512230
+
 let HSTR_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Harry+Truman+HSTR&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 let HSTR_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=75329851'>General management plan</a><br>"
 

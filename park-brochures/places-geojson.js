@@ -531,7 +531,7 @@ var park = {
             },
             "type": "Feature",
             "properties": {
-				"popupContent": "Hawaii Volcanoes National Park<br>" //+ SACR_map + SACR_catalog + SACR_gmp + SACR_usgs
+				"popupContent": "Hawaii Volcanoes National Park<br>" + HAVO_map + HAVO_catalog //+ HAVO_gmp + HAVO_usgs
             },
             "id": 36
         }, 
