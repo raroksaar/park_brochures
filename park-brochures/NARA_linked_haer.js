@@ -298,6 +298,24 @@ var square = {
             "id": 16
         },
         
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [-152.4281151, 62.4659755],
+                    [-148.7778228, 62.4659755],
+                    [-148.7778228, 63.9973187],
+                    [-152.4281151, 63.9973187],
+                    [-152.4281151, 62.4659755]
+                ]
+            },
+            "properties": {
+                "popupContent": "Denali National Park<br>OpenStreetMap rectangle",
+            },
+            "id": 17
+        },
+
 		]
 }       
 		
