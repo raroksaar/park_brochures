@@ -124,8 +124,9 @@ let HAGR_gmp ="<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Re
 let HAVO_catalog= "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Hawaii+Volcano+Park+HAVO&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 let HAVO_map ="<a href='https://www.nps.gov/havo/planyourvisit/maps.htm'>Park map</a><br>"
 // HAVO draft gmp: 245512230
-let HAVO_gmp ="<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=245512230'>General manangement plan</a><br>"
-// GPO has abbreviated final version
+let HAVO_gmp ="<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=245512230'>Draft general manangement plan</a><br>"
+// GPO has abbreviated final version 449773255
+let HAVO_gmp_abr ="<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=449773255'>Abbreviated final general manangement plan</a><br>"
 let HAVO_usgs = "<a href='https://library.nps.gov/vufind/Search/Results?filter%5B%5D=institution%3A%22U.S.+Geological+Survey+%28USGS%29%22&filter%5B%5D=building%3A%22Hawaii+Volcanoes+National+Park+%28HAVO%29%22&type=AllFields'>USGS reports</a><br>"
 
 
