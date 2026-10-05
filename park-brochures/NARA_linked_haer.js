@@ -332,7 +332,26 @@ var square = {
         "popupContent": "Rocky Mountain National Park<br>OpenStreetMap rectangle",
         },
         "id": 17  
-        },       
+        }, 
+
+        {
+        "type": "Feature",
+        "geometry": {
+        "type": "LineString",
+        "coordinates": [
+        [-108.1519220, 35.6672908],
+        [-107.6716417, 35.6672908],
+        [-107.6716417, 36.0892405],
+        [-108.1519220, 36.0892405],
+        [-108.1519220, 35.6672908]
+        ]
+        },
+        "properties": {
+        "popupContent": "Chaco Culture National Historical Park<br>OpenStreetMap rectangle",
+        },
+        "id": 17
+        },
+
 
 		]
 }       
