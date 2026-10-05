@@ -316,6 +316,24 @@ var square = {
             "id": 17
         },
 
+        {
+        "type": "Feature",
+        "geometry": {
+        "type": "LineString",
+        "coordinates": [
+        [-105.9137139, 40.1577700],
+        [-105.4935830, 40.1577700],
+        [-105.4935830, 40.5537870],
+        [-105.9137139, 40.5537870],
+        [-105.9137139, 40.1577700]
+        ]
+        },
+        "properties": {
+        "popupContent": "Rocky Mountain National Park<br>OpenStreetMap rectangle",
+        },
+        "id": 17  
+        },       
+
 		]
 }       
 		
