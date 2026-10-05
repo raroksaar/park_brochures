@@ -150,6 +150,10 @@ let KAHO_catalog = "</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OP
 let KAHO_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=59629365'>General management plan</a><br>"
 let KAHO_usgs ="<a href='https://crosssearch.nps.gov/vufind/Search/Results?filter%5B%5D=institution%3A%22U.S.+Geological+Survey+%28USGS%29%22&filter%5B%5D=building%3A%22Kaloko-Honokohau+National+Historical+Park+%28KAHO%29%22&type=AllFields'>USGS reports</a><br>"
 
+
+//KNRI gmp https://catalog.hathitrust.org/Record/002506677
+
+
 let LACL_map = "<a href='https://www.nps.gov/lacl/planyourvisit/maps.htm'>Park map</a>"
 let LACL_catalog = "</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Lake+Clark+Park+Preserve+LACL&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 let LACL_gmp ="<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=60663986'>General management plan</a><br>" 
