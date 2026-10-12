@@ -536,6 +536,21 @@ var park = {
             "id": 36
         }, 
 
+        {
+           "geometry": {
+                "type": "Point",
+                "coordinates": [
+				 	 -92.883333, 48.5
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+				"popupContent": "Voyageurs National Park<br>" + VOYA_map + VOYA_catalog + VOYA_gmp // + VOYA_usgs
+            },
+            "id": 37
+        }, 
+
+
 
 ///  set from NPGallery:
 {"features": [{"geometry": {"coordinates": [-77.735977, 39.462379], "type": "Point"}, "properties": {"park": "Antietam National Battlefield (ANTI)", "popupContent": ANTI_brochure + ANTI_catalog + ANTI_gmp + ANTI_nara}, "type": "Feature"}], "type": "FeatureCollection"},
