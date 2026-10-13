@@ -331,7 +331,7 @@ var square = {
         "properties": {
         "popupContent": "Rocky Mountain National Park<br>OpenStreetMap rectangle",
         },
-        "id": 17  
+        "id": 18  
         }, 
 
         {
@@ -349,9 +349,26 @@ var square = {
         "properties": {
         "popupContent": "Chaco Culture National Historical Park<br>OpenStreetMap rectangle",
         },
-        "id": 17
+        "id": 19
         },
 
+        {
+        "type": "Feature",
+        "geometry": {
+        "type": "LineString",       
+        "coordinates": [
+        [-101.4009145, 47.3216085],
+        [-101.3676324, 47.3216085],
+        [-101.3676324, 47.3874967],
+        [-101.4009145, 47.3874967],
+        [-101.4009145, 47.3216085]
+        ]
+        },
+        "properties": {
+        "popupContent": "Knife River Indian Villages National Historic Site<br>OpenStreetMap rectangle",
+        },
+        "id": 20
+        },
 
 		]
 }       
