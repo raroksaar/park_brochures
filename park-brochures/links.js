@@ -249,9 +249,6 @@ let SHIL_grant = "<a href='https://babel.hathitrust.org/cgi/pt?id=hvd.3204402264
 //  <a href="https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=440137081">Collected works of Ambrose Bierce ...</a>
 //	<a href="https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=440068987">The personal memoirs of U.S. Grant.</a>
 
-
-
-
 let SITK_map = "<a href='https://www.nps.gov/sitk/planyourvisit/maps.htm'>Map on park web site</a><br>"
 let SITK_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Sitka+Historical+Park+SITKA&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 let SITK_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=70664426'>General management plan</a><br>"
@@ -259,6 +256,11 @@ let SITK_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/R
 let TUMA_map = "<a href='https://www.nps.gov/tuma/planyourvisit/maps.htm'>Map on park web site</a><br>"
 let TUMA_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Tumacacori Historical Park+TUMA&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 let TUMA_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=63858319'>General management plan</a><br>"
+
+let VOYA_map = "<a href='https://www.nps.gov/voya/planyourvisit/maps.htm'>Map on park web site</a><br>"
+let VOYA_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Voyageurs+Park+VOYA&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
+let VOYA_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=243527487'>General management plan</a><br>"
+
 
 let YELL_catalog = "</a><br><a href='https://library.nps.gov/vufind/Search/Results?filter%5B%5D=collection%3A%22NPS+-+NPS+LIBRIS%22&filter%5B%5D=building%3A%22Yellowstone+National+Park+%28YELL%29%22&type=AllFields'>Library catalog search</a><br>"
 let YELL_usgs = "<a href='https://library.nps.gov/vufind/Search/Results?filter%5B%5D=institution%3A%22U.S.+Geological+Survey+%28USGS%29%22&filter%5B%5D=building%3A%22Yellowstone+National+Park+%28YELL%29%22&type=AllFields'>USGS reports</a><br>"

@@ -370,6 +370,25 @@ var square = {
         "id": 20
         },
 
+        {
+        "type": "Feature",
+        "geometry": {
+        "type": "LineString",
+        "coordinates": [
+        [-93.1808424, 48.2995636],
+        [-92.4533165, 48.2995636],
+        [-92.4533165, 48.6315556],
+        [-93.1808424, 48.6315556],
+        [-93.1808424, 48.2995636]
+        ]
+        },
+        "properties": {
+        "popupContent": "Voyageurs National  Park<br>OpenStreetMap rectangle",
+        },
+        "id": 21
+        },
+
+
 		]
 }       
 		
