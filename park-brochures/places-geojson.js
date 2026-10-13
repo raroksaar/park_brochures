@@ -536,11 +536,12 @@ var park = {
             "id": 36
         }, 
 
+        //VOYA	Voyageurs National Park	48.48828125	-92.8048095703125
         {
            "geometry": {
                 "type": "Point",
                 "coordinates": [
-				 	 -92.883333, 48.5
+				 	 -92.8048095703125, 48.48828125	
                 ]
             },
             "type": "Feature",
