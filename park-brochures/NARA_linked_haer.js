@@ -401,19 +401,34 @@ var square = {
         ]
         },
         "properties": {
-        "popupContent": " Jean Lafitte National Historical Park and Preserve<br>OpenStreetMap rectangle",
+        "popupContent": "Jean Lafitte National Historical Park and Preserve<br>OpenStreetMap rectangle",
         },
         "id": 22
         },
 
         // Everglades National Park, Florida, 34138, United States
         // (25.3679443, -80.8783066)
-        // ['24.8511292', '25.8915125', '-81.5205256', '-80.3889942']
-        // [-81.5205256, 24.8511292],
-        // [-80.3889942, 24.8511292],
-        // [-80.3889942, 25.8915125],
-        // [-81.5205256, 25.8915125],
-        // [-81.5205256, 24.8511292]
+        {
+        "type": "Feature",
+        "geometry": {
+        "type": "LineString",
+        "coordinates": [
+        [-81.5205256, 24.8511292],
+        [-80.3889942, 24.8511292],
+        [-80.3889942, 25.8915125],
+        [-81.5205256, 25.8915125],
+        [-81.5205256, 24.8511292]
+        ]
+        },
+        "properties": {
+        "popupContent": "Everglades National Park<br>OpenStreetMap rectangle",
+        },
+        "id": 23
+        },
+        
+
+
+
 
 		]
 }       
