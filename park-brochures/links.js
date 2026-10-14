@@ -62,8 +62,7 @@ let DEVA_usgs = "<a href='https://library.nps.gov/vufind/Search/Results?filter%5
 let DEVA_scotty = "<a href='http://npgallery.nps.gov/AssetDetail/1db25a86-b6a6-470f-a37e-e30be933a59f'>Scotty's Castle in Death Valley National Park, 2012</a><br>"
 
 let DRTO_map = "<a href='https://www.nps.gov/drto/planyourvisit/maps.htm'>Park map/brochure</a><br>"
-let DRTO_catalog = "<a href='https://eosfcweb0Scotty's Castle in Death Valley National Park, 2012.<br><a href='http://npgallery.nps.gov/AssetDetail/1db25a86-b6a6-470f-a37e-e30be933a59f'>Park brochure, 12/27/2012</a><br>1.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Dry+Tortugas+Park+DRTO&selectUsing=2.0&rows=20>'>Library catalog search</a></br>"
-
+let DRTO_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Dry+Tortugas+Park+DRTO&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 
 
 let EFMO_map = "<a href='http://npgallery.nps.gov/AssetDetail/50f769c3-9879-4a08-bddb-3a81c124f658'>Park brochure</a><br>"
