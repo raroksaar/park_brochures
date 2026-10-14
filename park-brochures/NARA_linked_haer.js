@@ -425,6 +425,47 @@ var square = {
         },
         "id": 23
         },
+
+        //Biscayne National Park, Miami-Dade County, Florida, United States
+        //['25.3265016', '25.6731860', '-80.3471882', '-80.1028712']
+
+        {
+        "type": "Feature",
+        "geometry": {
+        "type": "LineString",
+        "coordinates": [
+        [-80.3471882, 25.3265016],
+        [-80.1028712, 25.3265016],
+        [-80.1028712, 25.6731860],
+        [-80.3471882, 25.6731860],
+        [-80.3471882, 25.3265016]
+        ]
+        },
+    "properties": {
+    "popupContent": "Biscayne National Park<br>OpenStreetMap rectangle",
+    },
+    "id": 24
+    },
+
+        {
+        "type": "Feature",
+        "geometry": {
+        "type": "LineString",
+        "coordinates": [
+        [-84.0138923, 35.4269005],
+        [-82.9980412, 35.4269005],
+        [-82.9980412, 35.8413927],
+        [-84.0138923, 35.8413927],
+        [-84.0138923, 35.4269005]
+        ]
+        },
+        "properties": {
+        "popupContent": "Great Smoky Mountains National Park<br>OpenStreetMap rectangle",
+        },
+        "id": 25
+        },
+
+
         
 
 
