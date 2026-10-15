@@ -1,5 +1,6 @@
 var mansion = {"type": "FeatureCollection",    "features": [
 
+
 {"features": [{"geometry": {"coordinates": [-77.188511, 38.17925], "type": "Point"}, "properties": {"popupContent": "Belle Grove, Rappahannock River, Port Conway, King George County, VA<br><a href='https://www.loc.gov/item/va0661'>Library of Congress</a><br><a href='https://catalog.archives.gov/search?page=1&q=73002029+NPS'>National Archives</a><br>", "town": "Port Conway,  King George County,  VA"}, "type": "Feature"}], "type": "FeatureCollection"},
 
 {"features": [{"geometry": {"coordinates": [-78.564228, 36.649756], "type": "Point"}, "properties": {"popupContent": "Prestwould Plantation, 429 Prestwould Drive, Clarksville, Mecklenburg County, VA<br><a href='https://www.loc.gov/item/va0755'>Library of Congress</a><br><a href='https://catalog.archives.gov/search?page=1&q=69000260, 03001033+NPS'>National Archives</a><br>", "town": "Clarksville,  Mecklenburg County,  VA"}, "type": "Feature"}], "type": "FeatureCollection"},
@@ -58,7 +59,14 @@ var mansion = {"type": "FeatureCollection",    "features": [
 ]}
 
 var habs = {"type": "FeatureCollection",    "features": [
-// 	LC_HABS_HAER_mo1062		Vital St. Gemme Beauvais House II, St. Mary's Road, Sainte Genevieve, Ste. Genevieve County, MO	Sainte Genevieve Ste Genevieve County MO	Ste. Genevieve County,  MO	HABS MO-1284 ; Building/structure dates: ca. 1799 Initial Construction ; National Register of Historic Places NRIS Number: 66000892	66000892		37.974, -90.0408
+
+    // LC_HABS_HAER_dc0111		Ford's Theater, 511 Tenth Street Northwest, Washington, District of Columbia, DC	Washington District of Columbia DC	District of Columbia,  DC	HABS DC-82 ; National Register of Historic Places NRIS Number: 66000034	66000034		wikipedia look up
+    // 38.896775, -77.025930
+{"features": [{"geometry": {"coordinates": [-77.025930, 38.896775], "type": "Point"}, "properties": {"popupContent": "Ford's Theater, 511 Tenth Street Northwest, Washington, District of Columbia, DC<br><a href='https://www.loc.gov/item/dc0111'>Library of Congress</a><br><a href='https://catalog.archives.gov/search?page=1&q=66000034+NPS'>National Archives</a><br>", "town": "Washington, District of Columbia, DC"}, "type": "Feature"}], "type": "FeatureCollection"},
+
+// LC_HABS_HAER_dc0148		William A. Petersen House, 516 Tenth Street Northwest, Washington, District of Columbia, DC	Washington District of Columbia DC	District of Columbia,  DC	HABS DC-165 ; Building/structure dates: 1849 Initial Construction ; National Register of Historic Places NRIS Number: 66000034	66000034		wikipedia look up
+// 38.896819263847206, -77.02609102433614
+{"features": [{"geometry": {"coordinates": [-77.02609102433614, 38.896819263847206], "type": "Point"}, "properties": {"popupContent": "William A. Petersen House, 516 Tenth Street Northwest, Washington, District of Columbia, DC<br><a href='https://www.loc.gov/item/dc0148'>Library of Congress</a><br><a href='https://catalog.archives.gov/search?page=1&q=66000034+NPS'>National Archives</a><br>", "town": "Washington, District of Columbia, DC"}, "type": "Feature"}], "type": "FeatureCollection"},
 
 {"features": [{"geometry": {"coordinates": [-90.0408, 37.974], "type": "Point"}, "properties": {"popupContent": "Vital St. Gemme Beauvais House II, St. Mary's Road, Sainte Genevieve, Ste. Genevieve County, MO<br><a href='https://www.loc.gov/item/mo1062'>Library of Congress</a><br><a href='https://catalog.archives.gov/search?page=1&q=66000892+NPS'>National Archives</a><br>"}, "type": "Feature"}], "type": "FeatureCollection"},
 
