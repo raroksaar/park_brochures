@@ -73,13 +73,14 @@ let EVER_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Searc
 let EVER_usgs = "<a href='https://library.nps.gov/vufind/Search/Results?filter%5B%5D=institution%3A%22U.S.+Geological+Survey+%28USGS%29%22&filter%5B%5D=building%3A%22Everglades+National+Park+%28EVER%29%22&type=AllFields'>USGS reports</a><br>"
 let EVER_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=449328501'>South Florida ... coordinated management plan</a><br>"
 
-//https://catalog.hathitrust.org/Record/003246490
-
-
 let FIIS_map = "<a href='https://www.nps.gov/fiis/planyourvisit/maps.htm'>Map on park web site</a><br>"
 let FIIS_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Fire+Island+Seashore+FIIS&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 let FIIS_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=60984524'>General management plan</a><br>"
 let FIIS_usgs = "<a href='https://library.nps.gov/vufind/Search/Results?filter%5B%5D=institution%3A%22U.S.+Geological+Survey+%28USGS%29%22&filter%5B%5D=building%3A%22Fire+Island+National+Seashore+%28FIIS%29%22&type=AllFields'>USGS reports</a><br>"
+
+let FOTH_map = "<a href='https://www.nps.gov/foth/planyourvisit/maps.htm'>Map on park web site</a><br>"
+let FOTH_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Fords+Theater+FOTH&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
+
 
 let GETT_brochure_1 = "<a href='http://npgallery.nps.gov/AssetDetail/395ce0e8-5ec3-4f8f-92c8-4c5a7d8ec9d6'>1. Park brochure, 2025</a><br>"
 let GETT_brochure_2 = "<a href='http://npgallery.nps.gov/AssetDetail/09ad90ca-a3c4-44ac-8780-ab031b439acb'>2. Park brochure, 2021</a><br>"

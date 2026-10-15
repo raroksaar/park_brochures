@@ -465,8 +465,23 @@ var square = {
         "id": 25
         },
 
-
-        
+        {
+        "type": "Feature",
+        "geometry": {
+        "type": "LineString",
+        "coordinates": [
+        [-77.0264754, 38.8964980],
+        [-77.0253588, 38.8964980],
+        [-77.0253588, 38.8968495],
+        [-77.0264754, 38.8968495],
+        [-77.0264754, 38.8964980]
+        ]
+        },
+        "properties": {
+        "popupContent": "Fords Theatre National Historic Site<br>OpenStreetMap rectangle",
+        },
+        "id": 26
+        }, 
 
 
 

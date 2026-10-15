@@ -551,6 +551,23 @@ var park = {
             "id": 37
         }, 
 
+        // https://www.nps.gov/foth/planyourvisit/maps.htm
+        // Ford's Theatre National Historic Site
+        // 38.896656, -77.025651
+       {
+           "geometry": {
+                "type": "Point",
+                "coordinates": [
+				 	 -77.025651, 38.896656	
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+				"popupContent": "Ford's Theatre National Historic Site<br>" + FOTH_map + FOTH_catalog //+ VOYA_gmp // + VOYA_usgs
+            },
+            "id": 38
+        }, 
+
 
 
 ///  set from NPGallery:
