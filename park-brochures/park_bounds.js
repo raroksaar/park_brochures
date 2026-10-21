@@ -16,7 +16,7 @@ var square = {
             },
             "properties": {
                 "popupContent": "Yosemite National Park<br>OpenStreetMap rectangle",
-                "underConstruction": false
+                "hidden": false
             },
             "id": 1
         },
@@ -35,7 +35,7 @@ var square = {
             },
             "properties": {
                 "popupContent": "Death Valley National Park<br>OpenStreetMap rectangle",
-                "underConstruction": false
+                "hidden": false
             },
             "id": 2
         },
@@ -54,7 +54,7 @@ var square = {
             },
             "properties": {
                 "popupContent": "Grand Canyon National Park<br>OpenStreetMap rectangle",
-                "underConstruction": false
+                "hidden": false
             },
             "id": 3
         },
@@ -73,6 +73,7 @@ var square = {
             },
             "properties": {
                 "popupContent": "Kings Canyon National Park<br>OpenStreetMap rectangle",
+                "hidden": false
             },
             "id": 4
         },

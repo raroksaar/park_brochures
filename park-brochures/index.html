@@ -149,13 +149,13 @@ Click anywhere on the map to get links to Google, Bing and OpenStreetMap maps <b
 
 	
 	const squareLayer = L.geoJSON(square, {
-		// filter(feature, layer) {
-		// 	if (feature.properties) {
-		// 		// If the property "underConstruction" exists and is true, return false (don't render features under construction)
-		// 		return feature.properties.underConstruction !== undefined ? !feature.properties.underConstruction : true;
-		// 	}
-		// 	return false;
-		//},
+		filter(feature, layer) {
+		if (feature.properties) {
+		// If the property "hidden" exists and is true, return false (don't render hidden features)
+		    return feature.properties.hidden !== undefined ? !feature.properties.hidden : true;
+		 	}
+		 	return false;
+		},
     
 		onEachFeature,
 		    color: "green",   // Border color
