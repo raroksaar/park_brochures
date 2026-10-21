@@ -138,6 +138,14 @@ Click anywhere on the map to get links to Google, Bing and OpenStreetMap maps <b
 	}).addTo(map);
 
 	const mansions = L.geoJSON([mansion], {
+		filter(feature, layer) {
+		if (feature.properties) {
+			// If the property "hide" exists and is true, return false (don't render hidden features)
+		    return feature.properties.hide !== undefined ? !feature.properties.hide : true;
+		 	}
+		 	return false;
+		},
+    
 		style(feature) {
 			return feature.properties && feature.properties.style;
 		},
