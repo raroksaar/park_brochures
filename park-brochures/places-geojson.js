@@ -568,7 +568,19 @@ var park = {
             "id": 38
         }, 
 
-
+        {
+           "geometry": {
+                "type": "Point",
+                "coordinates": [
+				 	 -112.7427004, 46.4188235	
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+				"popupContent": "Grant-Kohrs National Historic Site<br>" + GRKO_map + GRKO_catalog + GRKO_gmp // + VOYA_usgs
+            },
+            "id": 39
+        }, 
 
 ///  set from NPGallery:
 {"features": [{"geometry": {"coordinates": [-77.735977, 39.462379], "type": "Point"}, "properties": {"park": "Antietam National Battlefield (ANTI)", "popupContent": ANTI_brochure + ANTI_catalog + ANTI_gmp + ANTI_nara}, "type": "Feature"}], "type": "FeatureCollection"},

@@ -478,6 +478,28 @@ var square = {
         },
         "id": 26
         }, 
+
+        // (46.4188235, -112.7427004)
+        // Grant-Kohrs Ranch National Historic Site, Deer Lodge, Powell County, Montana, United States
+    {
+        "type": "Feature",
+        "geometry": {
+        "type": "LineString",
+        "coordinates": [
+            [-112.7657114, 46.3968862],
+            [-112.7290954, 46.3968862],
+            [-112.7290954, 46.4403346],
+            [-112.7657114, 46.4403346],
+            [-112.7657114, 46.3968862]
+        ]
+        },
+        "properties": {
+        "popupContent": "Grant-Kohrs Ranch National Historic Site<br>OpenStreetMap rectangle",
+        },
+        "id": 27
+        }, 
+
+
 		]
 }       
 		

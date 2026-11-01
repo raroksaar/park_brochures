@@ -100,6 +100,13 @@ let GRCA_catalog= "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search
 let GRCA_gmp ="<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=53933530'>General management plan</a><br>"
 let GRCA_usgs ="<a href='https://library.nps.gov/vufind/Search/Results?filter%5B%5D=institution%3A%22U.S.+Geological+Survey+%28USGS%29%22&filter%5B%5D=building%3A%22Grand+Canyon+National+Park+%28GRCA%29%22&type=AllFields'>USGS reports</a><br>"
 
+ //https://www.nps.gov/grko/planyourvisit/maps.htm
+let GRKO_map = "<a href='https://www.nps.gov/grko/planyourvisit/maps.htm'>Park map</a><br>" //
+let GRKO_catalog= "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Grant+Kohrs+Historic+Site+GRKO&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
+let GRKO_gmp ="<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=65772935'>General management plan</a><br>"
+
+
+
 let GRSM_catalog= "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Great+Smoky+Mountains+Park+GRSM&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 let GRSM_map = "<a href='https://www.nps.gov/grsm/planyourvisit/maps.htm'>Park map</a><br>" //
 let GRSM_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=446751452'>General management plan</a><br>"
