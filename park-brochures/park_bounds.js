@@ -498,7 +498,24 @@ var square = {
         },
         "id": 27
         }, 
-
+// 40.098891, -75.443047
+        {
+        "type": "Feature",
+        "geometry": {
+        "type": "LineString",   
+        "coordinates": [
+            [-75.4722022, 40.0792057],
+            [-75.4160105, 40.0792057],
+            [-75.4160105, 40.1220236],
+            [-75.4722022, 40.1220236],
+            [-75.4722022, 40.0792057]
+        ]
+        },
+        "properties": {
+        "popupContent": "Valley Forge National Historical Park<br>OpenStreetMap rectangle",
+        },
+        "id": 28
+        },
 
 		]
 }       
