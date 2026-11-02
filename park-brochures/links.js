@@ -103,7 +103,7 @@ let GRCA_usgs ="<a href='https://library.nps.gov/vufind/Search/Results?filter%5B
  //https://www.nps.gov/grko/planyourvisit/maps.htm
 let GRKO_map = "<a href='https://www.nps.gov/grko/planyourvisit/maps.htm'>Park map</a><br>" //
 let GRKO_catalog= "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Grant+Kohrs+Historic+Site+GRKO&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
-let GRKO_gmp ="<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=65772935'>General management plan</a><br>"
+let GRKO_gmp ="<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=62586700'>General management plan</a><br>"
 
 
 
