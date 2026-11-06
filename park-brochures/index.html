@@ -62,9 +62,12 @@ Click anywhere on the map to get links to Google, Bing and OpenStreetMap maps <b
 <!-- document.getElementById('categoryFilter') -->
 
 
+
 <script>
 
-	//document.getElementById('categoryFilter')
+	let choice = document.getElementById('categoryFilter.value');
+	console.log("The choice is: ", choice);
+
 
 	let region = "USA"; //document.getElementById('categoryFilter');
 
@@ -237,15 +240,14 @@ Click anywhere on the map to get links to Google, Bing and OpenStreetMap maps <b
 			.openOn(map)
 	}
 
-	map.on('click', onMapClick);
-
+	//map.on('click', onMapClick);
 	  // Initial render
-	  renderData("");
+	 // renderData("");
 
 		// Listen for filter changes
-		document.getElementById('categoryFilter').addEventListener('change', function() {
-			renderData(this.value);
-  });
+		//document.getElementById('categoryFilter').addEventListener('change', function() {
+		//renderData(this.value);
+  ;
 		
 </script>
 
