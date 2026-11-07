@@ -234,11 +234,23 @@ Click anywhere on the map to get links to Google, Bing and OpenStreetMap maps <b
       });
 
 	function onMapClick(e) {
+		// let renderData ="Denver";
+		// console.log("The choice is: ", renderData);
+		let region = document.getElementById('categoryFilter');
+		console.log(region);
+
+		//renderData("");
+		// Listen for filter changes
+		//document.getElementById('categoryFilter').addEventListener('change', function() {
+		//renderData(this.value);
+
 		popup
 			.setLatLng(e.latlng)
 			.setContent(googlelink + '<br>' + binglink + '<br>' + openlink )
 			.openOn(map)
+
 	}
+
 	map.on('click', onMapClick);
 
 	  // Initial render
