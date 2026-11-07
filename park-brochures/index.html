@@ -65,8 +65,8 @@ Click anywhere on the map to get links to Google, Bing and OpenStreetMap maps <b
 
 <script>
 
-	let choice = document.getElementById('categoryFilter.value');
-	console.log("The choice is: ", choice);
+	// let choice = document.getElementById('categoryFilter.value');
+	// console.log("The choice is: ", choice);
 
 
 	let region = "USA"; //document.getElementById('categoryFilter');
@@ -239,15 +239,15 @@ Click anywhere on the map to get links to Google, Bing and OpenStreetMap maps <b
 			.setContent(googlelink + '<br>' + binglink + '<br>' + openlink )
 			.openOn(map)
 	}
+	map.on('click', onMapClick);
 
-	//map.on('click', onMapClick);
 	  // Initial render
 	 // renderData("");
 
 		// Listen for filter changes
 		//document.getElementById('categoryFilter').addEventListener('change', function() {
 		//renderData(this.value);
-  ;
+  //;
 		
 </script>
 

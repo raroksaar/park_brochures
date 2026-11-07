@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+<!-- <img align="center" src="images\\JohnMuir.jpg" href="https://npg.si.edu/object/npg_NPG.65.79" alt="John Muir portrait" width="200" height="250">
+src=<a href="https://npg.si.edu/object/npg_NPG.65.79"<b> -->
+	
+<H2>
+   <title>Topographic map</title>
+   	<link rel="icon" href="../image/logo.png">
+   	<div style="text-align: center;">
+	NPS park maps/brochures 
+
+
+	</div>
+</H2>
+
+   
+
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+   <script src="https://unpkg.com/esri-leaflet@2.5.3/dist/esri-leaflet.js"></script>
+   
+</head>
+
+
+
+<p>
+<H4>
+<div style="text-align: center;">
+
+Click on an NPS arrowhead to link to the park map/brochure<br>
+Click on a black pin to open a HABS/HAER pop up with links <br>
+Click anywhere on the map to get links to Google, Bing and OpenStreetMap maps <br> 
+
+<br>
+	<a href="http://npgallery.nps.gov/AssetDetail/8fe5d79b-d320-4232-b7e6-16cb5abe3eaa">National map of NPS sites</a>
+<br>
+</H4>
+
+<body>
+
+<div id="map" style="height: 700px;"></div>
+
+<script src="links.js"></script>
+<script src="places-geojson.js" type="text/javascript"></script>
+<script src="NARA_linked_habs.js" type="text/javascript"></script> 
+<script src="NARA_linked_haer.js" type="text/javascript"></script> 
+<script src="park_bounds.js" type="text/javascript"></script> 
+
+<div id="filterBox">
+  <label>Filter by category: </label>
+  <select id="categoryFilter">
+    <option value="">USA</option>
+    <option value="Denver">Denver</option>
+    <option value="dc">DC</option>
+  </select>
+</div>
+<!-- document.getElementById('categoryFilter') -->
+
+
+
+<script>
+
+	// let choice = document.getElementById('categoryFilter.value');
+	// console.log("The choice is: ", choice);
+
+
+	let region = "USA"; //document.getElementById('categoryFilter');
+
+	// add options
+	if (region == "USA"){
+		var map = L.map('map').setView([37.032375, -97.121173], 5);
+	}else if (region == "DC"){
+		var map = L.map('map').setView([38.884476, -77.088611], 11); 
+	}else if (region == "Denver"){
+		var map = L.map('map').setView([39.724333, -104.969349], 8); 
+	}
+	
+
+
+	L.esri.basemapLayer('Topographic').addTo(map);
+
+	const visitor_icon = L.icon({
+			iconUrl: 'images/logo.png',
+			iconSize: [20, 25],
+			iconAnchor: [20, 25],
+			popupAnchor: [0, 0]
+	    });
+
+	const ranger_icon = L.icon({
+			iconUrl: 'images/ranger_2.png',
+			iconSize: [25, 35],
+			iconAnchor: [20, 25],
+			popupAnchor: [0, 0]
+	    });
+		
+	const habs_icon = L.icon({
+		// home-icon.jpg
+		// chat_house.jpg
+			iconUrl: 'images/home-icon.jpg',
+			iconSize: [15, 18],
+			iconAnchor: [2, 2],
+			popupAnchor: [0, 0]
+	    });
+
+	//  habs_icon.on('mouseover',function(ev) {
+  	//   	ev.target.openPopup();
+	//   });
+
+	const mansion_icon = L.icon({
+		// home-icon.jpg
+		// chat_house.jpg
+			iconUrl: 'images/chat_house.jpg',
+			iconSize: [15, 18],
+			iconAnchor: [2, 2],
+			popupAnchor: [0, 0]
+	    });
+	
+	const haer_icon = L.icon({
+			iconUrl: 'images/gear_2.jpg',
+			iconSize: [15, 15],
+			iconAnchor: [2, 2],
+			popupAnchor: [0, 0]
+	    });
+
+	function onEachFeature(feature, layer) {
+		//let popupContent = '<b><img src="images\\logo.png" alt="Arrowhead" width="22" height="30">';
+		let popupContent = '<b>';
+
+		if (feature.properties && feature.properties.popupContent) {
+			popupContent += feature.properties.popupContent;
+		}
+
+		layer.bindPopup(popupContent);
+	}
+
+	const parkLayer = L.geoJSON([park], {
+
+		style(feature) {
+			return feature.properties && feature.properties.style;
+		},
+
+		onEachFeature,
+
+		pointToLayer(feature, latlng) {
+			return L.marker(latlng, {icon: visitor_icon});
+		}
+	}).addTo(map);
+	
+	const habsLayr = L.geoJSON([habs], {
+		style(feature) {
+			return feature.properties && feature.properties.style;
+		},
+		onEachFeature,
+		pointToLayer(feature, latlng) {
+			return L.marker(latlng, {icon: habs_icon});
+		}
+	}).addTo(map);
+
+	const mansions = L.geoJSON([mansion], {
+		filter(feature, layer) {
+		if (feature.properties) {
+			// If the property "hide" exists and is true, return false (don't render hidden features)
+		    return feature.properties.hide !== undefined ? !feature.properties.hide : true;
+		 	}
+		 	return false;
+		},
+    
+		style(feature) {
+			return feature.properties && feature.properties.style;
+		},
+		onEachFeature,
+		pointToLayer(feature, latlng) {
+			return L.marker(latlng, {icon: mansion_icon});
+		}
+	}).addTo(map);
+
+	
+	const squareLayer = L.geoJSON(square, {
+		filter(feature, layer) {
+		if (feature.properties) {
+		// If the property "hidden" exists and is true, return false (don't render hidden features)
+		    return feature.properties.hidden !== undefined ? !feature.properties.hidden : true;
+		 	}
+		 	return false;
+		},
+    
+		onEachFeature,
+		    color: "green",   // Border color
+			weight: 4,          // Border thickness
+			fillColor: "green", // Fill color
+			fillOpacity: 0.5    // Fill transparency
+
+	}).addTo(map);
+
+
+	const haerLayer = L.geoJSON([haer], {
+		style(feature) {
+			return feature.properties && feature.properties.style;
+		},
+		onEachFeature,
+		pointToLayer(feature, latlng) {
+			return L.marker(latlng, {icon: haer_icon});
+		}
+	}).addTo(map);
+	
+
+	const popup = L.popup();
+	
+	var googlelink = "";
+	var coords = "";
+	var link ="";
+	var url ="";
+	
+	// add OpenStreetMap links, like https://www.openstreetmap.org/search?query=39.818232%2C+-77.280064&zoom=13
+      map.on('click', function(e) {
+	     coords = e.latlng.toString().substring(7,e.latlng.toString().length-1);
+		 url = 'https://www.google.com/maps/place/' + coords;
+		 link = '<a href="' + url + '" >Google maps link</a>';
+		 googlelink = coords + '<br>' + link;
+		 
+		 opencoords = coords.replace(' ','');
+		 openurl = 'https://www.openstreetmap.org/search?query=' + opencoords + '#map=16';
+	     openlink = '<a href="' + openurl + '" >OpenStreetMap link</a>';
+		 
+		 bingcoords = coords.replace(', ','~');
+		 bingurl = 'https://www.bing.com/maps/search?cp=' + bingcoords + '&lvl=15';
+	     binglink = '<a href="' + bingurl + '" >Bing maps link</a>';
+
+      });
+
+	function onMapClick(e) {
+		popup
+			.setLatLng(e.latlng)
+			.setContent(googlelink + '<br>' + binglink + '<br>' + openlink )
+			.openOn(map)
+	}
+
+	//map.on('click', onMapClick);
+	  // Initial render
+	 // renderData("");
+
+		// Listen for filter changes
+		//document.getElementById('categoryFilter').addEventListener('change', function() {
+		//renderData(this.value);
+  ;
+		
+</script>
+
+</body>
+</html>
