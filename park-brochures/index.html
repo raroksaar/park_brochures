@@ -50,6 +50,8 @@ Click anywhere on the map to get links to Google, Bing and OpenStreetMap maps <b
 <script src="NARA_linked_habs.js" type="text/javascript"></script> 
 <script src="NARA_linked_haer.js" type="text/javascript"></script> 
 <script src="park_bounds.js" type="text/javascript"></script> 
+// picklist support:
+<script src="https://cdn.jsdelivr.net/gh/GiladMeirson/picklist.js@main/pickList.min.js"></script>
 
 <div id="filterBox">
   <label>Filter by category: </label>
@@ -59,27 +61,29 @@ Click anywhere on the map to get links to Google, Bing and OpenStreetMap maps <b
     <option value="dc">DC</option>
   </select>
 </div>
-<!-- document.getElementById('categoryFilter') -->
+<!-- echo document.getElementById('categoryFilter').value() -->
 
 
 
 <script>
 
-	let choice = document.getElementById('categoryFilter.value');
-	console.log("The choice is: ", choice);
+	// let choice = document.getElementById('categoryFilter.value');
+	// console.log("The choice is: ", choice);
 
 
-	let region = "USA"; //document.getElementById('categoryFilter');
+	let region = "DC"; 
+	//document.getElementById('categoryFilter');
 
 	// add options
 	if (region == "USA"){
 		var map = L.map('map').setView([37.032375, -97.121173], 5);
 	}else if (region == "DC"){
-		var map = L.map('map').setView([38.884476, -77.088611], 11); 
+		var map = L.map('map').setView([38.884476, -77.088611], 12); 
 	}else if (region == "Denver"){
 		var map = L.map('map').setView([39.724333, -104.969349], 8); 
 	}
 	
+	console.log("The choice is: ", region);
 
 
 	L.esri.basemapLayer('Topographic').addTo(map);

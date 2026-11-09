@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pick-list Quick Start</title>
+    <script src="https://cdn.jsdelivr.net/gh/GiladMeirson/picklist.js@main/pickList.min.js"></script>
+</head>
+<body>
+    <h3>Select a fruit by keywords:</h3>
+    <pick-list id="FruitPickList" placeholder="Choose a fruit..."></pick-list>
+
+    <script>
+        const picker = document.getElementById('FruitPickList');
+        picker.setItems([
+        { value: '🍎', keywords: ['apple', 'red', 'fruit', 'sweet'] },
+        { value: '🍏', keywords: ['apple', 'green', 'fruit', 'sour'] },
+        { value: '🍌', keywords: ['banana', 'yellow', 'fruit', 'tropical'] },
+        { value: '🥭', keywords: ['mango', 'orange', 'fruit', 'tropical'] },
+        { value: '🍉', keywords: ['watermelon', 'red', 'fruit', 'summer'] },
+        { value: '🍇', keywords: ['grapes', 'purple', 'fruit', 'wine'] }
+        ]);
+
+        picker.addEventListener('picklist-select', (e) => {
+            alert(`Selected: ${e.detail.value}`);
+        });
+    </script>
+</body>
+</html>
