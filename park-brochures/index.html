@@ -34,11 +34,12 @@ src=<a href="https://npg.si.edu/object/npg_NPG.65.79"<b> -->
 
 Click on an NPS arrowhead to link to the park map/brochure<br>
 Click on a black pin to open a HABS/HAER pop up with links <br>
-Click anywhere on the map to get links to Google, Bing and OpenStreetMap maps <br> 
+Click anywhere on the map to get links to Google, Bing and OpenStreetMap maps <br>
 
 <br>
 	<a href="http://npgallery.nps.gov/AssetDetail/8fe5d79b-d320-4232-b7e6-16cb5abe3eaa">National map of NPS sites</a>
 <br>
+<!-- <pick-list id="RegionPickList" placeholder="Choose a region..."></pick-list> <br> <br> -->
 </H4>
 
 <body>
@@ -71,11 +72,27 @@ echo document.getElementById('categoryFilter').value() -->
 	// let choice = document.getElementById('categoryFilter.value');
 	// console.log("The choice is: ", choice);
 
+	    // const picker = document.getElementById('RegionPickList');
+        // picker.setItems([
+        // { value: 'USA', keywords: ['apple', 'red', 'fruit', 'sweet'] },
+        // { value: 'Denver', keywords: ['apple', 'green', 'fruit', 'sour'] },
+        // { value: 'DC', keywords: ['banana', 'yellow', 'fruit', 'tropical'] }
 
-	let region = "DC"; 
+        // ]);
+
+        // picker.addEventListener('picklist-select', (e) => {
+        //     alert(`Selected: ${e.detail.value}`);
+		// 	var selected = `Selected:  ${e.detail.value}`; 
+
+        // });
+
+	let region = "USA"
+	//console.log("The picker choice is: ", selected);
+	//console.log("The choice is: ", region);
+
 	//document.getElementById('categoryFilter');
 
-	// add options
+	//add options
 	if (region == "USA"){
 		var map = L.map('map').setView([37.032375, -97.121173], 5);
 	}else if (region == "DC"){
@@ -84,7 +101,7 @@ echo document.getElementById('categoryFilter').value() -->
 		var map = L.map('map').setView([39.724333, -104.969349], 8); 
 	}
 	
-	console.log("The choice is: ", region);
+	// console.log("The choice is: ", region);
 
 
 	L.esri.basemapLayer('Topographic').addTo(map);
