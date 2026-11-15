@@ -1,0 +1,23 @@
+<select id="mySelect">
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+
+<script>
+  const select = document.getElementById('mySelect');
+  const options = ['Option 3', 'Option 4'];
+  options.forEach(opt => {
+    const el = document.createElement('option');
+    el.value = opt;
+    el.textContent = opt;
+    select.appendChild(el);
+  });
+  console.log("Hello, World!");
+  console.log(mySelect);
+  
+  mySelect.addEventListener('picklist-select', (e) => {
+      alert(`Selected: ${e.detail.value}`);
+    });
+  
+</script>
+

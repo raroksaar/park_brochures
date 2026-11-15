@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Picklist Example</title>
+  <script src="https://cdn.jsdelivr.net/gh/GiladMeirson/picklist.js@main/pickList.min.js"></script>
+</head>
+<body>
+  <h3>Select a fruit:</h3>
+  <pick-list id="FruitPickList" placeholder="Search fruits..."></pick-list>
+
+  <script>
+    const picker = document.getElementById('FruitPickList');
+    picker.setItems([
+      { value: '🍎', keywords: ['apple', 'red', 'fruit', 'sweet'] },
+      { value: '🍌', keywords: ['banana', 'yellow', 'fruit', 'tropical'] },
+      { value: '🍇', keywords: ['grapes', 'purple', 'fruit', 'wine'] }
+    ]);
+
+    picker.addEventListener('picklist-select', (e) => {
+      alert(`Selected: ${e.detail.value}`);
+    });
+  </script>
+</body>
+</html>
