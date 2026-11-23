@@ -268,6 +268,10 @@ let VOYA_map = "<a href='https://www.nps.gov/voya/planyourvisit/maps.htm'>Map on
 let VOYA_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Voyageurs+Park+VOYA&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
 let VOYA_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=243527487'>General management plan</a><br>"
 
+let WORI_map = "<a href='https://www.nps.gov/wori/planyourvisit/maps.htm'>Map on park web site</a><br>"
+let WORI_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Womens+Rights+Historical+Park+WORI&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
+let WORI_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=58586247'>General management plan</a><br>"
+
 
 let YELL_catalog = "</a><br><a href='https://library.nps.gov/vufind/Search/Results?filter%5B%5D=collection%3A%22NPS+-+NPS+LIBRIS%22&filter%5B%5D=building%3A%22Yellowstone+National+Park+%28YELL%29%22&type=AllFields'>Library catalog search</a><br>"
 let YELL_usgs = "<a href='https://library.nps.gov/vufind/Search/Results?filter%5B%5D=institution%3A%22U.S.+Geological+Survey+%28USGS%29%22&filter%5B%5D=building%3A%22Yellowstone+National+Park+%28YELL%29%22&type=AllFields'>USGS reports</a><br>"

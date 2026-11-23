@@ -582,6 +582,21 @@ var park = {
             "id": 39
         }, 
 
+    //WORI	Women's Rights National Historical Park	42.9026985168457	-76.8444137573242
+        {
+           "geometry": {
+                "type": "Point",
+                "coordinates": [
+				 	 -76.801389, 42.910833
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+				"popupContent": "Women's Rights National Historical Park<br>" + WORI_map + WORI_catalog + WORI_gmp 
+            },
+            "id": 40
+        }, 
+
 ///  set from NPGallery:
 {"features": [{"geometry": {"coordinates": [-77.735977, 39.462379], "type": "Point"}, "properties": {"park": "Antietam National Battlefield (ANTI)", "popupContent": ANTI_brochure + ANTI_catalog + ANTI_gmp + ANTI_nara}, "type": "Feature"}], "type": "FeatureCollection"},
 {"features": [{"geometry": {"coordinates": [-78.80275, 37.382679], "type": "Point"}, "properties": {"park": "Appomattox Court House National Historical Park (APCO)", "popupContent": "Appomattox Court House National Historical Park<br><a href='http://npgallery.nps.gov/AssetDetail/05ce4edf-ad9a-4a78-af03-782ea5b227c9'>Park brochure, 2025</a><br><a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Appomattox+Court+House+Historical+Park+APCO&selectUsing=2.0&rows=20>'>Library catalog search</a>"}, "type": "Feature"}], "type": "FeatureCollection"},
