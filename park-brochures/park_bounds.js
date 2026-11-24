@@ -516,7 +516,23 @@ var square = {
         },
         "id": 28
         },
-
+        { 
+        "type": "Feature",
+        "geometry": {
+        "type": "LineString",
+        "coordinates": [
+            [-119.1007775, 33.9960875],
+            [-118.3400603, 33.9960875],
+            [-118.3400603, 34.2240989], 
+            [-119.1007775, 34.2240989],
+            [-119.1007775, 33.9960875]
+        ]
+        },
+        "properties": {
+        "popupContent": "Santa Monica Mountains National Recreation Area<br>OpenStreetMap rectangle",
+        },
+        "id": 29
+        },
 		]
 }       
 		

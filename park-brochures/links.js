@@ -232,6 +232,11 @@ let SAFR_map = "<a href='https://www.nps.gov/safr/planyourvisit/maps.htm'>Map on
 let SAFR_catalog = "<a href='https://library.nps.gov/vufind/Search/Results?filter%5B%5D=collection%3A%22NPS+-+NPS+LIBRIS%22&filter%5B%5D=building%3A%22San+Francisco+Maritime+National+Historical+Park+%28SAFR%29%22&type=AllFields'>Library catalog search</a><br>"
 let SAFR_gmp ="<a href='https://library.nps.gov/vufind/Record/safr_ocn645874833' >General management plan</a><br>"
 
+
+let SAMO_map = "<a href='https://www.nps.gov/samo/planyourvisit/maps.htm'>Map on park web site</a><br>"
+let SAMO_catalog = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Santa+Monica Mountains+Recreation+Area+SAMO&selectUsing=2.0&rows=20>'>Library catalog search</a><br>"
+let SAMO_gmp = "<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=446751288'>General management plan</a><br>"
+
 let SARA_brochure_link ="<br><a href='http://npgallery.nps.gov/AssetDetail/3ac2bbec-90e0-4b02-ac83-6812ee1b4efb'>Saratoga Visitor brochure</a><br>"
 let SARA_catalog_link ="<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Search/SimpleSearch.aspx?txtSearch=Saratoga+Historical+Park+SARA&selectUsing=2.0&rows=20>'>Library catalog search </a><br>"
 let SARA_gmp_link ="<a href='https://eosfcweb01.eosfc-intl.net/N94044/OPAC/Details/Record.aspx?BibCode=446748668'>General management plan </a><br>"
